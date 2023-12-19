@@ -1,0 +1,127 @@
+
+html {
+    scroll-behavior: smooth;
+
+    .container {
+        display: flex;
+        height: 100%; /* Set the height of the container to 100% of the viewport height */
+        justify-content: center;
+        align-items: center;
+        z-index: 999;
+        bottom: 0;
+      }
+    
+      .centered-text {
+        text-align: center;
+        z-index: 999;
+        
+        bottom: 0;
+      }
+    
+      .mainh1 {
+        color: rgb(234, 255, 0);
+        font-weight: bold;
+        z-index: 999;
+        top: 0;
+        font-size: 24px;
+      }
+    
+      .maintext {
+        display: inline-block;
+        font-family: 'Your Font Name', sans-serif;
+        z-index: 999;
+        
+        bottom: 0;
+      }
+    
+      .outertext {
+        display: inline-block;
+                margin-left: 20px; /* Adjust the margin as needed */
+                font-weight: bold;
+                font-family: 'Your Font Name', sans-serif;
+                z-index: 999;
+                
+                bottom: 0;
+      }
+    
+      .glødedatatext {
+        font-weight: bold;
+        z-index: 999;
+        bottom: 0;
+        font-size: 28px;
+      }
+    
+      .item {
+        /* Add styling for your items */
+        border-radius: 10px; /* Set the border radius for rounded corners */
+        padding: 10px; /* Add some padding for better appearance */
+        margin: 4px;
+        font-weight: bold;
+        font-family: 'Your Font Name', sans-serif;
+        display: inline-block;
+        z-index: 999;
+        
+        bottom: 0;
+      }
+    
+      .R1{
+        font-weight: bold;
+        z-index: 999;
+        
+        bottom: 0;
+      }
+      .Mo1{
+        font-weight: bold;
+        z-index: 999;
+        
+        bottom: 0;
+      }
+      .EP1{
+        font-weight: bold;
+        font-size: 24px;
+        z-index: 999;
+        
+        bottom: 0;
+      }
+    
+      .minstepris{
+        font-weight: bold;
+        z-index: 999;
+        
+        bottom: 0;
+      }
+    
+      .loongtext {
+        width: 600px; /* Set the width of the container */
+        margin: auto; /* Center the container horizontally */
+         text-align: center; /* Center the text within the container */
+         padding: 10px;
+         font-weight: bold;
+         z-index: 999;
+         
+         bottom: 0;
+     }
+    
+     .item1 {
+        width: 600px; /* Set the width of the container */
+        margin: auto; /* Center the container horizontally */
+         text-align: center; /* Center the text within the container */
+         padding: 10px;
+         font-weight: bold;
+         font-size: 17px;
+         z-index: 999;
+         
+         bottom: 0;
+     }
+
+     .cl {
+        font-weight: bold;
+        font-size: 24px;
+        z-index: 999;
+        
+        bottom: 0;
+     }
+}
+
+
+
