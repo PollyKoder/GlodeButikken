@@ -1,5 +1,5 @@
 .background {
-    background-image: url('/images/background\ img\ for\ site.jpg');
+    background-image: url('/GlodeButikken/Sikker\ Sletting\ nettside/images/background img for site.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed; /* Optional: Keeps the background fixed while scrolling */
@@ -8,5 +8,5 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgb(255, 255, 255); /* Set text color to be visible against the background */
+    color: black; /* Set text color to be visible against the background */
 }
