@@ -14,12 +14,12 @@ html {
       .centered-text {
         text-align: center;
         z-index: 999;
-        
+        color: white;
         bottom: 0;
       }
     
       .mainh1 {
-        color: rgb(234, 255, 0);
+        color: white;
         font-weight: bold;
         z-index: 999;
         top: 0;
@@ -30,7 +30,7 @@ html {
         display: inline-block;
         font-family: 'Your Font Name', sans-serif;
         z-index: 999;
-        
+        color: white;
         bottom: 0;
       }
     
@@ -40,7 +40,7 @@ html {
                 font-weight: bold;
                 font-family: 'Your Font Name', sans-serif;
                 z-index: 999;
-                
+                color: white;
                 bottom: 0;
       }
     
@@ -49,6 +49,7 @@ html {
         z-index: 999;
         bottom: 0;
         font-size: 28px;
+        color: white;
       }
     
       .item {
@@ -60,34 +61,34 @@ html {
         font-family: 'Your Font Name', sans-serif;
         display: inline-block;
         z-index: 999;
-        
+        color: white;
         bottom: 0;
       }
     
       .R1{
         font-weight: bold;
         z-index: 999;
-        
+        color: white;
         bottom: 0;
       }
       .Mo1{
         font-weight: bold;
         z-index: 999;
-        
+        color: white;
         bottom: 0;
       }
       .EP1{
         font-weight: bold;
         font-size: 24px;
         z-index: 999;
-        
+        color: white;
         bottom: 0;
       }
     
       .minstepris{
         font-weight: bold;
         z-index: 999;
-        
+        color: white;
         bottom: 0;
       }
     
@@ -98,7 +99,7 @@ html {
          padding: 10px;
          font-weight: bold;
          z-index: 999;
-         
+         color: white;
          bottom: 0;
      }
     
@@ -118,7 +119,7 @@ html {
         font-weight: bold;
         font-size: 24px;
         z-index: 999;
-        
+        color: white;
         bottom: 0;
      }
 }
