@@ -45,7 +45,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
+  padding: 60px 60px;
   background-color: #fb5607;
   color: #fff;
 }
@@ -72,8 +72,8 @@ header {
 
 .header-icon img,
 .center-icon img {
-  width: 30px;
-  height: 30px;
+  width: 60px;
+  height: 60px;
   margin-right: 10px;
 }
 
