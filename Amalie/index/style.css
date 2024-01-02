@@ -27,17 +27,20 @@ h1 {
     font-style: italic;
     font-weight: lighter;
     padding-left: 15px;
+    text-align: center;
 }
 
 h3 {
   font-style: italic;
   font-weight: bold;
   padding-left: 15px;
+  text-align: center;
 }
 
 p {
   font-style: italic;
   padding-left: 15px;
+  text-align: center;
 }
 
 
