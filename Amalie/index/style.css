@@ -179,11 +179,5 @@ footer {
   }
 
 }
-
-.testRight {
-  position: absolute;
-  right: 16px;
-}
-
 @media screen and (max-width: 600px) {
 }
