@@ -175,7 +175,10 @@ footer {
   .footer-btns {
     display: flex;
     flex-direction: column;
-    align-items: end;
+  }
+
+  .footer-btn {
+    margin-top: 20px;
   }
 
 }
