@@ -1,0 +1,64 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 300px;
+  }
+  .box {
+    width: 245px;
+    height: 300px;
+    border-radius: 10px;
+    border: none;
+    margin: 0 10px;
+    padding: 20px;
+    background-color: rgba(99, 127, 60, 0.468); /* Slightly transparent orange */
+    color: #ffffff; /* Text color */
+    font-size: 16px;
+    margin-bottom: -300px;
+    margin-right: -68px;
+    margin-left: 100px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+  }
+
+
+  .omoss{
+    margin-left: 685px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+  }
+
+  .underomoss{
+    margin-bottom: -45px;
+    margin-right: 600px;
+    margin-left: 480px;
+    margin-top: -200px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+  }
+
+  .underomoss2{
+    margin-right: 600px;
+    margin-left: 480px;
+    margin-top: 45px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+  }
+
+  .line {
+    width: 80%;
+    height: 1px;
+    background-color: #000;
+    margin: 0 auto;
+    margin-bottom: -10px;
+    margin-top: 100px;
+  }
+
+  .åpningstid{
+    margin-right: 600px;
+    margin-left: 480px;
+    margin-top: 78px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+  }
+
