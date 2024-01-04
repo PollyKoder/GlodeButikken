@@ -188,6 +188,10 @@ footer {
   .center-icon {
     margin-right: 15px;
   }
+  
+  .circle {
+    display: none;
+  }
 
 }
 
