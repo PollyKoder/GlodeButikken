@@ -196,3 +196,8 @@ footer {
     display: none;
   }
 }
+
+.hamburgerMeny {
+ display: none;
+ max-height: 150px;
+}
