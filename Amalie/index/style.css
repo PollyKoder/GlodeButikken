@@ -181,6 +181,18 @@ footer {
     margin-top: 20px;
   }
 
+  .header-btns {
+     flex-direction: column;
+  }
+
 }
+
 @media screen and (max-width: 600px) {
+  .hamburgerMeny {
+    display: block;
+  }
+
+  .header-btns {
+    display: none;
+  }
 }
