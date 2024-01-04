@@ -185,6 +185,10 @@ footer {
      flex-direction: column;
   }
 
+  .center-icon {
+    margin-right: 15px;
+  }
+
 }
 
 @media screen and (max-width: 600px) {
