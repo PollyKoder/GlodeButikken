@@ -4,24 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="script.js" defer></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="slide.css"/>
+    <link rel="stylesheet" href="button.css"/>
+    <!-- <link rel="stylesheet" href="products.css"/> -->
 
     <title>Gløde Data</title>
 </head>
 <body>
+    <header>
+        <div class="header-icon">
+            <img src="/GlodeButikken/img/gløde_logo.png" alt="left icon">
+        </div>
+        <div class="center-icon">
+            <p>Glode Data Butikk</p>
+        </div>
+
+        <div class="mode-toggle" onclick="toggleMode()">
+            <div class="circle"></div>
+        </div>
+
+        <div class="header-btns">
+            <div class="dropdown">
+                <a href="#" class="header-btn">Hjem ↴</a>
+                <div class="dropdown-content">
+                    <a href="https://www.alverbutikken.no/salgsvilkar-for-alverbutikken/"> Salgsvilkår for Alverbutikken </a>
+                    <a href="https://www.alverbutikken.no/personvern/"> Personvernserklæring </a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a href="#" class="header-btn">Produkter ↴</a>
+                <div class="dropdown-content">
+                    <a href="https://www.alverbutikken.no/brukt-ikt/"> Brukt IKT </a>
+                </div>
+            </div>
+            <a href="https://www.alverbutikken.no/produkt/sikker-sletting/" class="header-btn"> Sikker sletting </a>
+            <a href="https://www.alverbutikken.no/om-oss/" class="header-btn">Om oss</a>
+        </div>
+
+        <img class="hamburgerMeny" src="/GlodeButikken/img/Hamburger.png" alt="img icon">
+    </header>
      <main>
                 <!--Main title-->
          <h1 class="main_title">Hvorfor Velge Gløde Butikken?</h1>
+         <img class="img" src="/GlodeButikken/img/pc.webp" alt="img icon">
 
          <div class="slide">
                 <!--tenkte vi kan gjøre sån at det slider bytter på paragrafer -->
-             <p>Alle våre IKT produkter har fått en gundig gjenomgang før de blir lagt ut for salg</p>
-             <p>Miljøbevisst, det er viktig at vi tar vare på miljøet og gjenbruker brukt IKT utstyr</p>
-             <p>GlødeButikken har gunstige  priser  og Rask levering</p>
+             <p class="anim-1 text">Alle våre IKT produkter har fått en gundig gjenomgang før de blir lagt ut for salg</p>
+             <p class="anim-2 text">Miljøbevisst, det er viktig at vi tar vare på miljøet og gjenbruker brukt IKT utstyr</p>
+             <p class="anim-3 text">GlødeButikken har gunstige  priser  og Rask levering</p>
 
             </div>
                 <!--infomasjon og salg -->
             <div>
+
                 <h1>Brukt IKT</h1>
 
                 <h3>salg av laptoper, stasjonære datamaskiner, skjermer.</h3>
@@ -37,14 +74,17 @@
             </div>
 
             <button class="btn" id="button" onclick="window.location.href='https://www.alverbutikken.no/brukt-ikt/'">Se produkter</button>
-
-            <!--Anet salg -->
-            <div class="Utemøbler">
-                <h2>Utemøbler og treprodukter</h2>
-            </div>
-
-            <button class="btn" id="button_two" onclick="window.location.href='https://www.alverbutikken.no/utemobler-og-treprodukter/'">Se produkter</button>
-
         </main>
+
+       
+
+        <footer>
+            <!--- Sender deg videre til siden som knappene sender deg til originalt. -->
+            <div class="footer-btns">
+                <a href="https://www.alverbutikken.no/personvern/" class="footer-btn"> GLØDE ARBEIDSINKLUDERING AS </a>
+                <a href="https://www.alverbutikken.no/personvern/" class="footer-btn"> Personvernserklæring </a>
+                <a href="https://www.alverbutikken.no/personvern/" class="footer-btn"> C Alverbutikken </a>
+            </div>
+        </footer>
 </body>
 </html>
