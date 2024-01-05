@@ -211,3 +211,19 @@ footer {
  display: none;
  max-height: 150px;
 }
+
+/* Define the default text color */
+a.hover-effect {
+  color: #ffffff; /* Change this to your desired default color */
+  text-decoration: none; /* Remove underline by default */
+  transition: color 0.3s ease; /* Smooth transition effect */
+  text-shadow: #fb5607;
+}
+
+/* Add hover effect by slightly lightening up the text color */
+a.hover-effect:hover {
+  color: #eab31b;
+  text-shadow: #fb5607; /* Change this to a slightly lighter color */
+  /* Or, use text-shadow to create a subtle effect */
+  /* text-shadow: 0 0 3px rgba(0, 0, 0, 0.3); */
+}
