@@ -16,8 +16,13 @@ body {
 .img {
   background-repeat: no-repeat;
   background-position: right;
-  width: 1700px;
-  height: 500px;
+  margin-top: -18px;
+ 
+  /*max-width: 100vw;
+  max-height: 70%;*/
+  width: 1550px;
+  height: 500px; 
+  margin-left: 15px;
 }
 
 
