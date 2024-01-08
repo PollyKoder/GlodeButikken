@@ -1,5 +1,7 @@
 
-
+# Navngivings system og kommentarer:
+ - alle klasse og mappe navn: camelCase og snkae_case
+ - Husk å legge inn kommentarer: en som en overskrift for hva koden gjør eks= <!-- HEADER STYLING -->, og en for hvem som har kodet <!-- kodet av "Navn" -->
 
 
 # js fra første utgave av landing page:
