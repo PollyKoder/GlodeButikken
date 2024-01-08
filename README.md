@@ -1,6 +1,6 @@
 
 # Navngivings system og kommentarer:
- - alle klasse og mappe navn: camelCase og snkae_case
+ - alle klasse og mappe navn: camelCase og snake_case (kebab-case i helt spesielle tilfeller hvor koden knekker hvis den ikke bruker denne typen)
  - Husk å legge inn kommentarer: en som en overskrift for hva koden gjør eks= <!-- HEADER STYLING -->, og en for hvem som har kodet <!-- kodet av "Navn" -->
 
 
