@@ -81,10 +81,10 @@ header {
   flex-grow: 1;
   text-align: center;
   color: #FFFFFF;
-text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
-color: #FFFFFF;
+  text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+  color: #FFFFFF;
 
-font-size: 25px;
+  font-size: 25px;
 }
 
 .header-icon img,
@@ -157,8 +157,6 @@ font-size: 25px;
   color: #fff;
 }
 
-/* dette er temp for bare og få det på plass. og se at det funker */
-
 /* Footer */
 
 footer {
@@ -183,8 +181,8 @@ footer {
 @media (max-width: 600px) {
 
   .img {
-  width: 350px;
-  height: 300px;
+    width: 350px;
+    height: 300px;
   }
   
   .footer-btns {
@@ -223,6 +221,6 @@ footer {
 }
 
 .hamburgerMeny {
- display: none;
- max-height: 150px;
+  display: none;
+  max-height: 150px;
 }
