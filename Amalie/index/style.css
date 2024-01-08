@@ -5,6 +5,8 @@ body {
     background-color: honeydew;
 }
 
+/* Main */
+
 .main_title {
   font-size: 30px;
   text-align: left;
@@ -49,6 +51,7 @@ p {
   text-align: center;
 }
 
+/* Header */
 
 header {
   display: flex;
@@ -92,6 +95,8 @@ font-size: 25px;
   border-radius: 50%;
 }
 
+/* Dropdown */
+
 .dropdown {
   display: inline-block;
   position: relative;
@@ -125,6 +130,7 @@ font-size: 25px;
   display: block;
 }
   
+/* Light and Dark mode */
 
 .mode-toggle {
   display: flex;
@@ -153,6 +159,8 @@ font-size: 25px;
 
 /* dette er temp for bare og få det på plass. og se at det funker */
 
+/* Footer */
+
 footer {
   background-color: #333;
   color: #fff;
@@ -169,6 +177,8 @@ footer {
   color: #fff;
   margin-right: 55px;
 } 
+
+/* Media queria til telefon */
 
 @media (max-width: 600px) {
 
@@ -199,6 +209,8 @@ footer {
   }
 
 }
+
+/* Hamburger meny */
 
 @media screen and (max-width: 600px) {
   .hamburgerMeny {
