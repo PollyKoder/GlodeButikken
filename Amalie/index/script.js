@@ -1,3 +1,5 @@
+/* Light and Dark mode */
+
 function toggleMode() {
     const body = document.body;
     const modeToggle = document.querySelector('.mode-toggle');
