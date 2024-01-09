@@ -27,8 +27,14 @@ body {
   margin-left: 15px;
 }
 
-
-
+.leftImg {
+    height: 330px;
+    width: 350px;
+    background-position: left;
+    margin-top: 25px;
+    margin-bottom: -285px;
+    margin-left: 15px;
+}
 
 h1 {
     padding-top: 20px;
