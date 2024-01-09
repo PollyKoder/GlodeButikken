@@ -30,10 +30,8 @@ body {
 .leftImg {
     height: 330px;
     width: 350px;
-    background-position: left;
-    margin-top: 25px;
-    margin-bottom: -285px;
-    margin-left: 15px;
+    margin-left: 72%;
+    margin-top: -20%;
 }
 
 h1 {
@@ -41,21 +39,22 @@ h1 {
     font-style: italic;
     font-weight: lighter;
     padding-left: 15px;
-    text-align: center;
+    text-align: left;
 }
 
 h3 {
   font-style: italic;
   font-weight: bold;
   padding-left: 15px;
-  text-align: center;
+  text-align: left;
 }
 
 p {
   font-style: italic;
   padding-left: 15px;
-  text-align: center;
+  text-align: left;
 }
+
 
 /* Header */
 
@@ -212,6 +211,13 @@ footer {
     display: none;
   }
 
+  .leftImg {
+    height: 340px;
+    width: 350px;
+    padding-right: 40px;
+    
+  }
+
 }
 
 /* Hamburger meny */
@@ -314,7 +320,6 @@ footer {
     cursor: pointer;
     margin: 36px;
     box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 7);
-    margin-left: 44%;
 }
 
 .btn {
