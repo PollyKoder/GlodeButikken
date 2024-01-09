@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html lang="nb">
-<head>
+<!-- GlødeData -->
+<html lang="en" dir="ltr">
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="script.js" defer></script>
@@ -9,112 +10,128 @@
     <link rel="stylesheet" href="button.css"/>
     <link rel="stylesheet" href="/GlodeButikken/imageanimation.css"/>
     <!--  <link rel="stylesheet" href="products.css"/>  -->
+   <title> Responsive Drop Down Navigation Menu | CodingLab </title>
+    <link rel="stylesheet" href="/GlodeButikken/style.css">
+    <!-- Boxicons CDN Link -->
+    <link rel="stylesheet" href="/GlodeButikken/imageanimation.css">
+    <link rel="stylesheet" href="/GlodeButikken/slide.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
 
-    <title>Gløde Data</title>
-</head>
 <body>
-    <!-- Kodet av Trond-Morten og Amalie -->
-    <header>
-        <div class="header-icon">
-           <img src="/GlodeButikken/img/glodeLOGO-removebg-preview.png">
-              </div>
-              
+  <!--Bruker binestrek pågrun av at koden kneker vist eg ikke gjør det på den måten-->
+
+  <!--Contains the navigation bar-->
+  <nav>
+    <!--Wraps the entire navigation bar.-->
+    <div class="navbar">      
+      <!--Represents a menu icon using Boxicons.-->
+      <i class='bx bx-menu'></i>    
+      <!--Defines the logo-->
+      <div class="logo"><a href="#">Gløde Data</a></div>
+      <!-- Contains the navigation links-->
+      <div class="nav-links">
+        <!-- Includes a logo and a close icon-->
+        <div class="sidebar-logo">
+
+          <span class="logo-name">Gløde Data</span>
+          <i class='bx bx-x' ></i>
         </div>
+        <!-- List of main navigation links-->
+        <ul class="links">
+          <li><a href="#">Hjem </a></li>
+          <li>
+            <a href="#">Produkter</a>
+            <!-- List of main navigation links-->
+            <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+            <!-- Sub-menu for "Produkter" with additional items.-->
+            <ul class="htmlCss-sub-menu sub-menu">
+              <li><a href="#">Stasjonær</a></li>
+              <li><a href="#">Laptop</a></li>
+              <li><a href="#">Skjermer</a></li>
+              <li class="more">
+                <span><a href="#">More</a>
+                <i class='bx bxs-chevron-right arrow more-arrow'></i>
+              </span>
+              <!--Sub-menu for "More" within the "Produkter" menu-->
+                <ul class="more-sub-menu sub-menu">
+                  <li><a href="#">Tilbehør</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
 
+          <li>
+            <a href="#">Tjenester</a>
+            <i class='bx bxs-chevron-down js-arrow arrow '></i>
+            <ul class="js-sub-menu sub-menu">
+              <li><a href="#">Sikker sletting</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Om Oss</a></li>
+          <li><a href="#">Kontakt oss</a></li>
+        </ul>
+      </div>
+        <!--Includes a search icon and input box-->
+      <div class="search-box">
+        <!-- Icon for search-->
+        <i class='bx bx-search'></i>
+        <!--Container for the search input..-->
+        <div class="input-box">
+          <input type="text" placeholder="Search...">
         </div>
-        <div class="center-icon">
-            <p>Gløde Data Butikk</p>
-        </div>
-        <!--Tony input code-->
-        <div class="mode-toggle" onclick="toggleMode()">
-            <div class="circle"></div>
-        </div>
+      </div>
+    </div>
+  </nav>
+  <div>
+    <main>
+        <!--Main title-->
+ <h1 class="main_title">Hvorfor Velge Gløde Butikken?</h1>
+ <img class="img" src="/GlodeButikken/img/pc.webp" alt="img icon">
 
-        <div class="header-btns">
-            <div class="dropdown">
-                <a href="#" class="header-btn">Hjem ↴</a>
-                <div class="dropdown-content">
-                    <a href=" " class="hover-effect">Salgsvilkår for Alverbutikken </a>
-                    <a href=" " class="hover-effect">Personvernserklæring </a>
-                </div>
-            </div>
-            <div class="dropdown">
-                <a href="#" class="header-btn">Produkter ↴</a>
-                <div class="dropdown-content">
-                    <!-- Polly changed code a bit-->
-                    <a href=" " class="hover-effect">Stasjonær</a>
-                    <a href=" " class="hover-effect">Laptop</a>
-                    <a href=" " class="hover-effect">Skjermer</a>
-                    <a href=" " class="hover-effect">Tastatur</a>
-                    <a href=" " class="hover-effect">Tilbehør</a>
-                    <!-- change complete -Polly, legg ved samle kategori for pc(legg stasjonær og 
-                        laptop under den), vi får liste av produktene -->
-                </div>
-            </div>
-            <a href=" " class="header-btn"> Sikker sletting </a>
-            <a href=" " class="header-btn">Om oss</a>
-        </div>
+ <div class="slide">
+        <!--tenkte vi kan gjøre sån at det slider bytter på paragrafer -->
+     <p class="anim-1 text">Alle våre IKT produkter har fått en gundig gjenomgang før de blir lagt ut for salg</p>
+     <p class="anim-2 text">Miljøbevisst, det er viktig at vi tar vare på miljøet og gjenbruker brukt IKT utstyr</p>
+     <p class="anim-3 text">GlødeButikken har gunstige  priser  og Rask levering</p>
 
-        <div class="hamburgerMeny">
-            <div class="carousel">
-                <div class="image-container">
-                  <img src="/GlodeButikken/img/Desktop Logo is transparent.png" alt="Image 1" class="active">
-                  <img src="/GlodeButikken/img/glode-logo.png" alt="Image 2">
-                  <img src="/GlodeButikken/img/Hamburger.png" alt="Image 3">
-                </div>
-                <div class="dots-container">
-                  <span class="dot active"></span>
-                  <span class="dot"></span>
-                  <span class="dot"></span>
-                </div>
-              </div>
-              
-        </div>
-    </header>
-     <main>
-                <!--Main title-->
-         <h1 class="main_title">Hvorfor Velge Gløde Butikken?</h1>
-         <img class="img" src="/GlodeButikken/img/pc.webp" alt="img icon">
+    </div>
+        <!--infomasjon og salg -->
+    <div>
 
-         <div class="slide">
-                <!--tenkte vi kan gjøre sån at det slider bytter på paragrafer -->
-             <p class="anim-1 text">Alle våre IKT produkter har fått en gundig gjenomgang før de blir lagt ut for salg</p>
-             <p class="anim-2 text">Miljøbevisst, det er viktig at vi tar vare på miljøet og gjenbruker brukt IKT utstyr</p>
-             <p class="anim-3 text">GlødeButikken har gunstige  priser  og Rask levering</p>
+        <h1>Brukt IKT</h1>
 
-            </div>
-                <!--infomasjon og salg -->
-            <div>
+        <h3>salg av laptoper, stasjonære datamaskiner, skjermer.</h3>
 
-                <h1>Brukt IKT</h1>
+        <p>Gratis frakt ved kjøp over NOK 2.500,-"
+            "Forutsetter vekt under 20 kilo"
+        </p>
 
-                <h3>salg av laptoper, stasjonære datamaskiner, skjermer.</h3>
+        <p>Gløde har egen butikk og “klikk og hent” på Mjåtveitflaten 35 </p>
 
-                <p>Gratis frakt ved kjøp over NOK 2.500,-"
-                    "Forutsetter vekt under 20 kilo"
-                </p>
+        <p>Åpningstider: Alle hverdager 08.00 - 15:00</p>
 
-                <p>Gløde har egen butikk og “klikk og hent” på Mjåtveitflaten 35 </p>
+    </div>
 
-                <p>Åpningstider: Alle hverdager 08.00 - 15:00</p>
+    <button class="btn" id="button" onclick="window.location.href='https://www.alverbutikken.no/brukt-ikt/'">Se produkter</button>
+    <!-- above is placeholderlink, Sandra Fix-->
+</main>
 
-            </div>
 
-            <button class="btn" id="button" onclick="window.location.href='https://www.alverbutikken.no/brukt-ikt/'">Se produkter</button>
-            <!-- above is placeholderlink, Sandra Fix-->
-        </main>
 
-       
-
-        <footer>
-            <!--- Sender deg videre til siden som knappene sender deg til originalt. -->
-            <div class="footer-btns">
-                <a href=" " class="footer-btn"> GLØDE ARBEIDSINKLUDERING AS </a>
-                <a href=" " class="footer-btn"> Personvernserklæring </a>
-                <a href=" " class="footer-btn"> C Alverbutikken </a>
-            </div>
-            <!-- linkene/placeholder over må endres til relevante linker -mvh Polly -->
-        </footer>
-        <script src="/GlodeButikken/imageanimation.js"></script>
+<footer>
+    <!--- Sender deg videre til siden som knappene sender deg til originalt. -->
+    <div class="footer-btns">
+        <a href=" " class="footer-btn"> GLØDE ARBEIDSINKLUDERING AS </a>
+        <a href=" " class="footer-btn"> Personvernserklæring </a>
+        <a href=" " class="footer-btn"> C Alverbutikken </a>
+    </div>
+    <!-- linkene/placeholder over må endres til relevante linker -mvh Polly -->
+</footer>
+  </div>
+  <!--Links to an external JavaScript file for dynamic behavior.-->
+  <script src="/GlodeButikken/script.js"></script>
+  <script src="/GlodeButikken/imageanimation.js"></script>
 </body>
 </html>

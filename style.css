@@ -1,16 +1,48 @@
-body {
-    margin: 0;
-    max-height: 100vh;
-    font-family: Arial, sans-serif;
-    background-color: honeydew;
+/* Googlefont Poppins CDN Link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+/* Reset styles and set font-family */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 
-.main_title {
-  font-size: 30px;
-  text-align: left;
+body {
+  min-height: 100vh;
+}
 
-  border-bottom: 3px solid #fb5607;
-  padding-left: 15px;
+/* Styles for the fixed navigation bar */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  background: #fb5607;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  z-index: 99;
+}
+
+/* Styles for the inner container of the navigation bar */
+nav .navbar {
+  height: 100%;
+  max-width: 1250px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  padding: 0 50px;
+}
+
+/* Styles for the logo in the navigation bar */
+.navbar .logo a {
+  font-size: 30px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
 }
 
 .img {
@@ -28,202 +60,321 @@ h1 {
     font-style: italic;
     font-weight: lighter;
     padding-left: 15px;
-    text-align: center;
 }
 
 h3 {
   font-style: italic;
   font-weight: bold;
   padding-left: 15px;
-  text-align: center;
 }
 
 p {
   font-style: italic;
   padding-left: 15px;
-  text-align: center;
 }
 
 
-header {
+/* Styles for the navigation links */
+nav .navbar .nav-links {
+  line-height: 70px;
+  height: 100%;
+}
+
+/* Styles for the list of navigation links */
+nav .navbar .links {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px;
-  background-color: #fb5607;
-  color: #fff;
 }
 
-.header-btn {
-  margin-left: 15px;
-  text-decoration: none;
-  color: #fff;
-  font-weight: bold;
-}
-
-.header-btn:hover {
-  color: #941b0c;
-}
-
-.header-icon {
-  margin-right: 10px;
-}
-
-.center-icon {
-  flex-grow: 1;
-  text-align: center;
-  color: #FFFFFF;
-text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
-color: #FFFFFF;
-
-font-size: 25px;
-}
-
-.header-icon img,
-.center-icon img {
-  width: 100px;
-  height: 80px;
-  margin-right: 10px;
-  border-radius: 50%;
-}
-
-.dropdown {
-  display: inline-block;
+/* Styles for each navigation link item */
+nav .navbar .links li {
   position: relative;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #fb5607;
-  min-width: 160px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: #fff;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-.header-btns:hover .dropdown-content {
-  display: none;
-}
-
-.header-btns:hover .dropdown:hover .dropdown-content {
-  display: block;
-}
-  
-
-.mode-toggle {
   display: flex;
   align-items: center;
-  cursor: pointer;
-  margin-left: 10px;
-  transition: margin-left 0.3s;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0 14px;
 }
 
-.circle {
-  width: 35px;
-  height: 35px;
-  background-color: #555;
-  border-radius: 50%;
-  transition: background-color 0.3s;
-}
-
-.dark-mode .circle {
-  background-color: #fff;
-}
-
-.dark-mode {
-  background-color: #333;
-  color: #fff;
-}
-
-/* dette er temp for bare og få det på plass. og se at det funker */
-
-footer {
-  background-color: #333;
-  color: #fff;
-  padding: 10px 20px;
-  text-align: left;
-}
-
-.footer-btns {
-  display: flex;
-}
-
-.footer-btn {
+/* Styles for each navigation link anchor */
+nav .navbar .links li a {
+  height: 100%;
   text-decoration: none;
+  white-space: nowrap;
   color: #fff;
-  margin-right: 55px;
-} 
+  font-size: 15px;
+  font-weight: 500;
+}
 
-/* Media query for mobil*/
- 
-@media (max-width: 600px) {
+/* Styles for the arrow icons on hover */
+.links li:hover .htmlcss-arrow,
+.links li:hover .js-arrow {
+  transform: rotate(180deg);
+}
 
-  .img {
-  width: 350px;
-  height: 350px;
-  }
+/* Styles for the arrow icon in each navigation link */
+nav .navbar .links li .arrow {
+  height: 100%;
+  width: 22px;
+  line-height: 70px;
+  text-align: center;
+  display: inline-block;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+/* Styles for sub-menus and their items */
+nav .navbar .links li .sub-menu {
+  position: absolute;
+  top: 70px;
+  left: 0;
+  line-height: 40px;
+  background: gray;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 0 0 4px 4px;
+  display: none;
+  z-index: 2;
+}
+
+/* Show sub-menus on hover */
+nav .navbar .links li:hover .htmlCss-sub-menu,
+nav .navbar .links li:hover .js-sub-menu {
+  display: block;
+}
+
+/* Styles for sub-menu items */
+.navbar .links li .sub-menu li {
+  padding: 0 22px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Styles for sub-menu anchor links */
+.navbar .links li .sub-menu a {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+/* Styles for the "More" sub-menu arrow */
+.navbar .links li .sub-menu .more-arrow {
+  line-height: 40px;
+}
+
+/* Styles for "More" sub-menu */
+.navbar .links li .sub-menu .more-sub-menu {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  border-radius: 0 4px 4px 4px;
+  z-index: 1;
+  display: none;
+}
+
+/* Show "More" sub-menu on hover */
+.links li .sub-menu .more:hover .more-sub-menu {
+  display: block;
+}
+
+/* Styles for the search box */
+.navbar .search-box {
+  position: relative;
+  height: 40px;
+  width: 40px;
+}
+
+/* Styles for the search icon */
+.navbar .search-box i {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  line-height: 40px;
+  text-align: center;
+  font-size: 22px;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Styles for the search input box */
+.navbar .search-box .input-box {
+  position: absolute;
+  right: calc(100% - 40px);
+  top: 80px;
+  height: 60px;
+  width: 300px;
+  background: #fb5607;
+  border-radius: 6px;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.4s ease;
+}
+
+/* Show search input box on click */
+.navbar.showInput .search-box .input-box {
+  top: 65px;
+  opacity: 1;
+  pointer-events: auto;
+  background: #fb5607;
+}
+
+/* Styles for the search input box pseudo-element */
+.search-box .input-box::before {
+  content: '';
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  background: #fb5607;
+  right: 10px;
+  top: -6px;
+  transform: rotate(45deg);
+}
+
+/* Styles for the search input */
+.search-box .input-box input {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 4px;
+  transform: translate(-50%, -50%);
+  height: 35px;
+  width: 280px;
+  outline: none;
+  padding: 0 15px;
+  font-size: 16px;
+  border: none;
+}
+
+/* Styles for the sidebar logo on smaller screens */
+.navbar .nav-links .sidebar-logo {
+  display: none;
+}
+
+/* Styles for the menu icon on smaller screens */
+.navbar .bx-menu {
+  display: none;
+}
+
+/* Media query for screens with max-width 920px */
+@media (max-width:920px) {
+    nav .navbar{
+      max-width: 100%;
+      padding: 0 25px;
+    }
   
-  .footer-btns {
+    nav .navbar .logo a{
+      font-size: 27px;
+    }
+    nav .navbar .links li{
+      padding: 0 10px;
+      white-space: nowrap;
+    }
+    nav .navbar .links li a{
+      font-size: 15px;
+    }
+  }
+  @media (max-width:800px){
+    nav{
+      /* position: relative; */
+    }
+    .navbar .bx-menu{
+      display: block;
+    }
+  
+    nav .navbar .nav-links{
+      position: fixed;
+      top: 0;
+      left: -100%;
+      display: block;
+      max-width: 270px;
+      width: 100%;
+      background:  #fb5607;
+      line-height: 40px;
+      padding: 20px;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+      transition: all 0.5s ease;
+      z-index: 1000;
+    }
+  
+    .navbar .nav-links .sidebar-logo{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  
+    .sidebar-logo .logo-name{
+      font-size: 25px;
+      color: #fff;
+    }
+    
+      .sidebar-logo  i,
+      .navbar .bx-menu{
+        font-size: 25px;
+        color: #fff;
+      }
+    nav .navbar .links{
+      display: block;
+      margin-top: 20px;
+    }
+    nav .navbar .links li .arrow{
+      line-height: 40px;
+    }
+  nav .navbar .links li{
+      display: block;
+    }
+  nav .navbar .links li .sub-menu{
+    position: relative;
+    top: 0;
+    box-shadow: none;
+    display: none;
+  }
+  nav .navbar .links li .sub-menu li{
+    border-bottom: none;
+  
+  }
+  .navbar .links li .sub-menu .more-sub-menu{
+    display: none;
+    position: relative;
+    left: 0;
+  }
+  .navbar .links li .sub-menu .more-sub-menu li{
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
   }
-
-  .footer-btn {
-    margin-top: 20px;
-  }
-
-  .header-btns {
-     flex-direction: column;
-  }
-
-  .center-icon {
-    margin-right: 15px;
-  }
+  .links li:hover .htmlcss-arrow,
+  .links li:hover .js-arrow{
+    transform: rotate(0deg);
+    }
+    .navbar .links li .sub-menu .more-sub-menu{
+      display: none;
+    }
+    .navbar .links li .sub-menu .more span{
+      display: flex;
+      align-items: center;
+    }
   
-  .circle {
-    display: none;
+    .links li .sub-menu .more:hover .more-sub-menu{
+      display: none;
+    }
+    nav .navbar .links li:hover .htmlCss-sub-menu,
+    nav .navbar .links li:hover .js-sub-menu{
+      display: none;
+    }
+  .navbar .nav-links.show1 .links .htmlCss-sub-menu,
+    .navbar .nav-links.show3 .links .js-sub-menu,
+    .navbar .nav-links.show2 .links .more .more-sub-menu{
+        display: block;
+      }
+      .navbar .nav-links.show1 .links .htmlcss-arrow,
+      .navbar .nav-links.show3 .links .js-arrow{
+          transform: rotate(180deg);
   }
-
-}
-
-@media screen and (max-width: 600px) {
-  .hamburgerMeny {
-    display: block;
+      .navbar .nav-links.show2 .links .more-arrow{
+        transform: rotate(90deg);
+      }
   }
-
-  .header-btns {
-    display: none;
+  @media (max-width:370px){
+    nav .navbar .nav-links{
+    max-width: 100%;
+  } 
   }
-}
-
-.hamburgerMeny {
- display: none;
- max-height: 150px;
-}
-
-/* Define the default text color */
-a.hover-effect {
-  color: #ffffff; /* Change this to your desired default color */
-  text-decoration: none; /* Remove underline by default */
-  transition: color 0.3s ease; /* Smooth transition effect */
-  text-shadow: #fb5607;
-}
-
-/* Add hover effect by slightly lightening up the text color */
-a.hover-effect:hover {
-  color: #eab31b;
-  text-shadow: #fb5607; /* Change this to a slightly lighter color */
-  /* Or, use text-shadow to create a subtle effect */
-  /* text-shadow: 0 0 3px rgba(0, 0, 0, 0.3); */
-}
