@@ -29,9 +29,13 @@ body {
 
 .leftImg {
     height: 330px;
-    width: 350px;
+    width: 390px;
     margin-left: 72%;
     margin-top: -20%;
+}
+
+.infoText {
+    margin-left: 2em;
 }
 
 h1 {
