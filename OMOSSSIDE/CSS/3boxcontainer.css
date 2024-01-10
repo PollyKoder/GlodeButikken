@@ -1,0 +1,99 @@
+.container {
+  display: flex;
+  justify-content: center;
+    align-items: flex-end;
+    height: 300px;
+  }
+  .box {
+    width: 300px;
+  height: 345px;
+  border-radius: 4px;
+background: #6b6057;
+box-shadow: inset 20px 20px 60px #5b524a,
+            inset -20px -20px 60px #7b6e64;
+  transition: all ease 0.3s;
+    margin-bottom: -100px;
+    margin-right: -100px;
+    margin-left: 100px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: #fff;
+  }
+
+
+  
+  .shadow__btn {
+    height: 3em;
+    width: 100px;
+    align-items: center;
+    background-color: #0000004b;
+    border-radius: 3px;
+    letter-spacing: 1px;
+    transition: all 0.6s linear;
+    cursor: pointer;
+    border: none;
+    background: #ffffff;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+  
+.button:hover{
+  box-shadow: 9px 9px 33px #d1d1d1, -9px -9px 33px #ffffff;
+ transform: translateY(-0.7px);
+}
+
+  
+  .shadow__btn:hover {
+    font-size: 1.1em;
+    transform: translateX(-2px);
+  }
+ 
+
+
+  .omoss{
+    margin-left: 685px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    margin-top: 145px;
+    margin-bottom: 145px;
+  }
+
+  .underomoss{
+    margin-bottom: -45px;
+    margin-right: 600px;
+    margin-left: 480px;
+    margin-top: -263px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+  }
+
+  .underomoss2{
+    margin-right: 600px;
+    margin-left: 480px;
+    margin-top: 45px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+  }
+
+  .line {
+    width: 80%;
+    height: 1px;
+    background-color: #000;
+    margin: 0 auto;
+    margin-bottom: -10px;
+    margin-top: 100px;
+  }
+
+  .åpningstid{
+    margin-right: 600px;
+    margin-left: 480px;
+    margin-top: 78px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+  }
+
+.logo{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
