@@ -14,72 +14,85 @@
 <body>
     <header>
       <!--Contains the navigation bar-->
-  <nav>
-    <!--Wraps the entire navigation bar.-->
-    <div class="navbar">      
-      <!--Represents a menu icon using Boxicons.-->
-      <i class='bx bx-menu'></i>    
-      <!--Defines the logo-->
-      <div class="logo"><a href="#">Gløde Data</a></div>
-      <!-- Contains the navigation links-->
-      <div class="nav-links">
-        <!-- Includes a logo and a close icon-->
-        <div class="sidebar-logo">
-
-          <span class="logo-name">Gløde Data</span>
-          <i class='bx bx-x' ></i>
+      <nav>
+        
+        <!--Wraps the entire navigation bar.-->
+        <div class="navbar">  
+          <!--Innskudd kodelinje fra Amalie -->
+        <div class="header-icon">
+          <img src="img/logo.jpg" alt="left icon">
         </div>
-        <!-- List of main navigation links-->
-        <ul class="links">
-          <li><a href="#">Hjem </a></li>
-          <li>
-            <a href="#">Produkter</a>
+        <!-- fortsetter med kode fra Sandra-->    
+          <!--Represents a menu icon using Boxicons.-->
+          <i class='bx bx-menu'></i>    
+          <!--Defines the logo-->
+          <div class="logo"><a href="#">Gløde Data</a></div>
+          <!--Amalie og Trond-Morten sin kode linje: -->
+          <div class="mode-toggle" onclick="toggleMode()">
+            <div class="circle"></div>
+          </div>
+
+          <!--Videre med Sandra sin kode: -->
+          <!-- Contains the navigation links-->
+          <div class="nav-links">
+            <!-- Includes a logo and a close icon-->
+            <div class="sidebar-logo">
+
+              <!-- <span class="logo-name">Gløde Data</span> -->
+              <i class='bx bx-x' ></i>
+            </div>
             <!-- List of main navigation links-->
-            <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
-            <!-- Sub-menu for "Produkter" with additional items.-->
-            <ul class="htmlCss-sub-menu sub-menu">
-              <li><a href="#">Stasjonær</a></li>
-              <li><a href="#">Laptop</a></li>
-              <li><a href="#">Skjermer</a></li>
-              <li class="more">
-                <span><a href="#">More</a>
-                <i class='bx bxs-chevron-right arrow more-arrow'></i>
-              </span>
-              <!--Sub-menu for "More" within the "Produkter" menu-->
-                <ul class="more-sub-menu sub-menu">
-                  <li><a href="#">Tilbehør</a></li>
+            <ul class="links">
+              <li><a href="#">Hjem </a></li>
+              <li>
+                <a href="#">Produkter</a>
+                <!-- List of main navigation links-->
+                <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+                <!-- Sub-menu for "Produkter" with additional items.-->
+                <ul class="htmlCss-sub-menu sub-menu">
+                  <li><a href="#">Stasjonær</a></li>
+                  <li><a href="#">Laptop</a></li>
+                  <li><a href="#">Skjermer</a></li>
+                  <li class="more">
+                    <span><a href="#">More</a>
+                    <i class='bx bxs-chevron-right arrow more-arrow'></i>
+                  </span>
+                  <!--Sub-menu for "More" within the "Produkter" menu-->
+                    <ul class="more-sub-menu sub-menu">
+                      <li><a href="#">Tilbehør</a></li>
+                    </ul>
+                  </li>
                 </ul>
               </li>
-            </ul>
-          </li>
 
-          <li>
-            <a href="#">Tjenester</a>
-            <i class='bx bxs-chevron-down js-arrow arrow '></i>
-            <ul class="js-sub-menu sub-menu">
-              <li><a href="#">Sikker sletting</a></li>
+              <li>
+                <a href="#">Tjenester</a>
+                <i class='bx bxs-chevron-down js-arrow arrow '></i>
+                <ul class="js-sub-menu sub-menu">
+                  <li><a href="#">Sikker sletting</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Om Oss</a></li>
+              <li><a href="#">Kontakt oss</a></li>
             </ul>
-          </li>
-          <li><a href="#">Om Oss</a></li>
-          <li><a href="#">Kontakt oss</a></li>
-        </ul>
-      </div>
-        <!--Includes a search icon and input box-->
-      <div class="search-box">
-        <!-- Icon for search-->
-        <i class='bx bx-search'></i>
-        <!--Container for the search input..-->
-        <div class="input-box">
-          <input type="text" placeholder="Search...">
+          </div>
+            <!--Includes a search icon and input box-->
+          <div class="search-box">
+            <!-- Icon for search-->
+            <i class='bx bx-search'></i>
+            <!--Container for the search input..-->
+            <div class="input-box">
+              <input type="text" placeholder="Search...">
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-  </nav>
-  <div>
+      </nav>
 
   </header>
 <main>
 
+<!-- PRODUKT INFORMASJON -->
+<!-- Kodet av Tiril -->
     <section class="section">
         <div class="image">
             <img class="productImg" src="https://images.unsplash.com/photo-1484788984921-03950022c9ef?q=80&w=1832&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Datamaskin"/>
@@ -98,7 +111,7 @@
             <p class="specs">2 x USB 3</p>
 
             <!--1,000,00 er greya ut pågrun av tilbud-->
-            <p class="nok">kr 800.00</p>
+            <p class="nok">kr 800.00,-</p>
             <!-- Legg i handlekurv -->
             <div class="formAndButton">
                 <form action="your_cart_processing_script.php" method="post" class="form">
@@ -106,30 +119,36 @@
                     <input type="number" id="quantity" name="quantity" class="inputText" value="1" min="1">
                 </form>
                 <p>stk</p>
+                <!-- Knapp -->
                 <button type="submit" name="add_to_cart" value="4901" class="addToCartBtn">Legg Til I Handlekurv</button>
             </div>
         </div>
     </section>
     
-    <!-- Relaterte produkter -->
-    <!--
-    <section>
-        <h1>Relaterte produkter</h1>
-        <div>
-            <img class="imageRelated" src="https://images.unsplash.com/photo-1484788984921-03950022c9ef?q=80&w=1832&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
-        </div>
+    <!-- MEIR INFORMASJON OM PRODUKTET -->
+    <section class="moreInformation">
+        <h1 class="moreText">Meir informasjon</h1>
+        <p class="specs">Her kjem det meir informasjon om produktet</p>
     </section>
--->
-    
+
+    <!-- RELATERTE PRODUKTER -->
     <section class="relatedProducts">
-        <!-- Relaterte produkter TEST -->
-        <h1>Relaterte produkter</h1>
+        <h1 class="textRelated">Relaterte produkter</h1>
         <div class="responsive">
             <div class="gallery">
               <a target="_blank" href="#">
                 <img src="https://images.unsplash.com/photo-1484788984921-03950022c9ef?q=80&w=1832&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Datamaskin" >
               </a>
-              <div class="desc">Add a description of the image here</div>
+              <div class="desc">Navn, pris og knapp</div>
+            </div>
+          </div>
+
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="#">
+                <img src="https://images.unsplash.com/photo-1484788984921-03950022c9ef?q=80&w=1832&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Datamaskin" >
+              </a>
+              <div class="desc">Navn, pris og knapp</div>
             </div>
           </div>
     </section>
@@ -137,13 +156,11 @@
 </main>
 
 <footer>
-    <!--- Sender deg videre til siden som knappene sender deg til originalt. -->
     <div class="footer-btns">
         <a href=" " class="footer-btn"> GLØDE ARBEIDSINKLUDERING AS </a>
         <a href=" " class="footer-btn"> Personvernserklæring </a>
         <a href=" " class="footer-btn"> C Alverbutikken </a>
     </div>
-    <!-- linkene/placeholder over må endres til relevante linker -mvh Polly -->
 </footer>
 </body>
 </html>
