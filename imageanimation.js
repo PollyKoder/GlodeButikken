@@ -1,3 +1,5 @@
+//Muligens kodet av Trym, skal legges ved til produkter!
+
 let slideIndex = 0;
 const images = document.querySelectorAll('.image-container img');
 const dots = document.querySelectorAll('.dot');
