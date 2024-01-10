@@ -8,7 +8,7 @@
 # !NB! - samling fra brnach til Merge:
  - Når man samler til Main fra de forskjellige branchene er det viktig å holde kontroll på om mappe systemene samsvarer eller om det trengs endringer, slik at alle linkene er funksjonable. 
  - Husk å redigere styling av button i landing page html.
- - Fix splash bilde margin!!!!!
+ - Fix splash bilde margin og height(slik at det ser mindre strekt ut)!!!!!
 
 
 
