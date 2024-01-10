@@ -4,6 +4,12 @@
  - Husk å legge inn kommentarer: en som en overskrift for hva koden gjør eks= <!-- HEADER STYLING -->, og en for hvem som har kodet <!-- kodet av "Navn" -->
 
 
+
+# !NB! - samling fra brnach til Merge:
+ - Når man samler til Main fra de forskjellige branchene er det viktig å holde kontroll på om mappe systemene samsvarer eller om det trengs endringer, slik at alle linkene er funksjonable. 
+
+
+
 # js fra første utgave av landing page:
 
 document.addEventListener("DOMContentLoaded", function() {
