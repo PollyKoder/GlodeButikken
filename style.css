@@ -31,7 +31,8 @@ body {
     height: 330px;
     width: 390px;
     margin-left: 72%;
-    margin-top: -20%;
+    margin-top: -50%;
+    margin-bottom: 10px;
 }
 
 .infoText {
@@ -218,8 +219,9 @@ footer {
   .leftImg {
     height: 340px;
     width: 350px;
-    padding-right: 40px;
-    
+    margin-left: 5%;
+    margin-top: 10px;
+    margin-bottom: 5px;
   }
 
 }
