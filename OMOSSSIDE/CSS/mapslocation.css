@@ -16,11 +16,10 @@
 .centered-text{
     text-align: center;
     margin: 0;
-    margin-top: 100px;
+    margin-top: 680px;
     font-weight: bold;
   font-family: Arial, sans-serif;
   flex-wrap: wrap;
-  -ms-flex-direction: column;
 }
 
 .containerr{
