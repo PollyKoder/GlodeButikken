@@ -1,0 +1,128 @@
+:root {
+
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Rundt bilde og informasjon om produktet */
+.section {
+    font-size: 1.25em;
+    display: flex;
+    padding-top: 100px;
+    width: 100%;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+/* Diven rundt bilde */
+.image {
+    height: 10%;
+    width: 50%;    
+    padding-top: 1%;
+    display: flex;
+    justify-content: center;
+}
+
+/* Produkt bilde */
+.productImg {
+    width: 90%;    
+    height: 50%; 
+}
+
+/*div med den viktigaste informasjonen om produktet */
+.information {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 5px;
+    margin-left: 50px;
+}
+
+/* Overskriften til produktet */
+.headProduct {
+    font-weight: bold;
+}
+
+/* Spesifikasjoner på produktet */
+.specs {
+    margin: 0;
+}
+
+/* Pris tekst */
+.nok {
+    color: #fb5607;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* inntastings felt antall */
+.inputText {
+    width: 40px;
+}
+
+/* Handlevogn knapp */
+.addToCartBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 25px;
+    background-color: #fb5607;
+    border: none;
+    color: white;
+    font-size: 19px;
+    padding: 16px;
+    width: 230px;
+    height: 50px;
+    cursor: pointer;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 7); 
+}
+
+/* div som har form og knapp */
+.formAndButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+/* form */
+.form {
+    margin: 0;
+}
+
+
+.imageRelated {
+    height: 100px;
+    width: 100px;
+}
+
+div.gallery {
+    border: 1px solid #ccc;
+  }
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
