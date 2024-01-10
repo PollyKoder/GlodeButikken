@@ -55,7 +55,7 @@ nav .navbar {
 
 /* Endring av teksten, NØD*/
 h1 {
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 15px;
     font-style: italic;
     font-weight: lighter;
@@ -65,6 +65,7 @@ h1 {
 h3 {
   font-style: italic;
   font-weight: bold;
+  padding-top: 15px;
   padding-left: 15px;
 }
 
@@ -74,6 +75,7 @@ p {
 }
 b {
   padding-left: 15px;
+  padding-bottom: 15px;
 }
 
 
@@ -255,6 +257,43 @@ nav .navbar .links li:hover .js-sub-menu {
 /* Styles for the menu icon on smaller screens */
 .navbar .bx-menu {
   display: none;
+}
+
+/*Copypastet fra 3boxcontainer, ØDN*/
+.card:hover {
+  transform: translateY(-20px);
+}
+
+.shadow__btn {
+  padding: 10px 20px;
+  border: none;
+  font-size: 12px;
+  color: #fff;
+  border-radius: 3px;
+  letter-spacing: 4px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: 0.5s;
+  transition-property: box-shadow;
+}
+
+/*Copypastet fra bottomfooter, ØDN*/
+.bottombox {
+  box-sizing: border-box;
+ margin-bottom: -700px;
+ margin-top: 420px;
+ margin-left: -900px;
+ margin-right: -700px;
+ color: rgb(64, 72, 78);
+ font-weight: bold;
+font-family: Arial, sans-serif;
+}
+
+.kontakter{
+  margin-bottom: -700px;
+  margin-top: 420px;
+  font-weight: bold;
+font-family: Arial, sans-serif;
 }
 
 /* Media query for screens with max-width 920px */
