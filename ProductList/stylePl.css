@@ -9,6 +9,7 @@ body {
 
 /* Styling for the product gallery section */
 .gallery {
+    margin-top: 70px;
     width: 30%; /* Set width for each gallery section */
     margin-bottom: 20px; /* Add margin at the bottom of each gallery section */
 }

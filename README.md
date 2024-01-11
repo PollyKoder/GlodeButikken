@@ -11,6 +11,7 @@
  - Fix splash bilde margin og height(slik at det ser mindre strekt ut)!!!!!
  - imageanimation skal flyttes over i produkter, lurt å finne ut før det flyttes om det skal plasseres ved hver enkelt produkt eller om det skal legges i produkt mappen generelt.
  - Legg til klassenavn til elementer som er stylet uten klasse. Polly fix (eks, elemeneter under .infoText trenger classe!)
+ - Finn ut hvilke class/css fil som kontrollerer størrelsen på navBar/header.
 
 - Har lagt inn styling av header og footer i HandleKurv mappen, som en midlertidig visning slik at det er lett å legge in template koden av handlekurven.
 
