@@ -275,6 +275,7 @@ nav .navbar .links li:hover .js-sub-menu {
   @media (max-width:800px){
     nav{
       /* position: relative; */
+      /*Sandra: Skal noe mer gjøres her?*/
     }
     .navbar .bx-menu{
       display: block;
