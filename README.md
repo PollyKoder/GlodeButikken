@@ -15,7 +15,10 @@
 
 - Har lagt inn styling av header og footer i HandleKurv mappen, som en midlertidig visning slik at det er lett å legge in template koden av handlekurven.
 
-- Note to self: Tiril sin kode til eksempel template er til HP pro book 650. 
+- Note to self: 
+    - Tiril sin kode til eksempel template er til HP pro book 650. 
+    - Add footer til Sandra sin kode.
+
 
 
 

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="nn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="stylePT.css">
+<link rel="stylesheet" href="/styleLp.css">
+<script src="scriptPT.js" defer></script>
+
+<title>Gløde Data | HP ProBook 650 G2</title>
+
+</head>
+<body>
+    <header>
+      <!--Contains the navigation bar-->
+      <nav>
+        
+        <!--Wraps the entire navigation bar.-->
+        <div class="navbar">  
+          <!--Innskudd kodelinje fra Amalie -->
+        <div class="header-icon">
+          <img src="img/logo.jpg" alt="logo">
+        </div>
+        <!-- fortsetter med kode fra Sandra-->    
+          <!--Represents a menu icon using Boxicons.-->
+          <i class='bx bx-menu'></i>    
+          <!--Defines the logo-->
+          <div class="logo"><a href="#">Gløde Data</a></div>
+          <!--Amalie og Trond-Morten sin kode linje: -->
+          <div class="mode-toggle" onclick="toggleMode()">
+            <div class="circle"></div>
+          </div>
+
+          <!--Videre med Sandra sin kode: -->
+          <!-- Contains the navigation links-->
+          <div class="nav-links">
+            <!-- Includes a logo and a close icon-->
+            <div class="sidebar-logo">
+
+              <!-- <span class="logo-name">Gløde Data</span> -->
+              <i class='bx bx-x' ></i>
+            </div>
+            <!-- List of main navigation links-->
+            <ul class="links">
+              <li><a href="#">Hjem </a></li>
+              <li>
+                <a href="#">Produkter</a>
+                <!-- List of main navigation links-->
+                <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+                <!-- Sub-menu for "Produkter" with additional items.-->
+                <ul class="htmlCss-sub-menu sub-menu">
+                  <li><a href="#">Stasjonær</a></li>
+                  <li><a href="#">Laptop</a></li>
+                  <li><a href="#">Skjermer</a></li>
+                  <li class="more">
+                    <span><a href="#">More</a>
+                    <i class='bx bxs-chevron-right arrow more-arrow'></i>
+                  </span>
+                  <!--Sub-menu for "More" within the "Produkter" menu-->
+                    <ul class="more-sub-menu sub-menu">
+                      <li><a href="#">Tilbehør</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+
+              <li>
+                <a href="#">Tjenester</a>
+                <i class='bx bxs-chevron-down js-arrow arrow '></i>
+                <ul class="js-sub-menu sub-menu">
+                  <li><a href="#">Sikker sletting</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Om Oss</a></li>
+              <li><a href="#">Kontakt oss</a></li>
+            </ul>
+          </div>
+            <!--Includes a search icon and input box-->
+          <div class="search-box">
+            <!-- Icon for search-->
+            <i class='bx bx-search'></i>
+            <!--Container for the search input..-->
+            <div class="input-box">
+              <input type="text" placeholder="Search...">
+            </div>
+          </div>
+        </div>
+      </nav>
+
+  </header>
+<main>
+
+
+<!-- PRODUKT INFORMASJON -->
+<!-- Kodet av Tiril -->
+    <section class="section">
+        <div class="image">
+            <img class="productImg" src="img/Book_650.webp" alt="Datamaskin"/>
+        </div>
+
+        <div class="information">
+            <h1 class="headProduct">HP ProBook 650 G2</h1>
+
+            <p class="specs">Skjermstørrelse 15,6″</p>
+            <p class="specs">Windows 10 Pro</p>
+            <p class="specs">CPU: i5-6200U 2,30 GHz</p>
+            <p class="specs">8 GB Ram SSD</p>
+            <p class="specs">Minne: 8 GB RAM</p>
+            <p class="specs">Harddisk: 256 GB SSD</p>
+            <p class="specs">1 stk Displayport</p>
+            <p class="specs">1 stk VGA</p>
+            <p class="specs">2 x USB 2</p>
+            <p class="specs">1 x USB-C</p>
+
+            <!--1,000,00 er greya ut pågrun av tilbud-->
+            <p class="nok">kr 1,950.00,-</p>
+
+            <!-- Legg i handlekurv -->
+            <div class="formAndButton">
+                <form action="your_cart_processing_script.php" method="post" class="form">
+                    <label for="quantity" class="screen_reader_text"></label>
+                    <input type="number" id="quantity" name="quantity" class="inputText" value="1" min="1">
+                </form>
+                <p class="stk">stk</p>
+                <!-- Knapp -->
+                <button type="submit" name="add_to_cart" value="4901" class="addToCartBtn">Legg Til I Handlekurv</button>
+            </div>
+        </div>
+    </section>
+    
+    <!-- MEIR INFORMASJON OM PRODUKTET -->
+    <section class="moreInformation">
+        <h1 class="moreText">Meir informasjon</h1>
+        <p>Her kjem det meir informasjon om produktet</p>
+        <p>Laptopen leveres med strømforsyning, ingen garanti på batteriet. Alle maskiner kan ha bruksmerker</p>
+    </section>
+
+    <!-- RELATERTE PRODUKTER -->
+    <section class="relatedProducts">
+        <h1 class="headerRelated">Relaterte produkter</h1>
+        
+        <div class="responsive">
+          <div class="frame">
+            <div class="gallery">
+              <a target="_blank" href="#">
+                <img src="img/Dell_Latitude.webp" alt="Datamaskin" >
+              </a>
+              <div class="desc">
+                <p class="textRelated">Dell Latitude E7250 SSD 8 GB RAM</p>
+                <p class="relatedNok">kr 1,700.00,-</p>
+              </div>
+          </div>
+
+          
+            <div class="gallery">
+              <a target="_blank" href="#">
+                <img src="img/Latitude_E7450.webp" alt="Datamaskin" >
+              </a>
+              <div class="desc">
+                <p class="textRelated">Dell Latitude E7450</p>
+                <p class="relatedNok">kr 1,900.00,-</p>
+              </div>
+          </div>
+
+          <div class="gallery">
+            <a target="_blank" href="#">
+              <img src="img/Latitude_E7450.webp" alt="Datamaskin" >
+            </a>
+            <div class="desc">
+              <p class="textRelated">Dell Latitude E7450</p>
+              <p class="relatedNok">kr 1,900.00,-</p>
+            </div>
+        </div>
+
+
+
+
+        </div>
+        </div>
+      
+    </section>
+
+</main>
+
+<footer>
+    <div class="footer-btns">
+        <a href=" " class="footer-btn"> GLØDE ARBEIDSINKLUDERING AS </a>
+        <a href=" " class="footer-btn"> Personvernserklæring </a>
+        <a href=" " class="footer-btn"> © Gløde Data </a>
+    </div>
+</footer>
+</body>
+</html>
