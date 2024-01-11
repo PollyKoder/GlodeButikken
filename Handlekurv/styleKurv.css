@@ -1,0 +1,141 @@
+/*Kodet av Tony*/
+
+/*BODY kode fra Amalie sin css*/
+body {
+    margin: 0;
+    max-height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: honeydew;
+}
+
+
+
+
+
+
+
+
+/*Kode fra Amalie sin css*/
+/* FOOTER og HEADER */
+
+/* HEADER */
+.navHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fb5607;
+    color: #fff;
+  }
+  
+  .header-btn {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .header-btn:hover {
+    color: #941b0c;
+  }
+  
+  .header-icon {
+    margin-right: 10px;
+  }
+  
+  .center-icon {
+    flex-grow: 1;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+    color: #FFFFFF;
+  
+    font-size: 25px;
+  }
+  
+  .header-icon img,
+  .center-icon img {
+    width: 100px;
+    height: 80px;
+    margin-right: 10px;
+    border-radius: 50%;
+    background-color: #fb5607;
+  }
+  
+  /* DROPDOWN */
+  .dropdown {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fb5607;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .header-btns:hover .dropdown-content {
+    display: none;
+  }
+  
+  .header-btns:hover .dropdown:hover .dropdown-content {
+    display: block;
+  }
+    
+  /* LIGHT - DARK MODE */
+  .mode-toggle {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: margin-left 0.3s;
+  }
+  
+  .circle {
+    width: 35px;
+    height: 35px;
+    background-color: #555;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+  }
+  
+  .dark-mode .circle {
+    background-color: #fff;
+  }
+  
+  .dark-mode {
+    background-color: #333;
+    color: #fff;
+  }
+  
+/*FOOTER*/
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: left;
+  }
+  
+  .footer-btns {
+    display: flex;
+  }
+  
+  .footer-btn {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 55px;
+  } 
