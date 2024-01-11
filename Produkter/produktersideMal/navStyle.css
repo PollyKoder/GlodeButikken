@@ -397,7 +397,7 @@ nav .navbar .links li:hover .js-sub-menu {
     margin: 0;
     max-height: 100vh;
     font-family: Arial, sans-serif;
-    background-color: honeydew;
+    background-color: #fefff0;
 }
 
 .main_title {

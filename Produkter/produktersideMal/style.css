@@ -21,7 +21,7 @@ body {
     padding-top: 100px;
     width: 100%;
     align-items: center;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 
 /* Div rundt bilde */
@@ -52,6 +52,7 @@ body {
 /* Overskriften til produktet */
 .headProduct {
     font-weight: bold;
+    margin-bottom: 20px;
 }
 
 /* Spesifikasjoner på produktet */
@@ -59,11 +60,17 @@ body {
     margin: 0;
 }
 
+/* stk tekst */
+.stk {
+    padding: 0;
+}
+
 /* Pris tekst */
 .nok {
     color: var(--textColorBold);
     font-size: 30px;
     font-weight: bold;
+    margin-top: 20px;
 }
 
 /* inntastings felt antall */
@@ -78,6 +85,7 @@ body {
     justify-content: center;
     position: relative;
     border-radius: 25px;
+    margin-left: 10px;
     background-color: var(--buttonColor);
     border: none;
     color: var(--textButton);
@@ -94,7 +102,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 5px;
 }
 
 /* form */
@@ -113,14 +121,25 @@ body {
     font-weight: 500;
 }
 
-/* Relaterte produkter */
+/* Section Relaterte produkter */
 .relatedProducts {
     padding-top: 100px;
     margin-left: 20px;
 }
 
-.textRelated {
+.headerRelated {
     font-weight: 500;
+}
+
+.textRelated {
+    font-size: 20px;
+}
+
+.relatedNok {
+    color: var(--textColorBold);
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
 }
 
 .imageRelated {
@@ -129,18 +148,31 @@ body {
 }
 
 /* kort og bilder til relaterte produkter */
+
+.frame {
+    background-color: #d4d4d4;
+    display: flex;
+    padding-top: 20px;
+    width: 1500px;
+    gap: 20px;
+}
 div.gallery {
-    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
 }
 
 div.gallery img {
-    width: 100%;
-    height: auto;
+    width: 300px;
+    height: 250px;
+    border-radius: 5px ;
 }
 
   div.desc {
     padding: 15px;
     text-align: center;
+    
 }
   
   * {
@@ -148,9 +180,39 @@ div.gallery img {
 }
   
   .responsive {
-    padding: 0 6px;
     float: left;
-    width: 24.99999%;
-    margin-bottom: 30px;
+    width: auto;
+    margin-bottom: 50px;
     margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+@media (max-width: 426px) {
+    .frame {
+        width: auto;
+        flex-direction: column;
+    } 
+
+      .responsive {
+        
+        flex-direction: column;
+    } 
+
+}
+
+@media (max-width: 770px) {
+    .frame {
+        width: auto;
+        flex-direction: column;
+    } 
+
+      .responsive {
+        
+        flex-direction: column;
+    } 
+    
 }
