@@ -8,3 +8,5 @@ function toggleMode() {
 
     body.style.backgroundColor = body.classList.contains('dark-mode') ? '#222' : '#fff';
 } 
+
+/*Har flyttet dette over til landing page sin js fil*/

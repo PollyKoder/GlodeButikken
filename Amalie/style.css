@@ -3,7 +3,6 @@ body {
     max-height: 100vh;
     font-family: Arial, sans-serif;
     background-color: honeydew;
-    transition: .4s;
 }
 
 .main_title {
@@ -117,24 +116,23 @@ header {
   align-items: center;
   cursor: pointer;
   margin-left: 10px;
-  transition: .4s;
+  transition: margin-left 0.3s;
 }
 
 .circle {
   width: 35px;
   height: 35px;
-  content: url('https://api.iconify.design/tdesign/mode-dark.svg');
+  background-color: #555;
   border-radius: 50%;
-  transition: .4s;
+  transition: background-color 0.3s;
 }
 
 .dark-mode .circle {
-  content: url('https://api.iconify.design/material-symbols/light-mode.svg');
-  transition: .4s;
+  background-color: #fff;
 }
 
 .dark-mode {
-  transition: .4s;
+  background-color: #333;
   color: #fff;
 }
 
