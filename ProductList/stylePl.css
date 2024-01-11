@@ -1,0 +1,122 @@
+/* Body styling - flex container with space-between, align-items, flex-wrap, and margin */
+body {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 20px; 
+}
+
+/* Styling for the product gallery section */
+.gallery {
+    width: 30%; /* Set width for each gallery section */
+    margin-bottom: 20px; /* Add margin at the bottom of each gallery section */
+}
+
+/* Styling for the content of each product card */
+.content {
+    border: 1px solid #ddd; /* Border styling */
+    padding: 10px; /* Padding for content */
+    text-align: center; /* Center-align text */
+}
+
+/* Responsive styling for images inside product cards */
+img {
+    max-width: 100%; /* Set maximum width for images */
+    height: auto; /* Allow images to scale proportionally */
+}
+
+/* Media query for smaller screens (max-width: 768px) */
+@media (max-width: 768px) {
+    body {
+        flex-direction: column; /* Change flex direction to column for smaller screens */
+        align-items: center; /* Center-align items */
+    }
+
+    .gallery {
+        width: 80%; /* Adjust gallery width for smaller screens */
+    }
+}
+
+/* Additional styling for product content */
+.content {
+    flex: 0 0 20%; /* Set flex properties for responsiveness */
+    margin: 15px; /* Margin around content */
+    box-sizing: border-box; /* Include border and padding in element's total width and height */
+    text-align: center; /* Center-align text */
+    border-radius: 20px; /* Add border-radius for rounded corners */
+    cursor: pointer; /* Change cursor on hover */
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); /* Box shadow for a subtle elevation effect */
+    transition: .4s; /* Add transition effect */
+    background: #f2f2f2; /* Background color */
+}
+
+/* Hover effect for product content */
+.content:hover {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); /* Adjust box shadow on hover */
+    transform: translate(0px, -8px); /* Move content slightly upward on hover */
+}
+
+/* Styling for images inside product cards */
+img {
+    width: 200px; /* Set width for images */
+    height: 200px; /* Set height for images */
+    text-align: center; /* Center-align text */
+    margin: 0 auto; /* Center-align images horizontally */
+}
+
+/* Styling for paragraphs inside product cards */
+p {
+    text-align: center; /* Center-align text */
+    color: #b2bec3; /* Set text color */
+    padding-top: 8px; /* Add padding at the top */
+}
+
+/* Styling for product prices */
+h5 {
+    font-size: 26px; /* Set font size */
+    text-align: center; /* Center-align text */
+    color: #222f3e; /* Set text color */
+    margin: 0; /* Remove margin */
+}
+
+/* Styling for buttons inside product cards */
+button {
+    text-align: center; /* Center-align text */
+    font-size: 24px; /* Set font size */
+    color: #fff; /* Set text color */
+    width: 100%; /* Set button width to 100% */
+    padding: 15px; /* Add padding */
+    border: 0; /* Remove border */
+    outline: none; /* Remove outline */
+    cursor: pointer; /* Change cursor on hover */
+    margin-top: 5px; /* Add margin at the top */
+    border-bottom-right-radius: 20px; /* Add border-radius for rounded corners */
+    border-bottom-left-radius: 20px; /* Add border-radius for rounded corners */
+}
+
+/* Styling for the 'show more' button */
+.show_more {
+    background: #fb5607; /* Set background color */
+}
+
+/* Media query for adjusting width on smaller screens (max-width: 1000px) */
+@media (max-width: 1000px) {
+    .content {
+        flex: 0 0 45%; /* Adjust flex properties for responsiveness */
+    }
+}
+
+/* Media query for full width on even smaller screens (max-width: 750px) */
+@media (max-width: 750px) {
+    .content {
+        flex: 0 0 100%; /* Adjust flex properties for responsiveness */
+    }
+}
+
+/* Media query for adjusting width on larger screens (min-width: 1200px) */
+@media (min-width: 1200px) {
+    .content {
+        flex: 0 0 30%; /* Adjust flex properties for responsiveness */
+    }
+}
