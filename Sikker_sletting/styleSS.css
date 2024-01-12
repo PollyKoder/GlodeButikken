@@ -28,20 +28,44 @@ b {
 /* Endring a bilder */
 .img {
     margin-top: 30px;
-    width: 5 px;
-    height: 5 px;
+    /* width: 5 px;
+    height: 5 px; */
     padding-left: 15px;
 }
 
 .imgTwo {
     max-width: 80%;
-    height: 120px;
+    height: 180px;
     padding-left: 15px;
+    margin-top: 40px;
   }
 
-.split {
+  /*inskuddskode fra Polly*/
+  .textInfo {
+    margin-left:35px;
+    width:85%;
+    margin-top: 40px;
+  }
+
+  .postionImgText {
+    display: flex;
+    flex-direction: row;
+    margin-top: 35px;
+}
+
+.ssPrices {
+    margin-right: 300px;
+    /*I cheat, this needs to be fixed properly, but as a temporary fix it works*/
+}
+
+.contact {
+    margin-bottom: 40px;
+    margin-left: 35px;
+}
+
+/* .split {
   display: flex;
   flex-direction: row;
   gap: 250px;
-}
+} */
 
