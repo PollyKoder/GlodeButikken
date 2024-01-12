@@ -37,3 +37,17 @@ let jsArrow = document.querySelector(".js-arrow");
 jsArrow.onclick = function() {
  navLinks.classList.toggle("show3");
 }
+
+/* Kodet av Amalie */
+/* Light and Dark mode */
+
+function toggleMode() {
+  const body = document.body;
+  const modeToggle = document.querySelector('.mode-toggle');
+  const circle = document.querySelector('.circle');
+
+  body.classList.toggle('dark-mode');
+  circle.classList.toggle('dark-mode');
+
+  body.style.backgroundColor = body.classList.contains('dark-mode') ? '#222' : '#fff';
+}
