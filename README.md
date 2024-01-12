@@ -25,6 +25,8 @@
     - Mulig at Media qeuries is stylePl css filen må sorteres fra litens skjerm til stort
     - juster enten logo eller størrelse på Header/navBar
     - Hvorfor er footeren misplassert i OMOSS siden?
+    - Er det ny footer fra Sandra?
+    - I AboutPage: Fic åpningstider til å være satt opp som ul, uten list-style(alstå uten de dottene forran).
 
 
 
