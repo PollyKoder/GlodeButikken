@@ -4,14 +4,15 @@
     align-items: flex-end;
     height: 300px;
   }
+
   .box {
     width: 300px;
-  height: 345px;
-  border-radius: 4px;
-background: #6b6057;
-box-shadow: inset 20px 20px 60px #5b524a,
+    height: 345px;
+    border-radius: 4px;
+    background: #6b6057;
+    box-shadow: inset 20px 20px 60px #5b524a,
             inset -20px -20px 60px #7b6e64;
-  transition: all ease 0.3s;
+    transition: all ease 0.3s;
     margin-bottom: -300px;
     margin-right: -68px;
     margin-left: 100px;
@@ -83,7 +84,7 @@ box-shadow: inset 20px 20px 60px #5b524a,
     margin-top: 100px;
   }
 
-  .åpningstid{
+  .aapningstid{
     margin-right: 600px;
     margin-left: 480px;
     margin-top: 78px;
