@@ -26,12 +26,18 @@ b {
 }
 
 /* Endring a bilder */
-/*ØYSTEIN*/
 .img {
-  width: 5 px;
-  height: 5 px;
-  padding-left: 15px;
+    margin-top: 30px;
+    width: 5 px;
+    height: 5 px;
+    padding-left: 15px;
 }
+
+.imgTwo {
+    max-width: 80%;
+    height: 120px;
+    padding-left: 15px;
+  }
 
 .split {
   display: flex;
