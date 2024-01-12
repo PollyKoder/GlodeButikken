@@ -339,6 +339,10 @@ footer {
     right: 10px;
 }
 
+.btnProduct {
+  color: white;
+}
+
 /*MEDIA QUERIES*/
 @media (max-width: 426px) {
 
