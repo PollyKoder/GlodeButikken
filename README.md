@@ -31,6 +31,7 @@
     - fullt kaos i OmOss siden når den kom inn i main, needs fixing
     - fullt kaos i HandleKurv når den ble plassert i main, her må css fixes til å passe reaktivt design/forskjellige skjermstørrelser.
     - Add css på Desk bildet i landing page!
+    - Lag Root system for fargene og endre navn på farger slik at alt samsvarer i hele prosjektet!
 
 
 
