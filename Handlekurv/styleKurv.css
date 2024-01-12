@@ -118,8 +118,92 @@ body {
 /*HANDLEKURV MAINSTYLE - kodet av Tony*/
 
 
+.positionArrow {
+  margin-top: 70px;
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.cartText {
+  border-bottom: 1px solid #555;
+  display: flex;
+  text-align: center;
+}
+
+  .shopItemsHeaderWrapperLeft {
+    justify-content: flex-start;
+    width: 70%;
+  }
 
 
+.shopItemsHeader {
+  box-sizing: border-box;
+  display: flex;
+  text-align: center;
+}
+.headerAmountDiv {
+  text-align: left;
+  margin-right: 5%;
+}
+.headerPriceDiv {
+    text-align: left;
+    margin-right: 5%;
+  }
+
+.shopItemsHeader {
+  border-bottom: 1px solid #555;
+}
+
+.shopItemsDiv {
+  align-items: center;
+  display: flex;
+  border-bottom: 1px solid #555;
+  box-sizing: border-box;
+}
+.buttonPayDiv {
+  align-items: center;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.buttonPayThankYou {
+  background-color: rgba(30, 198, 30, 0.803);
+  line-height: 3rem;
+  margin: 10% 5%;
+  padding: 5% 10%;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.buttonPayBtnDiv {
+  margin-left: 5%;
+}
+.buttonPayBtn {
+ font-size: 0.9rem;
+ font-weight: bolder;
+}
+
+ .amountDiv {
+    margin-left: 41%;
+    margin-right: 2%;
+  }
+  .amountInput{
+    text-align: center;
+    width: 70px;
+  }
+  .deleteDiv {
+    margin-left: 5%;
+  }
+  .deleteButton {
+    border-radius: 100%;
+    padding: 10px 20px;
+  }
+
+  
   
 /*FOOTER*/
 .footer {
@@ -127,6 +211,7 @@ body {
     color: #fff;
     padding: 10px 20px;
     text-align: left;
+    margin-top: 90%;
   }
   
   .footer-btns {
@@ -138,3 +223,85 @@ body {
     color: #fff;
     margin-right: 55px;
   } 
+
+ 
+  /*Kode lånt av Sandra*/
+  
+/* Styling for the product gallery section */
+.gallery {
+  width: 30%; /* Set width for each gallery section */
+  margin-bottom: 20px; /* Add margin at the bottom of each gallery section */
+  margin-left: 5%;
+}
+
+/* Styling for the content of each product card */
+.content {
+  border: 1px solid #ddd; /* Border styling */
+  padding: 10px; /* Padding for content */
+  text-align: center; /* Center-align text */
+}
+
+/* Responsive styling for images inside product cards */
+img {
+  max-width: 100%; /* Set maximum width for images */
+  height: auto; /* Allow images to scale proportionally */
+}
+
+/* Additional styling for product content */
+.content {
+  flex: 0 0 20%; /* Set flex properties for responsiveness */
+  margin: 15px; /* Margin around content */
+  box-sizing: border-box; /* Include border and padding in element's total width and height */
+  text-align: center; /* Center-align text */
+  border-radius: 20px; /* Add border-radius for rounded corners */
+  cursor: pointer; /* Change cursor on hover */
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); /* Box shadow for a subtle elevation effect */
+  transition: .4s; /* Add transition effect */
+  background: #f2f2f2; /* Background color */
+}
+
+/* Hover effect for product content */
+.content:hover {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); /* Adjust box shadow on hover */
+  transform: translate(0px, -8px); /* Move content slightly upward on hover */
+}
+
+/* Styling for images inside product cards */
+img {
+  width: 200px; /* Set width for images */
+  height: 200px; /* Set height for images */
+  text-align: center; /* Center-align text */
+  margin: 0 auto; /* Center-align images horizontally */
+}
+
+/* Styling for paragraphs inside product cards */
+p {
+  text-align: center; /* Center-align text */
+  color: #b2bec3; /* Set text color */
+  padding-top: 8px; /* Add padding at the top */
+}
+
+/* Styling for product prices */
+h5 {
+  font-size: 26px; /* Set font size */
+  text-align: center; /* Center-align text */
+  color: #222f3e; /* Set text color */
+  margin: 0; /* Remove margin */
+}
+
+/* Styling for buttons inside product cards */
+button {
+  text-align: center; /* Center-align text */
+  font-size: 24px; /* Set font size */
+  background-color: rgb(229, 229, 229);
+  color: #222; /* Set text color */
+  width: 100%; /* Set button width to 100% */
+  padding: 15px; /* Add padding */
+  border: 0; /* Remove border */
+  outline: none; /* Remove outline */
+  cursor: pointer; /* Change cursor on hover */
+  margin-top: 5px; /* Add margin at the top */
+  border-bottom-right-radius: 20px; /* Add border-radius for rounded corners */
+  border-bottom-left-radius: 20px; /* Add border-radius for rounded corners */
+}
+
