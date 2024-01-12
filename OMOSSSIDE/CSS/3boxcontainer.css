@@ -53,6 +53,7 @@
 
 
   .omoss{
+    /*margin-top lagt til av Polly slik at innholdet på siden kommer frem under header/navBar */
     margin-top: 70px;
     margin-left: 685px;
     font-weight: bold;
