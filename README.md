@@ -23,7 +23,8 @@
     - Add Trym alt fra sin kode om OM OSS
     - Add Øystein alt fra Øystein sin kode fra Sikker sletting.
     - Mulig at Media qeuries is stylePl css filen må sorteres fra litens skjerm til stort
-    - juster enten logo eller størrelse på 
+    - juster enten logo eller størrelse på Header/navBar
+    - Hvorfor er footeren misplassert i OMOSS siden?
 
 
 
