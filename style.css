@@ -120,6 +120,10 @@ height: 28px;
 cursor: pointer;
 }
 
+.shoppingCartButton {
+  all: unset;
+}
+
 /* Dropdown */
 
 .dropdown {
