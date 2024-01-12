@@ -108,6 +108,12 @@ header {
   background-color: #fb5607;
 }
 
+.shoppingCart {
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+}
+
 /* Dropdown */
 
 .dropdown {
