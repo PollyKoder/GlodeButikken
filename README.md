@@ -30,6 +30,7 @@
     - I product list må produktene som vises enten plasseres med flex/gap eller i en grid, når vi bruker margin er det lett for at diverse nettlesere og skjermstørrelser ikkje reagerer likt.
     - fullt kaos i OmOss siden når den kom inn i main, needs fixing
     - fullt kaos i HandleKurv når den ble plassert i main, her må css fixes til å passe reaktivt design/forskjellige skjermstørrelser.
+    - Add css på Desk bildet i landing page!
 
 
 

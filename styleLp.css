@@ -4,6 +4,7 @@ body {
     max-height: 100vh;
     font-family: Arial, sans-serif;
     background-color: honeydew;
+    transition: .4s;
 }
 
 /* Main */
