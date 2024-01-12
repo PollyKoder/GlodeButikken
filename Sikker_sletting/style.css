@@ -46,13 +46,6 @@ nav .navbar {
   font-weight: 600;
 }
 
-.img {
-  background-repeat: no-repeat;
-  background-position: right;
-  width: 1700px;
-  height: 500px;
-}
-
 /* Endring av teksten, NØD*/
 h1 {
     padding-top: 50px;
@@ -79,6 +72,18 @@ b {
   padding-bottom: 15px;
 }
 
+/* Endring a bilder */
+
+.img {
+  width: 500 px;
+  height: 500 px;
+}
+
+.split {
+  display: flex;
+  flex-direction: row;
+  gap: 250px;
+}
 
 /* Styles for the navigation links */
 nav .navbar .nav-links {
