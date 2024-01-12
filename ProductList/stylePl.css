@@ -27,6 +27,25 @@ img {
     height: auto; /* Allow images to scale proportionally */
 }
 
+/* FOOTER */
+/*kode fra Trond-Morten og Amalie*/
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: left;
+  }
+  
+  .footer-btns {
+    display: flex;
+  }
+  
+  .footer-btn {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 55px;
+  } 
+
 /* Media query for smaller screens (max-width: 768px) */
 @media (max-width: 768px) {
     body {

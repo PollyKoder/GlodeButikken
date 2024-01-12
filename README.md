@@ -12,15 +12,18 @@
  - imageanimation skal flyttes over i produkter, lurt å finne ut før det flyttes om det skal plasseres ved hver enkelt produkt eller om det skal legges i produkt mappen generelt.
  - Legg til klassenavn til elementer som er stylet uten klasse. Polly fix (eks, elemeneter under .infoText trenger classe!)
  - Finn ut hvilke class/css fil som kontrollerer størrelsen på navBar/header.
+ - skulle handlekurv ikonet vært hvitt?
 
 - Har lagt inn styling av header og footer i HandleKurv mappen, som en midlertidig visning slik at det er lett å legge in template koden av handlekurven.
 
 - Note to self: 
     - Tiril sin kode til eksempel template er til HP pro book 650.  .-DONE
-    - Add footer til Sandra sin kode.
+    - Add footer til Sandra sin kode.  .-DONE, but needs adjusting!!
+    - Hvorfor er ikke søke ikonet synlig??
     - Add Trym alt fra sin kode om OM OSS
     - Add Øystein alt fra Øystein sin kode fra Sikker sletting.
-
+    - Mulig at Media qeuries is stylePl css filen må sorteres fra litens skjerm til stort
+    - juster enten logo eller størrelse på 
 
 
 
