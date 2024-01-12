@@ -28,6 +28,7 @@ width: 1550px;
 height: 520px; 
 margin-left: 15px;
 margin-bottom: 30px;
+margin-right: 20px;
 }
 
 /*Desk IMG*/
@@ -250,10 +251,6 @@ margin-right: 55px;
 @media screen and (max-width: 600px) {
 .hamburgerMeny {
   display: block;
-}
-
-.header-btns {
-  display: none;
 }
 }
 
