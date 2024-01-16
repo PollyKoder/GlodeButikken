@@ -72,16 +72,31 @@
                 <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
                 <!-- Sub-menu for "Produkter" with additional items.-->
                 <ul class="htmlCss-sub-menu sub-menu">
-                  <li><a href="#">Stasjonær</a></li>
-                  <li><a href="/ProductList/indexPl.html">Laptop</a></li>
+                  
+                  <!-- Sub-meu for "PC" within "Produkter" menu -->
+                  <li class="more">
+                    <span><a href="#">PC</a>
+                      <i class='bx bxs-chevron-right arrow more-arrow'></i>
+                    </span>
+                  <!-- using the css class to style from "more"-->
+                    <ul class="more-sub-menu sub-menu">
+                      <li><a href="#">Stasjonær</a></li>
+                      <li><a href="/ProductList/indexPl.html">Laptop</a></li>
+                    </ul>
+                  </li>
+                  
                   <li><a href="#">Skjermer</a></li>
                   <li class="more">
+                    <!-- Skrev "Mer" fordi "Tilbehør" ble et for stort ord i forhold til stylingen, 
+                    kan endred på seinere -Mvh Polly-->
                     <span><a href="#">Mer</a>
                       <i class='bx bxs-chevron-right arrow more-arrow'></i>
                     </span>
                   <!--Sub-menu for "More" within the "Produkter" menu-->
                     <ul class="more-sub-menu sub-menu">
-                      <li><a href="#">Tilbehør</a></li>
+                      <li><a href="#">Tastatur</a></li>
+                      <li><a href="#">Makulering</a></li>
+                      <li><a href="#">Toner og blekk</a></li>
                     </ul>
                   </li>
                 </ul>

@@ -25,8 +25,8 @@
     - Mulig at Media qeuries i stylePl css filen må sorteres fra litens skjerm til stort
     - juster enten logo eller størrelse på Header/navBar!
     - Hvorfor er footeren misplassert i OMOSS siden?
-    - Er det ny footer fra Sandra?
-    - I AboutPage: Fic åpningstider til å være satt opp som ul, uten list-style(alstå uten de dottene forran).
+    - Er det ny footer fra Sandra?   .-NOPE
+    - I AboutPage: Fiks åpningstider til å være satt opp som ul, uten list-style(alstå uten de dottene forran).
     - I product list må produktene som vises enten plasseres med flex/gap eller i en grid, når vi bruker margin er det lett for at diverse nettlesere og skjermstørrelser ikkje reagerer likt.
     - fullt kaos i OmOss siden når den kom inn i main, needs fixing
     - fullt kaos i HandleKurv når den ble plassert i main, her må css fixes til å passe reaktivt design/forskjellige skjermstørrelser.
