@@ -18,7 +18,7 @@
 
     /* Produkt oversikt */
     --cardBackground: #f2f2f2;
-    --box-shadow: 0 14px 28px #00000040, 0 10px 10px #00000038;
+    --cardShadow: 0 14px 28px #00000040, 0 10px 10px #00000038;
 
     /* Produkt side */
     --textPrize: #fb5607;
@@ -27,8 +27,8 @@
 
     /* Handlekurv side */
     --productShadow: 5px 5px 10px #333333;
-    --below: #555555;
-    --box:#1ec61ecd;
+    --line: #555555;
+    --box: #1ec61ecd;
 
     /* DARK MODE */
     --mainDarkBackground: #222222;
