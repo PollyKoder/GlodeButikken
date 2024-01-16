@@ -300,19 +300,19 @@ max-height: 150px;
 @keyframes anim-1-keyframes {
   0%, 8.3% { left: -100%; opacity: 1; }
   8.3%, 25% { left: 5%; opacity: 1; }
-  33.33%, 100% { left: 110%; opacity: 1; }
+  33.33%, 100% { right: 110%; opacity: 0; }
 }
 
 @keyframes anim-2-keyframes {
   0%, 33.33% { left: -100%; opacity: 1; }
   41.63%, 58.29% { left: 5%; opacity: 1; }
-  66.66%, 100% { left: 110%; opacity: 1; }
+  66.66%, 100% { right: 110%; opacity: 0; }
 }
 
 @keyframes anim-3-keyframes {
   0%, 66.66% { left: -100%; opacity: 1; }
   74.96%, 91.62% { left: 5%; opacity: 1; }
-  100% { left: 110%; opacity: 1; }
+  100% { right: 110%; opacity: 0; }
 }
 
 /* Button */
