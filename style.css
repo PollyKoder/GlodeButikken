@@ -232,7 +232,7 @@ margin-right: 55px;
 }
 
 .header-icon {
-  margin-right: 50px;
+  margin-right: -25px;
 }
 
 .circle {
@@ -269,7 +269,7 @@ max-height: 150px;
 .anim-3 {
   position: absolute;
   display: block;
-  top: 12.5em;
+  top: 20.5em;
   width: 20%;
   font-size: 20px;
   animation-duration: 20s;
@@ -365,8 +365,8 @@ color: white;
 .anim-2,
 .anim-3 {
 font-size: 20px;
-width: 80%;
-top: 18.5em;
+width: 88%;
+top: 15.5em;
 position: absolute;
 color: black;
 text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
