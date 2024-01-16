@@ -1,6 +1,6 @@
 /*Kodet av Tony*/
 
-/*BODY kode fra Amalie sin css*/
+BODY kode fra Amalie sin css
 body {
     margin: 0;
     max-height: 100vh;
@@ -95,24 +95,26 @@ body {
     align-items: center;
     cursor: pointer;
     margin-left: 10px;
-    transition: margin-left 0.3s;
+    transition: .4s;
+    height: 50px;
   }
   
   .circle {
     width: 35px;
     height: 35px;
-    background-color: #555;
     border-radius: 50%;
-    transition: background-color 0.3s;
+    transition: .4s;
+    content: url('https://api.iconify.design/material-symbols/dark-mode.svg');
   }
   
   .dark-mode .circle {
-    background-color: #fff;
+    transition: .4s;
+    content: url('https://api.iconify.design/material-symbols/light-mode.svg');
   }
   
   .dark-mode {
-    background-color: #333;
     color: #fff;
+    transition: .4s;
   }
 
 /*HANDLEKURV MAINSTYLE - kodet av Tony*/

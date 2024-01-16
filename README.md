@@ -19,7 +19,7 @@
 - Note to self: 
     - Tiril sin kode til eksempel template er til HP pro book 650.  .-DONE
     - Add footer til Sandra sin kode.  .-DONE, but needs adjusting!!
-    - Hvorfor er ikke søke ikonet synlig?? -> manglet script, FIXED
+    - Hvorfor er ikke søke ikonet synlig?? -> manglet script, FIXED   .-DONE
     - Add Trym alt fra sin kode om OM OSS   .-DONE, needs fixing tho...
     - Add Øystein alt fra Øystein sin kode fra Sikker sletting.   .-DONE, noe mer 
     - Mulig at Media qeuries i stylePl css filen må sorteres fra litens skjerm til stort
@@ -31,9 +31,11 @@
     - fullt kaos i OmOss siden når den kom inn i main, needs fixing
     - fullt kaos i HandleKurv når den ble plassert i main, her må css fixes til å passe reaktivt design/forskjellige skjermstørrelser.
     - Add css på Desk bildet i landing page!
-    - Lag Root system for fargene og endre navn på farger slik at alt samsvarer i hele prosjektet!
+    - Lag Root system for fargene og endre navn på farger slik at alt samsvarer i hele prosjektet!  .-Tiril har lagt opp Root, nå må det bare implementeres i resten av css filene.
     - LandingPage.html må endres til index.html, dette er den eneste html filen som kan hete index.html.
-    - Oppdater css for Logo. 
+    - Oppdater css for Logo.     .-DONE(?)
+    -Fix Dark mode i handleKurv
+
 
 
 
