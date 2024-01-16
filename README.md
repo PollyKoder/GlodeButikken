@@ -19,11 +19,11 @@
 - Note to self: 
     - Tiril sin kode til eksempel template er til HP pro book 650.  .-DONE
     - Add footer til Sandra sin kode.  .-DONE, but needs adjusting!!
-    - Hvorfor er ikke søke ikonet synlig??
-    - Add Trym alt fra sin kode om OM OSS
-    - Add Øystein alt fra Øystein sin kode fra Sikker sletting.
-    - Mulig at Media qeuries is stylePl css filen må sorteres fra litens skjerm til stort
-    - juster enten logo eller størrelse på Header/navBar
+    - Hvorfor er ikke søke ikonet synlig?? -> manglet script, FIXED
+    - Add Trym alt fra sin kode om OM OSS   .-DONE, needs fixing tho...
+    - Add Øystein alt fra Øystein sin kode fra Sikker sletting.   .-DONE, noe mer 
+    - Mulig at Media qeuries i stylePl css filen må sorteres fra litens skjerm til stort
+    - juster enten logo eller størrelse på Header/navBar!
     - Hvorfor er footeren misplassert i OMOSS siden?
     - Er det ny footer fra Sandra?
     - I AboutPage: Fic åpningstider til å være satt opp som ul, uten list-style(alstå uten de dottene forran).
@@ -32,6 +32,7 @@
     - fullt kaos i HandleKurv når den ble plassert i main, her må css fixes til å passe reaktivt design/forskjellige skjermstørrelser.
     - Add css på Desk bildet i landing page!
     - Lag Root system for fargene og endre navn på farger slik at alt samsvarer i hele prosjektet!
+    - LandingPage.html må endres til index.html, dette er den eneste html filen som kan hete index.html.
 
 
 
