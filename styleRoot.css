@@ -1,0 +1,35 @@
+/* Fargepallet */
+:root {
+    /* LIGHT MODE */
+    /* Main colors */
+    --mainLightBackground: #f0fff0;
+    --mainOrange: #fb5607;
+    --dropMenu: #808080;
+    --textWhite: #ffffff;
+    --textBlack: #000000;
+    --searchIcon: #ffffff;
+    --footer: #333333;
+    
+    /* Landing page */
+    --lineBelowText: #fb5607;
+    --buttonColor: #fb5607;
+    --textShadowSlide: 0 0px 5px #FFF, 0 2px 10px #ff0, 0 10px 20px #ff8000, 0 18px 40px #F00;
+    --buttonShadow: 0 10px 20px -8px #000000;
+
+    /* Produkt oversikt */
+    --cardBackground: #f2f2f2;
+    --box-shadow: 0 14px 28px #00000040, 0 10px 10px #00000038;
+
+    /* Produkt side */
+    --textPrize: #fb5607;
+    --boxBackground: #d4d4d4;
+    --buttonShadow: 0 10px 20px -8px #000000;
+
+    /* Handlekurv side */
+    --productShadow: 5px 5px 10px #333333;
+    --below: #555555;
+    --box:#1ec61ecd;
+
+    /* DARK MODE */
+    --mainDarkBackground: #222222;
+}
