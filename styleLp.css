@@ -111,6 +111,16 @@ p {
   background-color: #fb5607;
 }
 
+.shoppingCart {
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+  }
+  
+  .shoppingCartButton {
+    all: unset;
+  }
+
 /* Dropdown */
 
 .dropdown {

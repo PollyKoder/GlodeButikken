@@ -33,6 +33,7 @@
     - Add css på Desk bildet i landing page!
     - Lag Root system for fargene og endre navn på farger slik at alt samsvarer i hele prosjektet!
     - LandingPage.html må endres til index.html, dette er den eneste html filen som kan hete index.html.
+    - Oppdater css for Logo. 
 
 
 
