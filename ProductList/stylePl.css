@@ -34,7 +34,7 @@ main {
 .gallery {
     width: 100%; /* Set width for each gallery section */
     height: 100%; /* attempted code -Polly*/
-    margin-bottom: 20px; /* Add margin at the bottom of each gallery section */
+    margin-bottom: 5px; /* Add margin at the bottom of each gallery section */
 }
 
 /* Styling for the content of each product card */
@@ -51,8 +51,7 @@ main {
     box-sizing: border-box; /* Include border and padding in element's total width and height */
     text-align: center; /* Center-align text */
     border-radius: 20px; /* Add border-radius for rounded corners */
-    /*Eg endrer på hvor cursor endringen skjer, da det kun eg knappen som tar imot link funksjonen -Polly*/
-    /* cursor: pointer;  //Change cursor on hover */
+    cursor: pointer;  /*Change cursor on hover */
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); /* Box shadow for a subtle elevation effect */
     transition: .4s; /* Add transition effect */
     background: #f2f2f2; /* Background color */
@@ -65,7 +64,7 @@ main {
 }
 
 /* Styling for images inside product cards */
-img {
+.imgPL {
     width: 200px; /* Set width for images */
     height: 200px; /* Set height for images */
     text-align: center; /* Center-align text */
