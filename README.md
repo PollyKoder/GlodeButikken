@@ -37,7 +37,8 @@
     - Fix Dark mode i handleKurv  .-DONE
     - ProductList -> koble til Tiril sin product template!!  .-DONE
     - Hvordan får vi darkmode til å forbli aktivert når man bytter side?
-    - sorter css i PL, gi class names til elementer og style accordingly.
+    - sorter css i PL, gi class names til elementer og style accordingly. 
+    - Oppdater Amalie sin css på Animert tekst.
 
 
 
