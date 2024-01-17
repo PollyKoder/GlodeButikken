@@ -26,9 +26,9 @@ main {
 .prodLink {
     /* text-rendering: inherit; */
     text-decoration: none;
-    h3 {
+    /* h3 {
         color:#222222;
-    }
+    } */
 }
 
 /* Styling for the product gallery section, - Sandra */
@@ -42,6 +42,53 @@ main {
     border: 1px solid #ddd; /* Border styling */
     padding: 10px; /* Padding for content */
     text-align: center; /* Center-align text */
+}
+
+/* Additional styling for product content */
+.content {
+    flex: 0 0 20%; /* Set flex properties for responsiveness */
+    margin: 15px; /* Margin around content */
+    box-sizing: border-box; /* Include border and padding in element's total width and height */
+    text-align: center; /* Center-align text */
+    border-radius: 20px; /* Add border-radius for rounded corners */
+    cursor: pointer; /* Change cursor on hover */
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); /* Box shadow for a subtle elevation effect */
+    transition: .4s; /* Add transition effect */
+    background: #f2f2f2; /* Background color */
+}
+
+/* Hover effect for product content */
+.content:hover {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); /* Adjust box shadow on hover */
+    transform: translate(0px, -8px); /* Move content slightly upward on hover */
+}
+
+/* Styling for images inside product cards */
+img {
+    width: 200px; /* Set width for images */
+    height: 200px; /* Set height for images */
+    text-align: center; /* Center-align text */
+    margin: 0 auto; /* Center-align images horizontally */
+}
+
+
+
+/*Polly code: added class names*/
+.h3PL {
+    color: #222222;
+}
+    /*Hentet coden fra Sandra, Polly = kun class names*/
+.pPL {
+    text-align: center; /* Center-align text */
+    color: #b2bec3; /* Set text color */
+    padding-top: 8px; /* Add padding at the top */
+}
+
+.h5PL {
+        font-size: 26px; /* Set font size */
+        text-align: center; /* Center-align text */
+        color: #222f3e; /* Set text color */
+        margin: 0; /* Remove margin */ 
 }
 
 /* Responsive styling for images inside product cards */
@@ -81,47 +128,21 @@ footer {
     }
 }
 
-/* Additional styling for product content */
-.content {
-    flex: 0 0 20%; /* Set flex properties for responsiveness */
-    margin: 15px; /* Margin around content */
-    box-sizing: border-box; /* Include border and padding in element's total width and height */
-    text-align: center; /* Center-align text */
-    border-radius: 20px; /* Add border-radius for rounded corners */
-    cursor: pointer; /* Change cursor on hover */
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); /* Box shadow for a subtle elevation effect */
-    transition: .4s; /* Add transition effect */
-    background: #f2f2f2; /* Background color */
-}
-
-/* Hover effect for product content */
-.content:hover {
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); /* Adjust box shadow on hover */
-    transform: translate(0px, -8px); /* Move content slightly upward on hover */
-}
-
-/* Styling for images inside product cards */
-img {
-    width: 200px; /* Set width for images */
-    height: 200px; /* Set height for images */
-    text-align: center; /* Center-align text */
-    margin: 0 auto; /* Center-align images horizontally */
-}
 
 /* Styling for paragraphs inside product cards */
-p {
-    text-align: center; /* Center-align text */
-    color: #b2bec3; /* Set text color */
-    padding-top: 8px; /* Add padding at the top */
-}
+/* p {
+    text-align: center; /* Center-align text 
+    color: #b2bec3; /* Set text color 
+    padding-top: 8px; /* Add padding at the top 
+} */
 
 /* Styling for product prices */
-h5 {
-    font-size: 26px; /* Set font size */
-    text-align: center; /* Center-align text */
-    color: #222f3e; /* Set text color */
-    margin: 0; /* Remove margin */
-}
+/* h5 {
+    font-size: 26px; /* Set font size
+    text-align: center; /* Center-align text
+    color: #222f3e; /* Set text color 
+    margin: 0; /* Remove margin 
+} */
 
 /* Styling for buttons inside product cards */
 button {
