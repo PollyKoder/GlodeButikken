@@ -34,8 +34,9 @@
     - Lag Root system for fargene og endre navn på farger slik at alt samsvarer i hele prosjektet!  .-Tiril har lagt opp Root, nå må det bare implementeres i resten av css filene.
     - LandingPage.html må endres til index.html, dette er den eneste html filen som kan hete index.html.
     - Oppdater css for Logo.     .-DONE(?)
-    - Fix Dark mode i handleKurv
-    - ProductList -> koble til Tiril sin product template!!
+    - Fix Dark mode i handleKurv  .-DONE
+    - ProductList -> koble til Tiril sin product template!!  .-DONE
+    - Hvordan får vi darkmode til å forbli aktivert når man bytter side?
 
 
 
