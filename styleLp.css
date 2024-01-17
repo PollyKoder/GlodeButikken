@@ -33,12 +33,14 @@ body {
 
 /*Desk IMG*/
 .leftImg {
-    height: 330px;
-    width: 390px;
-    margin-left: 72%;
-    margin-top: -25%;
-    margin-bottom: 10px;
-}
+  height: 330px;
+  width: 390px;
+  margin-left: 72%;
+  margin-top: -50%;
+  margin-bottom: 10px;
+  border-bottom-right-radius: 15%;
+  border-top-left-radius: 15%;
+  }
 
 .infoText {
     margin-left: 2em;
