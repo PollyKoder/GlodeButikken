@@ -250,9 +250,12 @@ margin-right: 55px;
 
 }
 
+/* Media queria til Taplet */
+
+
 /* Hamburger meny */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 426px) {
 .hamburgerMeny {
   display: block;
 }
