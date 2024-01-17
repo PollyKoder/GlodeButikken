@@ -1,16 +1,31 @@
 /* Body styling - flex container with space-between, align-items, flex-wrap, and margin */
 body {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    margin: 20px; 
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* align-items: flex-start; */
+    /* flex-wrap: wrap; */
+    margin: 0px; 
 }
 
-/* Styling for the product gallery section */
-.gallery {
+main {
     margin-top: 70px;
-    width: 30%; /* Set width for each gallery section */
+}
+
+/*liten kode med divContainer fra Polly*/
+.divContainProducts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    padding: 10px;
+    margin: 10px;
+    column-gap: 20px;
+    row-gap: 10px;
+
+}
+
+/* Styling for the product gallery section, - Sandra */
+.gallery {
+    width: 100%; /* Set width for each gallery section */
     margin-bottom: 20px; /* Add margin at the bottom of each gallery section */
 }
 
