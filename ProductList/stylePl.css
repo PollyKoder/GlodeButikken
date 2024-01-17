@@ -23,6 +23,14 @@ main {
 
 }
 
+.prodLink {
+    /* text-rendering: inherit; */
+    text-decoration: none;
+    h3 {
+        color:#222222;
+    }
+}
+
 /* Styling for the product gallery section, - Sandra */
 .gallery {
     width: 100%; /* Set width for each gallery section */
