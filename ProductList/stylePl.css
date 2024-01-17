@@ -51,7 +51,8 @@ main {
     box-sizing: border-box; /* Include border and padding in element's total width and height */
     text-align: center; /* Center-align text */
     border-radius: 20px; /* Add border-radius for rounded corners */
-    cursor: pointer; /* Change cursor on hover */
+    /*Eg endrer på hvor cursor endringen skjer, da det kun eg knappen som tar imot link funksjonen -Polly*/
+    /* cursor: pointer;  //Change cursor on hover */
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); /* Box shadow for a subtle elevation effect */
     transition: .4s; /* Add transition effect */
     background: #f2f2f2; /* Background color */
@@ -95,6 +96,26 @@ img {
 img {
     max-width: 100%; /* Set maximum width for images */
     height: auto; /* Allow images to scale proportionally */
+}
+
+/* Styling for buttons inside product cards */
+button {
+    text-align: center; /* Center-align text */
+    font-size: 24px; /* Set font size */
+    color: #fff; /* Set text color */
+    width: 100%; /* Set button width to 100% */
+    padding: 15px; /* Add padding */
+    border: 0; /* Remove border */
+    outline: none; /* Remove outline */
+    cursor: pointer; /* Change cursor on hover */
+    margin-top: 5px; /* Add margin at the top */
+    border-bottom-right-radius: 20px; /* Add border-radius for rounded corners */
+    border-bottom-left-radius: 20px; /* Add border-radius for rounded corners */
+}
+
+/* Styling for the 'show more' button */
+.show_more {
+    background: #fb5607; /* Set background color */
 }
 
 /* FOOTER */
@@ -144,25 +165,7 @@ footer {
     margin: 0; /* Remove margin 
 } */
 
-/* Styling for buttons inside product cards */
-button {
-    text-align: center; /* Center-align text */
-    font-size: 24px; /* Set font size */
-    color: #fff; /* Set text color */
-    width: 100%; /* Set button width to 100% */
-    padding: 15px; /* Add padding */
-    border: 0; /* Remove border */
-    outline: none; /* Remove outline */
-    cursor: pointer; /* Change cursor on hover */
-    margin-top: 5px; /* Add margin at the top */
-    border-bottom-right-radius: 20px; /* Add border-radius for rounded corners */
-    border-bottom-left-radius: 20px; /* Add border-radius for rounded corners */
-}
 
-/* Styling for the 'show more' button */
-.show_more {
-    background: #fb5607; /* Set background color */
-}
 
 /* Media query for adjusting width on smaller screens (max-width: 1000px) */
 @media (max-width: 1000px) {
