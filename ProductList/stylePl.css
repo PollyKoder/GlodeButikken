@@ -20,7 +20,6 @@ main {
     margin: 10px;
     column-gap: 20px;
     row-gap: 10px;
-
 }
 
 .prodLink {
@@ -34,6 +33,7 @@ main {
 /* Styling for the product gallery section, - Sandra */
 .gallery {
     width: 100%; /* Set width for each gallery section */
+    height: 100%; /* attempted code -Polly*/
     margin-bottom: 20px; /* Add margin at the bottom of each gallery section */
 }
 
