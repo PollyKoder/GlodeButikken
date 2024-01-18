@@ -1,3 +1,12 @@
+/* Kode i body og main er en midlertidig fix av problemet - Polly*/
+body {
+  margin: 0;
+}
+
+main {
+  margin-bottom: 600px;
+}
+
 .container {
   display: flex;
   justify-content: center;
@@ -87,11 +96,34 @@
   }
 
   .aapningstid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     margin-right: 600px;
     margin-left: 480px;
-    margin-top: 78px;
-    font-weight: bold;
+    margin-top: 100px;
+    /* font-weight: bold; */
     font-family: Arial, sans-serif;
+  }
+
+  .openingInfo {
+    margin-top: 70px;
+    text-align: center;
+    font-weight: bolder;
+  }
+
+  .openingP {
+    margin-top: 30px;
+    text-align: center;
+    font-weight: bold;
+    list-style: none;
+  }
+
+  .openingLi {
+    text-align: left;
+    list-style: none;
   }
 
 .logo{
