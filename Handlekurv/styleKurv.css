@@ -118,6 +118,7 @@ body {
 /*HANDLEKURV MAINSTYLE - kodet av Tony*/
 
 
+
 .positionArrow {
   margin-top: 70px;
   border: solid black;
@@ -148,6 +149,7 @@ body {
 .headerAmountDiv {
   text-align: left;
   margin-right: 5%;
+  margin-left: 5%;
 }
 .headerPriceDiv {
     text-align: left;
