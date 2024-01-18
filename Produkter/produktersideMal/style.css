@@ -15,7 +15,7 @@ body {
 }
 
 /* Rundt bilde og informasjon om produktet */
-.section {
+.sectionProduct {
     font-size: 1.25em;
     display: flex;
     padding-top: 100px;
@@ -25,7 +25,7 @@ body {
 }
 
 /* Div rundt bilde */
-.image {
+.imageDiv {
     height: 10%;
     width: 50%;    
     padding-top: 1%;
@@ -40,7 +40,7 @@ body {
 }
 
 /*div med den viktigaste informasjonen om produktet */
-.information {
+.informationDiv {
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -105,11 +105,6 @@ body {
     gap: 5px;
 }
 
-/* form */
-.form {
-    margin: 0;
-}
-
 /* Meir informasjon om produktet */
 .moreInformation {
     display: flex;
@@ -122,7 +117,7 @@ body {
 }
 
 /* Section Relaterte produkter */
-.relatedProducts {
+.sectionRelatedProducts {
     padding-top: 100px;
     margin-left: 20px;
 }
@@ -153,33 +148,35 @@ body {
     background-color: #d4d4d4;
     display: flex;
     padding-top: 20px;
-    width: 1500px;
+    width: auto;
     gap: 20px;
 }
-div.gallery {
+
+.gallery {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 400px;
 }
 
-div.gallery img {
+.relatedImg {
     width: 300px;
     height: 250px;
     border-radius: 5px ;
 }
 
-  div.desc {
+/* Tekst under bilde*/
+.description {
     padding: 15px;
     text-align: center;
     
 }
   
-  * {
+* {
     box-sizing: border-box;
 }
   
-  .responsive {
+.responsive {
     float: left;
     width: auto;
     margin-bottom: 50px;
@@ -197,8 +194,7 @@ div.gallery img {
         flex-direction: column;
     } 
 
-      .responsive {
-        
+    .responsive {
         flex-direction: column;
     } 
 
@@ -210,8 +206,7 @@ div.gallery img {
         flex-direction: column;
     } 
 
-      .responsive {
-        
+    .responsive {
         flex-direction: column;
     } 
     

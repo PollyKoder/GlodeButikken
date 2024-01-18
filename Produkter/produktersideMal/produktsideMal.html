@@ -94,12 +94,12 @@
 
 <!-- PRODUKT INFORMASJON -->
 <!-- Kodet av Tiril -->
-    <section class="section">
-        <div class="image">
+    <section class="sectionProduct">
+        <div class="imageDiv">
             <img class="productImg" src="img/Book_650.webp" alt="Datamaskin"/>
         </div>
 
-        <div class="information">
+        <div class="informationDiv ">
             <h1 class="headProduct">HP ProBook 650 G2</h1>
 
             <p class="specs">Skjermstørrelse 15,6″</p>
@@ -118,7 +118,7 @@
 
             <!-- Legg i handlekurv -->
             <div class="formAndButton">
-                <form action="your_cart_processing_script.php" method="post" class="form">
+                <form action="your_cart_processing_script.php" method="post">
                     <label for="quantity" class="screen_reader_text"></label>
                     <input type="number" id="quantity" name="quantity" class="inputText" value="1" min="1">
                 </form>
@@ -137,46 +137,42 @@
     </section>
 
     <!-- RELATERTE PRODUKTER -->
-    <section class="relatedProducts">
+    <section class="sectionRelatedProducts">
         <h1 class="headerRelated">Relaterte produkter</h1>
         
         <div class="responsive">
           <div class="frame">
             <div class="gallery">
               <a target="_blank" href="#">
-                <img src="img/Dell_Latitude.webp" alt="Datamaskin" >
+                <img class="relatedImg" src="img/Dell_Latitude.webp" alt="Datamaskin" >
               </a>
-              <div class="desc">
+              <div class="description">
                 <p class="textRelated">Dell Latitude E7250 SSD 8 GB RAM</p>
                 <p class="relatedNok">kr 1,700.00,-</p>
               </div>
-          </div>
+            </div>
 
           
             <div class="gallery">
               <a target="_blank" href="#">
-                <img src="img/Latitude_E7450.webp" alt="Datamaskin" >
+                <img class="relatedImg" src="img/Latitude_E7450.webp" alt="Datamaskin" >
               </a>
-              <div class="desc">
+              <div class="description">
                 <p class="textRelated">Dell Latitude E7450</p>
                 <p class="relatedNok">kr 1,900.00,-</p>
               </div>
-          </div>
-
-          <div class="gallery">
-            <a target="_blank" href="#">
-              <img src="img/Latitude_E7450.webp" alt="Datamaskin" >
-            </a>
-            <div class="desc">
-              <p class="textRelated">Dell Latitude E7450</p>
-              <p class="relatedNok">kr 1,900.00,-</p>
             </div>
-        </div>
 
-
-
-
-        </div>
+            <div class="gallery">
+              <a target="_blank" href="#">
+                <img class="relatedImg" src="img/Latitude_E7450.webp" alt="Datamaskin" >
+              </a>
+              <div class="description">
+                <p class="textRelated">Dell Latitude E7450</p>
+                <p class="relatedNok">kr 1,900.00,-</p>
+              </div>
+            </div>
+          </div>
         </div>
       
     </section>
