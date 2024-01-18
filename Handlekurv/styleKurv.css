@@ -1,6 +1,6 @@
 /*Kodet av Tony*/
 
-BODY kode fra Amalie sin css
+/* BODY kode fra Amalie sin css */
 body {
     margin: 0;
     max-height: 100vh;
@@ -10,6 +10,10 @@ body {
 
 /*HANDLEKURV MAINSTYLE - kodet av Tony*/
 
+.customerPosition {
+  margin-left: 20px;
+  margin-top: 10px;
+}
 .positionArrow {
   margin-top: 70px;
   border: solid black;
