@@ -117,7 +117,26 @@ body {
 
 /*HANDLEKURV MAINSTYLE - kodet av Tony*/
 
-
+@media (max-width: 426px) {
+  .content {
+    width: 200px;
+  }
+  .shopItemsHeader {
+    flex-direction: column;
+    padding-left: 65%;
+  }
+  .shopItemsDiv {
+    gap: 25%;
+  }
+  .shopItemsAPDDiv {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .shopItemsPriceText {
+    padding: 0;
+  }
+}
 
 .positionArrow {
   margin-top: 70px;
@@ -145,27 +164,45 @@ body {
   box-sizing: border-box;
   display: flex;
   text-align: center;
-}
-.headerAmountDiv {
-  text-align: left;
-  margin-right: 5%;
-  margin-left: 5%;
-}
-.headerPriceDiv {
-    text-align: left;
-    margin-right: 5%;
-  }
-
-.shopItemsHeader {
   border-bottom: 1px solid #555;
+  gap: 5%;
+  padding-right: 5%;
 }
+
+
 
 .shopItemsDiv {
-  align-items: center;
+  justify-content: space-around;
   display: flex;
   border-bottom: 1px solid #555;
   box-sizing: border-box;
 }
+.shopItemsAPDDiv {
+  display: flex;
+  padding-top: 10%;
+  gap: 18%;
+  padding-right: 1%;
+} 
+
+.amountDiv {
+
+  }
+  .amountInput{
+    text-align: center;
+    width: 70px;
+  }
+  .deleteDiv {
+    box-sizing: border-box;
+    margin-top: -8%;
+    
+  }
+  .deleteButton {
+    border-radius: 100%;
+    padding: 10px 20px;
+    
+  }
+
+  
 .buttonPayDiv {
   align-items: center;
   display: flex;
@@ -189,23 +226,7 @@ body {
  font-weight: bolder;
 }
 
- .amountDiv {
-    margin-left: 41%;
-    margin-right: 2%;
-  }
-  .amountInput{
-    text-align: center;
-    width: 70px;
-  }
-  .deleteDiv {
-    margin-left: 5%;
-  }
-  .deleteButton {
-    border-radius: 100%;
-    padding: 10px 20px;
-  }
 
-  
   
 /*FOOTER*/
 .footer {
