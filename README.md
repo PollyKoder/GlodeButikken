@@ -4,6 +4,45 @@
  - Husk å legge inn kommentarer: en som en overskrift for hva koden gjør eks= <!-- HEADER STYLING -->, og en for hvem som har kodet <!-- kodet av "Navn" -->
 
 
+
+# !NB! - samling fra brnach til Merge:
+ - Når man samler til Main fra de forskjellige branchene er det viktig å holde kontroll på om mappe systemene samsvarer eller om det trengs endringer, slik at alle linkene er funksjonable. 
+ - Husk å redigere styling av tekst/link-tekst button i landing page html.
+ - Fix splash bilde margin og height(slik at det ser mindre strekt ut)!!!!!
+ - imageanimation skal flyttes over i produkter, lurt å finne ut før det flyttes om det skal plasseres ved hver enkelt produkt eller om det skal legges i produkt mappen generelt.
+ - Legg til klassenavn til elementer som er stylet uten klasse. Polly fix (eks, elemeneter under .infoText trenger classe!)
+ - Finn ut hvilke class/css fil som kontrollerer størrelsen på navBar/header.
+ - skulle handlekurv ikonet vært hvitt?
+
+- Har lagt inn styling av header og footer i HandleKurv mappen, som en midlertidig visning slik at det er lett å legge in template koden av handlekurven.
+
+- Note to self: 
+    - Tiril sin kode til eksempel template er til HP pro book 650.  .-DONE
+    - Add footer til Sandra sin kode.  .-DONE, but needs adjusting!!
+    - Hvorfor er ikke søke ikonet synlig?? -> manglet script, FIXED   .-DONE
+    - Add Trym alt fra sin kode om OM OSS   .-DONE, needs fixing tho...
+    - Add Øystein alt fra Øystein sin kode fra Sikker sletting.   .-DONE, noe mer 
+    - Mulig at Media qeuries i stylePl css filen må sorteres fra litens skjerm til stort
+    - juster enten logo eller størrelse på Header/navBar!
+    - Hvorfor er footeren misplassert i OMOSS siden?
+    - Er det ny footer fra Sandra?   .-NOPE, misforståelse.
+    - I AboutPage: Fiks åpningstider til å være satt opp som ul, uten list-style(alstå uten de dottene forran).
+    - I product list må produktene som vises enten plasseres med flex/gap eller i en grid, når vi bruker margin er det lett for at diverse nettlesere og skjermstørrelser ikkje reagerer likt.   .- DONE
+    - fullt kaos i OmOss siden når den kom inn i main, needs fixing
+    - fullt kaos i HandleKurv når den ble plassert i main, her må css fixes til å passe reaktivt design/forskjellige skjermstørrelser.
+    - Add css på Desk bildet i landing page!  .-DONE
+    - Lag Root system for fargene og endre navn på farger slik at alt samsvarer i hele prosjektet!  .-Tiril har lagt opp Root, nå må det bare implementeres i resten av css filene.
+    - LandingPage.html må endres til index.html, dette er den eneste html filen som kan hete index.html.  .-DONE
+    - Oppdater css for Logo.     .-DONE(?)
+    - Fix Dark mode i handleKurv  .-DONE
+    - ProductList -> koble til Tiril sin product template!!  .-DONE
+    - Hvordan får vi darkmode til å forbli aktivert når man bytter side?
+    - sorter css i PL, gi class names til elementer og style accordingly. 
+    - Oppdater Amalie sin css på Animert tekst.  + logo update!
+
+
+
+
 # js fra første utgave av landing page:
 
 document.addEventListener("DOMContentLoaded", function() {

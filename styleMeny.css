@@ -1,4 +1,3 @@
-/* Copypastet fra landing page, NØD*/
 /* Googlefont Poppins CDN Link */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
@@ -39,17 +38,25 @@ nav .navbar {
 }
 
 /* Styles for the logo in the navigation bar */
-.navbar .logo a {
+.navbar .logoHeader a {
   font-size: 30px;
   color: #fff;
   text-decoration: none;
   font-weight: 600;
 }
 
-/* Endring av teksten, NØD*/
+.img {
+  background-repeat: no-repeat;
+  background-position: right;
+  width: 1700px;
+  height: 500px;
+}
+
+
+
+
 h1 {
-    padding-top: 50px;
-    padding-bottom: 15px;
+    padding-top: 20px;
     font-style: italic;
     font-weight: lighter;
     padding-left: 15px;
@@ -58,33 +65,14 @@ h1 {
 h3 {
   font-style: italic;
   font-weight: bold;
-  padding-top: 15px;
   padding-left: 15px;
 }
 
 p {
   font-style: italic;
   padding-left: 15px;
-  padding-right: 15px;
-}
-b {
-  padding-left: 15px;
-  padding-bottom: 15px;
 }
 
-/* Endring a bilder */
-
-.img {
-  width: 5 px;
-  height: 5 px;
-  padding-left: 15px;
-}
-
-.split {
-  display: flex;
-  flex-direction: row;
-  gap: 250px;
-}
 
 /* Styles for the navigation links */
 nav .navbar .nav-links {
@@ -266,43 +254,6 @@ nav .navbar .links li:hover .js-sub-menu {
   display: none;
 }
 
-/*Copypastet fra 3boxcontainer, ØDN*/
-.card:hover {
-  transform: translateY(-20px);
-}
-
-.shadow__btn {
-  padding: 10px 20px;
-  border: none;
-  font-size: 12px;
-  color: #fff;
-  border-radius: 3px;
-  letter-spacing: 4px;
-  font-weight: 700;
-  text-transform: uppercase;
-  transition: 0.5s;
-  transition-property: box-shadow;
-}
-
-/*Copypastet fra bottomfooter, ØDN*/
-.bottombox {
-  box-sizing: border-box;
- margin-bottom: -700px;
- margin-top: 420px;
- margin-left: -900px;
- margin-right: -700px;
- color: rgb(64, 72, 78);
- font-weight: bold;
-font-family: Arial, sans-serif;
-}
-
-.kontakter{
-  margin-bottom: -700px;
-  margin-top: 420px;
-  font-weight: bold;
-font-family: Arial, sans-serif;
-}
-
 /* Media query for screens with max-width 920px */
 @media (max-width:920px) {
     nav .navbar{
@@ -324,6 +275,7 @@ font-family: Arial, sans-serif;
   @media (max-width:800px){
     nav{
       /* position: relative; */
+      /*Sandra: Skal noe mer gjøres her?*/
     }
     .navbar .bx-menu{
       display: block;
