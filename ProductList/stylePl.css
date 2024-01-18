@@ -37,14 +37,14 @@ main {
     margin-bottom: 5px; /* Add margin at the bottom of each gallery section */
 }
 
-/* Styling for the content of each product card */
+/* Styling for the content of each product card, - Sandra */
 .content {
     border: 1px solid #ddd; /* Border styling */
     padding: 10px; /* Padding for content */
     text-align: center; /* Center-align text */
 }
 
-/* Additional styling for product content */
+/* Additional styling for product content, - Sandra */
 .content {
     flex: 0 0 20%; /* Set flex properties for responsiveness */
     margin: 15px; /* Margin around content */
@@ -63,7 +63,7 @@ main {
     transform: translate(0px, -8px); /* Move content slightly upward on hover */
 }
 
-/* Styling for images inside product cards */
+/* Styling for images inside product cards, - Polly added class name, code is by Sandra */
 .imgPL {
     width: 200px; /* Set width for images */
     height: 200px; /* Set height for images */
@@ -91,7 +91,7 @@ main {
         margin: 0; /* Remove margin */ 
 }
 
-/* Responsive styling for images inside product cards */
+/* Responsive styling for images inside product cards, - Sandra */
 img {
     max-width: 100%; /* Set maximum width for images */
     height: auto; /* Allow images to scale proportionally */
