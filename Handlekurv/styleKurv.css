@@ -117,7 +117,7 @@ body {
 
 /*HANDLEKURV MAINSTYLE - kodet av Tony*/
 
-@media (max-width: 426px) {
+@media only screen and (max-width: 426px) {
   .content {
     width: 200px;
   }
@@ -136,7 +136,60 @@ body {
   .shopItemsPriceText {
     padding: 0;
   }
+  .buttonPayDiv {
+    flex-direction:column-reverse
+  }
+  .buttonPayPriceDiv {
+    margin: 5%;
+  }
 }
+
+@media only screen and (min-width: 427px) {
+  .content {
+    width: 100%;
+
+  }
+  .shopItemsHeader {
+    flex-direction: column;
+    padding-left: 63%;
+  }
+  
+  .shopItemsAPDDiv {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .buttonPayDiv {
+    flex-direction:column-reverse;
+  }
+  .buttonPayPriceDiv {
+    margin: 5%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .shopItemsHeader {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .headerPriceDiv {
+    padding-right: 7%;
+    padding-left: 7%;
+  }
+  .headerDeleteDiv {
+    padding-right: 5%;
+    
+  }
+  .shopItemsAPDDiv {
+    flex-direction: row;
+    align-items: center;
+    padding-left: 10%;
+  }
+  .buttonPayDiv {
+    flex-direction:row;
+  }
+}
+
 
 .positionArrow {
   margin-top: 70px;
