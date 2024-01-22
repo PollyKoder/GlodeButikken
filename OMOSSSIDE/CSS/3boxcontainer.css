@@ -59,7 +59,9 @@ main {
                 0 0 5px rgb(255, 149, 0);
   }
  
-
+.linkBtn {
+  color: honeydew;
+}
 
   .omoss {
     /*margin-top lagt til av Polly slik at innholdet på siden kommer frem under header/navBar */
