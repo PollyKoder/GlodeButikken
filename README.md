@@ -7,7 +7,7 @@
 
 
 
-# !NB! - samling fra brnach til Merge:
+# !NB! - samling fra branch til Merge:
  - Når man samler til Main fra de forskjellige branchene er det viktig å holde kontroll på om mappe systemene samsvarer eller om det trengs endringer, slik at alle linkene er funksjonable. 
  - Husk å redigere styling av tekst/link-tekst button i landing page html.
  - Fix splash bilde margin og height(slik at det ser mindre strekt ut)!!!!!
@@ -41,6 +41,7 @@
     - Hvordan får vi darkmode til å forbli aktivert når man bytter side?
     - sorter css i PL, gi class names til elementer og style accordingly. 
     - Oppdater Amalie sin css på Animert tekst.  + logo update!
+    - alt attribute tekst på ordnes/oppdateres til å beskrive bildene slik at det er tilrettelagt for blinde!
 
 
 

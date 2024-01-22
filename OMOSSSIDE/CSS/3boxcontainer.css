@@ -69,6 +69,12 @@ main {
     font-family: Arial, sans-serif;
   }
 
+  .location{
+    margin-right: 10px;
+    margin-left: 980px;
+    margin-bottom: -180px;
+}
+
   .underomoss {
     margin-bottom: -45px;
     margin-right: 600px;
