@@ -10,3 +10,9 @@ main{
     margin-bottom: 350px;
     margin-left: 40px;;
 }
+
+.nbAlert {
+    padding: 50px;
+    margin-top: 40px;
+    background: yellow
+}
