@@ -41,6 +41,7 @@
     - Hvordan får vi darkmode til å forbli aktivert når man bytter side?
     - sorter css i PL, gi class names til elementer og style accordingly. 
     - Oppdater Amalie sin css på Animert tekst.  + logo update!
+    - oppdater Tiril og Trym sin kode!
     - alt attribute tekst på ordnes/oppdateres til å beskrive bildene slik at det er tilrettelagt for blinde!
 
 
