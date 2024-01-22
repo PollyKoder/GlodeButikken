@@ -97,6 +97,10 @@ body {
     box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 7); 
 }
 
+.tempLinkShop {
+    color: honeydew;
+}
+
 /* div som har form og knapp */
 .formAndButton {
     display: flex;
