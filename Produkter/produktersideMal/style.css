@@ -26,8 +26,13 @@ body {
     width: 100%;
     align-items: center;
     padding-bottom: 50px;
-    margin: 10px;
+    
 }
+.test {
+  font-style: italic;
+  font-size: medium; 
+}
+
 
 /* Div rundt bilde */
 .imageDiv {
@@ -38,10 +43,54 @@ body {
     justify-content: center;
 }
 
-/* Produkt bilde */
-.productImg {
-    width: 90%;    
-    height: 50%; 
+/* Slideshow med bilder */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+/* Buttons piler */
+   .next, .prev {
+    cursor: pointer;
+    background: var(--boxBackground);
+    border-radius: 5px;
+    padding: 5px;
+}
+   
+   .mySlides {
+    display: none;
+    width: 100%;
+    padding: 50px;
+    text-align: center;
+    padding-right: 0px;
+}
+
+   /* Produkt bilde */
+   .mySlides img {
+    width: 100%;
+    height: auto;
+}
+
+/* Overgang når du bytter bilde */
+   .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+   
+   @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+   
+   @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
 }
 
 /*div med den viktigaste informasjonen om produktet */
@@ -81,6 +130,7 @@ body {
 /* inntastings felt antall */
 .inputText {
     width: 40px;
+    text-align: center;
 }
 
 /* Handlevogn knapp */
@@ -141,7 +191,7 @@ body {
     gap: 20px;
     display: grid;
     grid-template-rows: repeat(1, 1fr);
-    grid-template-columns: repeat(3, 3fr);
+    grid-template-columns: repeat(3, 1fr);
     justify-items: center;
     gap: 30px;
 }
@@ -203,6 +253,16 @@ body {
   
 
 
+/* Media queries */
+
+@media (max-width: 770px) {
+    .frame {
+        grid-template-rows: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+    }    
+}
+
+
 @media (max-width: 426px) {
     .frame {
         grid-template-rows: repeat(1, 1fr);
@@ -210,12 +270,18 @@ body {
    
     } 
 
+    .sectionProduct {
+        flex-direction: column;
+    } 
+
+    .responsive {
+        margin-left: 0.9375em;
+    }
+    .imageDiv {
+        width: 100%;
+    }
+    .nok {
+        font-size: 27px;
+    }
 }
 
-@media (max-width: 770px) {
-    .frame {
-        grid-template-rows: repeat(1, 1fr);
-        grid-template-columns: repeat(2, 1fr);
-    } 
-    
-}

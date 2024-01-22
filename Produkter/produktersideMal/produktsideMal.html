@@ -6,7 +6,7 @@
 
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="navStyle.css">
-<script src="script.js" defer></script>
+<script src="scripttemplate.js" defer></script>
 
 <title>Gløde Data | HP ProBook 650 G2</title>
 
@@ -87,16 +87,31 @@
           </div>
         </div>
       </nav>
-
   </header>
 <main>
-
 
 <!-- PRODUKT INFORMASJON -->
 <!-- Kodet av Tiril -->
     <section class="sectionProduct">
         <div class="imageDiv">
-            <img class="productImg" src="img/Book_650.webp" alt="Datamaskin"/>
+         <!-- p test skal fjernast-->
+          <p class="test">Her er midlertidige bilder. Det skal vere fleire bilder av samme produkt</p>
+          <!-- Bilde galleri-->
+          <div class="slideshow-container"> 
+            <div class="mySlides fade">
+              <img src="img/Book_650.webp">
+            </div>
+          
+            <div class="mySlides fade">
+              <img src="img/Dell_Latitude.webp">
+            </div>
+          
+            <div class="mySlides fade">
+              <img src="img/Latitude_E7450.webp">
+            </div>
+            <button class="prev" onclick="plusSlides(-1)">&#10094;</button>
+            <button class="next" onclick="plusSlides(1)">&#10095;</button>
+          </div>
         </div>
 
         <div class="informationDiv ">
@@ -174,8 +189,7 @@
             </div>
           </div>
         </div>
-      
-    </section>
+      </section>
 
 </main>
 
