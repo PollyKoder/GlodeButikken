@@ -7,6 +7,10 @@ body {
     transition: .4s;
 }
 
+main {
+  margin-bottom: 30px;
+}
+
 /* Header */
 
 .navHeader {
