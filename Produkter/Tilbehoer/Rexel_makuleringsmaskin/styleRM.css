@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    max-height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: honeydew;
+}
+
+main{
+    margin-top: 60px;
+    margin-bottom: 350px;
+    margin-left: 40px;;
+}
