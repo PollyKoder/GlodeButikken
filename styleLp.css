@@ -154,7 +154,7 @@ background-position: right;
 /*max-width: 100vw;
 max-height: 70%;*/
 width: 1550px;
-height: 520px; 
+max-height: 520px; 
 margin-left: 15px;
 margin-bottom: 30px;
 }
@@ -215,43 +215,68 @@ color: #fff;
 margin-right: 55px;
 } 
 
-/* MEDIA QUERY - MOBIL */
-@media (max-width: 600px) {
+/* Media queria til telefon */
 
-.imgSplash {
-  width: 350px;
-  height: 300px;
-}
+@media (min-width: 480px) {
 
-.footer-btns {
-  display: flex;
-  flex-direction: column;
-}
-
-.footer-btn {
-  margin-top: 20px;
-}
-
-.header-btns {
-   flex-direction: column;
-}
-
-.center-icon {
-  margin-right: 30px;
-}
-
-.circle {
-  display: none;
-}
-
-.leftImg {
-  height: 340px;
-  width: 350px;
-  margin-left: 5%;
-  margin-top: 10px;
-  margin-bottom: 5px;
-}
-
+  .img {
+    width: 350px;
+  }
+  
+  .footer-btns {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer-btn {
+    margin-top: 20px;
+  }
+  
+  .imgLogo {
+    margin-right: 20%;
+  }
+  
+  
+  .header-btns {
+     flex-direction: column;
+  }
+  
+  .header-icon {
+    margin-right: -25px;
+  }
+  
+  .circle {
+    display: none;
+  }
+  
+  .leftImg {
+    height: 340px;
+    width: 350px;
+    margin-left: 5%;
+    margin-right: 15px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  
+  }
+  
+  /* Media queria til Taplet */
+  
+  @media only screen and (min-width:482px) and (max-width:768px) {
+    .leftImg {
+      height: 340px;
+      width: 350px;
+      margin-left: 5%;
+      margin-right: 15px;
+      margin-top: 10px;
+      margin-bottom: 5px;
+    }
+  
+    .img {
+      max-width: 750px;
+      max-height: 300px;
+      margin-right: -35px;
+    }
 }
 
 /* HAMBURGER MENY */
@@ -306,20 +331,21 @@ max-height: 150px;
 @keyframes anim-1-keyframes {
   0%, 8.3% { left: -100%; opacity: 1; }
   8.3%, 25% { left: 5%; opacity: 1; }
-  33.33%, 100% { left: 110%; opacity: 1; }
+  33.33%, 100% { right: 110%; opacity: 0; }
 }
 
 @keyframes anim-2-keyframes {
   0%, 33.33% { left: -100%; opacity: 1; }
   41.63%, 58.29% { left: 5%; opacity: 1; }
-  66.66%, 100% { left: 110%; opacity: 1; }
+  66.66%, 100% { right: 110%; opacity: 0; }
 }
 
 @keyframes anim-3-keyframes {
   0%, 66.66% { left: -100%; opacity: 1; }
   74.96%, 91.62% { left: 5%; opacity: 1; }
-  100% { left: 110%; opacity: 1; }
+  100% { right: 110%; opacity: 0; }
 }
+
 
 /* Button */
 .btn {
@@ -379,6 +405,20 @@ color: black;
 text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
 }
 }
+
+@media only screen and (min-width:482px) and (max-width:768px) {
+  .anim-1,
+.anim-2,
+.anim-3 {
+font-size: 20px;
+width: 58%;
+top: 15.5em;
+position: absolute;
+color: black;
+text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+}
+}
+
 
 @media (max-width: 600px) {
   .btn {
