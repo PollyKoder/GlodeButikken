@@ -220,14 +220,15 @@ margin-right: 55px;
 @media screen and (max-width: 480px) {
 
   .imgSplash {
-    height: 350px;
-    width: 300px;
+    max-height: 400px;
+    max-width: 350px;
     margin-right: -35px;
   }
   
   .footer-btns {
     display: flex;
     flex-direction: column;
+    margin-right: 40px;
   }
   
   .footer-btn {
@@ -267,12 +268,12 @@ margin-right: 55px;
   .shoppingCartButton {
     margin-right: 60px;
   }
-  
+
   }
   
   /* Media queria til Taplet */
   
-  @media only screen and (min-width:482px) and (max-width:768px) {
+  @media screen and (min-width:482px) and (max-width:768px) {
     .leftImg {
       height: 340px;
       width: 350px;
@@ -283,7 +284,7 @@ margin-right: 55px;
     }
   
     .imgSplash {
-      max-width: 610px;
+      max-width: 738px;
       max-height: 300px;
       margin-right: -35px;
     }
@@ -305,6 +306,23 @@ margin-right: 55px;
     }
   
 } 
+
+/* Media queria til Laptop */
+
+@media screen and (min-width: 1024px) {
+
+  .imgSplash {
+    width: 990px;
+    max-height: 520px; 
+  }
+
+  .leftImg {
+    height: 340px;
+    width: 350px;
+    margin-left: 660px;
+  }
+  
+}
 
 /* HAMBURGER MENY */
 @media screen and (max-width: 600px) {
@@ -426,7 +444,7 @@ color: white;
   .anim-3 {
   font-size: 20px;
   width: 88%;
-  top: 15.5em;
+  top: 10.5em;
   position: absolute;
   color: black;
   text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
