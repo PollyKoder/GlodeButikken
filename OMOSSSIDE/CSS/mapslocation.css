@@ -1,0 +1,32 @@
+/* .location{
+    margin-right: 10px;
+    margin-left: 980px;
+    margin-bottom: -180px;
+} */
+
+/*
+.logo{
+    height: 200px;
+    width: 295px; /*adjusted width, so the logo is properly represented - Polly
+    margin-right: 400px;
+    margin-left: 235px;
+    margin-top: -100px;
+}
+
+.centered-text{
+    text-align: center;
+    margin: 0;
+    margin-top: 345px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+
+.containerr{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 30vh; /* Adjust height as needed 
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+}

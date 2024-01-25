@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<!-- GlødeData OM OSS Side -->
+<html lang="nn" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--css til header fra Amalie, Sandra og Trond-Morten -->
+    <link rel="stylesheet" href="/styleLp.css"/>
+    <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="/styleMeny.css"/>
+
+    <!--css til Om oss, kodet av Trym -->
+      <!-- 3Box CSS Has Buttons/Texts-->
+    <link rel="stylesheet" href="/OMOSSSIDE/CSS/3boxcontainer.css"/>
+     <!-- BottomFotter has BottomBox/Kontakter/Body, CSS -->
+    <link rel="stylesheet" href="/OMSOSSSIDE/CSS/BottomFoter.css"/>
+    <link rel="stylesheet" href="/OMOSSSIDE/CSS/mapslocation.css"/>
+
+    <title>Om Oss</title>
+   </head>
+
+   <body>
+    <header class="navHeader">
+      <!--Følgene kode er for det meste laget av Sandra-->
+        <!--Bruker bindestrek pågrunn av at koden knekker hvis eg ikke gjør det på den måten-->
+  
+        <!--Contains the navigation bar-->
+        <nav>
+          
+          <!--Wraps the entire navigation bar.-->
+          <div class="navbar">  
+            <!--Innskudd kodelinje fra Amalie -->
+          <div class="header-icon">
+            <a href="/index.html">
+              <img class="imgLogo" src="img/logo_wWhite2.png" alt="left icon">
+            </a>
+          </div>
+          <!-- fortsetter med kode fra Sandra-->    
+            <!--Represents a menu icon using Boxicons.-->
+            <i class='bx bx-menu'></i>    
+            <!--Defines the logo-->
+            <div class="logoHeader"><a href="/index.html">Gløde Data</a></div>
+            <!--Amalie og Trond-Morten sin kode linje: -->
+            <div class="mode-toggle" onclick="toggleMode()">
+              <div class="circle"></div>
+            </div>
+  
+            <!--Videre med Sandra sin kode: -->
+            <!-- Contains the navigation links-->
+            <div class="nav-links">
+              <!-- Includes a logo and a close icon-->
+              <div class="sidebar-logo">
+  
+                <!-- <span class="logo-name">Gløde Data</span> -->
+                <i class='bx bx-x' ></i>
+              </div>
+              <!-- List of main navigation links-->
+              <ul class="links">
+                <li><a href="/index.html">Hjem </a></li>
+                <li>
+                  <!--placeholder link, tem solution-->
+                  <a href="/ProductList/indexPI.html">Produkter</a>
+                  <!-- List of main navigation links-->
+                  <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+                  <!-- Sub-menu for "Produkter" with additional items.-->
+                  <ul class="htmlCss-sub-menu sub-menu">
+                    
+                    <!-- Sub-meu for "PC" within "Produkter" menu -->
+                    <li class="more">
+                      <span><a href="#">PC</a>
+                        <i class='bx bxs-chevron-right arrow more-arrow'></i>
+                      </span>
+                    <!-- using the css class to style from "more"-->
+                      <ul class="more-sub-menu sub-menu">
+                        <li><a href="#">Stasjonær</a></li>
+                        <li><a href="/ProductList/indexPI.html">Laptop</a></li>
+                      </ul>
+                    </li>
+                    
+                    <li><a href="#">Skjermer</a></li>
+                    <li class="more">
+                      <!-- Skrev "Mer" fordi "Tilbehør" ble et for stort ord i forhold til stylingen, 
+                      kan endres på seinere -Mvh Polly-->
+                      <span><a href="#">Mer</a>
+                        <i class='bx bxs-chevron-right arrow more-arrow'></i>
+                      </span>
+                    <!--Sub-menu for "More" within the "Produkter" menu-->
+                      <ul class="more-sub-menu sub-menu">
+                        <li><a href="#">Tastatur</a></li>
+                        <li><a href="/Produkter/Tilbehør/Rexel_makuleringsmaskin/indexRM.html">Makulering</a></li>
+                        <li><a href="/Produkter/Tilbehør/Toner_and_blekk/indexTB.html">Toner og blekk</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+  
+                <li>
+                  <a href="/Sikker_sletting/indexSS.html">Tjenester</a>
+                  <i class='bx bxs-chevron-down js-arrow arrow '></i>
+                  <ul class="js-sub-menu sub-menu">
+                    <li><a href="/Sikker_sletting/indexSS.html">Sikker sletting</a></li>
+                  </ul>
+                </li>
+                <li><a href="/OMOSSSIDE/indexAbout.html">Om Oss</a></li>
+                <li><a href="https://glode.no/glode/tilsette/">Kontakt oss</a></li>
+              </ul>
+            </div>
+              <!--Includes a search icon and input box-->
+            <div class="search-box">
+              <!-- Icon for search-->
+              <i class='bx bx-search'></i>
+              <!--Container for the search input..-->
+              <div class="input-box">
+                <input type="text" placeholder="Search...">
+              </div>
+            </div>
+            <!--Shopping cart button kodet av Amalie -->
+            <button class="shoppingCartButton">
+              <a href="/Handlekurv/indexKurv.html">
+                <img class="shoppingCart" src="/Handlekurv/shopping-cart_Main.png" alt="Shopping Cart">
+              </a>
+            </button>
+          </div>
+        </nav>
+    </header>
+
+      <!-- Om Oss kodet av Trym -->
+      <main>
+        <br>
+        <!-- OM OSS  info below-->
+        <div>
+        </div>
+            <div>
+        <h1 class="omoss">OM OSS</h1>
+        <!-- Imago Logo-->
+        <img class="logo"src="/OMOSSSIDE/IMAGES/glodeLOGO-removebg-preview.png">
+        </div>
+        <!-- Maps Function-->
+        <div>
+            <iframe class="location" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d981.9604667387913!2d5.2270168478879295!3d60.51253243305493!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x463d02c512123a31%3A0x9627a807ab0f90b6!2sMj%C3%A5tveitflaten%2035%2C%205918%20Vikane!5e0!3m2!1sno!2sno!4v1704357534967!5m2!1sno!2sno" width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+          <!--Vil helst at denne paragrafen og andre paragrafer ikkje har <br> og heller får et class navn og en
+          styling som utfører samme stylingen som "br" gjør nå, da dette gjør siden mer responsiv til forskjellige 
+        nettlesere og skjermstørrelser. Har en mistanke om at siden såg ut som den gjorde under forrige presentasjon
+        fordi nettleseren jeg bruker ignorer "br"-->
+        <p class="underomoss"> <br> GlodeData.no er ein nettbutikk med “klikk og hent” </br>
+        <br> fysisk butikk på Mjåtveitflaten 35, 5918 Frekhaug.</br>
+        <br>Butikken er eigd av og drifta av vekstbedrifta</br></p>
+        <!-- <b></b> -->
+            <div class="aapningstid"> 
+                <h3 class="openingInfo">VÅRE ÅPNINGSTIDER ER:</h3>
+                <ul class="openinP">
+                  <li class="openingLi"> Mandag- 08:00-15:00 </li>
+                  <li class="openingLi"> Tirsdag- 08:00-15:00 </li>
+                  <li class="openingLi"> Onsdag- 08:00-15:00 </li>
+                  <li class="openingLi"> Torsdag- 08:00-15:00 </li>
+                  <li class="openingLi"> Fredag-- 08:00-15:00 </li>
+                  <li class="openingLi"> Lørdag-- STENGT</li>
+                </ul>
+              </div>
+
+              </div>
+              <div>
+              <p class="underomoss2">Les Mer Om Gløde Data Her</p>
+              <div class="line"></div>
+              </div>
+              <br>
+                  <div class="containerr">
+                  <div class="centered-text">
+              <!--Hva skjer her? -Mvh Polly-->
+
+                  </p>
+              </div>
+              </div>
+
+            <div>
+                <!-- Centered TEXT-->
+            <br>
+            <!-- Mulig at felles klasse bruk her fører til at teskten blander seg sammen? -Mvh Polly-->
+            <div class="containerr">
+            <div class="centered-text">
+                <strong>
+                    -&nbsp; Hvordan foregår dette?
+                </strong>
+                <div>
+                <br>
+                Dette er ei bedrift som tilbyr arbeid til personar som treng tilrettelagt arbeid.
+                Gløde tilbyr i tillegg arbeidstrening,</br>
+                <br>avklaring og tiltak som skal hjelpa personar ut i ordinært arbeid.
+                Vårt hovudformål og samfunnsoppdrag er å gje gode tilbod til våre deltakarar gjennom ulike tiltak.
+                </br>
+            </div>
+                <br>
+                Eit resultat av dette er at me produserer ei rekke med ulike flotte produkt og tenester
+                som vi ynskjer å gjere lettare tilgjengeleg for alle potensielle kundar.
+                </br>
+                <div>
+                </div>
+                <br>
+                Difor har me starta nettbutikk med meining.
+                    Butikken er organisatorisk lagt inn under Gløde Arbeidsinkludering
+            </br> (org. 928 131 157) 
+                <br>
+                Vekstbedrifter er ein samlebetegnelse for bedrifter</br> <br>som er med i arbeidsgjevarorganisasjonen ASVL.</br>
+                <br> Nettbutikken vil også vere ein viktig og god treningsarena for deltakarar i tiltak. </br>
+            </br>
+                <br>
+                Vårt mål er at butikken skal: 
+            </br>
+            <div>
+                <br>
+                <br>1. Vera brukarvennleg </br>
+                <br>2. Vera lett tilgjengeleg og alltid open</br>
+                <br>3. Yta god service</br>
+                <br>4. Sikra rask ordrehandtering.</br>
+                <br>5. Vera trygg å handla i</br>
+                <br>6. Gje meiningsfull arbeidstrening.</br>
+                <br>7. Auke omsetninga av våre produkt</br>
+              </br>
+            </div>
+                <br>
+                Me er opptatt av bærekraft og vil så langt som mogleg ta omsyn til dette i val av emballasje,
+            </br>
+            <br>transport og i produksjon av våre varer og tenester. </br>
+            </br>
+            <!-- Centered TEXT Ends here-->
+            </p>
+            <!-- Buttons Starts here-->
+              <div>
+                <div class="bottombox">
+                    <br>
+                    <button class="shadow__btn">
+                        <a class="linkBtn" href="/index.html"> HJEM </a>
+                    </button>
+                    <button class="shadow__btn shadow__btn:hover button:hover">
+                        <a class="linkBtn" href="/ProductList/indexPl.html"> PRODUKTER </a>
+                    </button>
+                    <button href=" " class="shadow__btn">
+                        <a class="linkBtn" href="https://glode.no/glode/om-glode/"> MER OM OSS </a>
+                    </button>
+                    <!-- Buttons Ends here-->
+                  </br>
+                </div>
+              </div>
+            <!-- Kontakter Starts Here-->
+                    <div>
+                        <div class="kontakter">
+                    <p><a >Epost:GlødeData@hotmail.com</a></p>
+                    <p><a >Adresse: Mjåtveitflaten 35, 5918 Frekhaug</a></p>
+                    <p><a >Telefon: 19191919</a></p>
+                    <!-- Hvorfor er dette i linker? og hva med tlf nr, det ser ut som en placeholder? -->
+                    </div>
+                    </div>
+      </main>
+
+      <!--Footer kodet av Sandra, Amalie og Trond-Morten-->
+      <footer>
+          <div class="footer-btns">
+            <a href="https://glode.no/" class="footer-btn"> GLØDE ARBEIDSINKLUDERING AS </a>
+            <a href="https://glode.no/wp-content/uploads/2023/12/Personvernerklaering.pdf" class="footer-btn"> Personvernserklæring </a>
+            <a href="https://glode.no/glode-data/" class="footer-btn"> C Gløde Data Butikken </a>
+          </div>
+      </footer>
+      <!-- er noe kluss her, footeren, er ikkje plassert der den skal være -mvh Polly-->
+      <!--Links to an external JavaScript file for dynamic behavior.-->
+      <script src="/script.js"></script>
+  </body>
+</html>

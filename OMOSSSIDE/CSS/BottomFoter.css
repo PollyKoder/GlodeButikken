@@ -1,0 +1,31 @@
+body{
+  margin: 0;
+  font-family: var(--un-body-font-family);
+  font-size: var(--un-body-font-size);
+  font-weight: var(--un-body-font-weight);
+  line-height: var(--un-body-line-height);
+  color: var(--un-body-color);
+  text-align: var(--un-body-text-align);
+  background-color: var(--un-body-bg);
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+}
+
+.bottombox {
+    box-sizing: border-box;
+    margin-bottom: -700px;
+    margin-top: 420px;
+    margin-left: -900px;
+    margin-right: -700px;
+    color: rgb(64, 72, 78);
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+
+.kontakter{
+    margin-bottom: -700px;
+    margin-top: 420px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}

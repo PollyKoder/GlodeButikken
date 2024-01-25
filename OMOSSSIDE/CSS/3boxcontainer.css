@@ -1,0 +1,167 @@
+/* Kode i body og main er en midlertidig fix av problemet - Polly*/
+body {
+  margin: 0;
+}
+
+main {
+  margin-bottom: 600px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+    align-items: flex-end;
+    height: 300px;
+  }
+
+  .box {
+    width: 300px;
+    height: 345px;
+    border-radius: 4px;
+    background: #6b6057;
+    box-shadow: inset 20px 20px 60px #5b524a,
+            inset -20px -20px 60px #7b6e64;
+    transition: all ease 0.3s;
+    margin-bottom: -300px;
+    margin-right: -68px;
+    margin-left: 100px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .card:hover {
+    transform: translateY(-20px);
+  }
+  
+  .shadow__btn {
+    padding: 10px 20px;
+    border: none;
+    font-size: 12px;
+    color: #fff;
+    border-radius: 3px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.5s;
+    transition-property: box-shadow;
+  }
+  
+  .shadow__btn {
+    background: rgb(255, 149, 0);
+    box-shadow: 0 0 25px rgb(249, 188, 44);
+  }
+  
+  .shadow__btn:hover {
+    box-shadow: 0 0 5px rgb(255, 174, 0),
+                0 0 5px rgb(255, 153, 0),
+                0 0 5px rgb(255, 174, 0),
+                0 0 5px rgb(255, 149, 0);
+  }
+ 
+.linkBtn {
+  color: honeydew;
+}
+
+  .omoss {
+    /*margin-top lagt til av Polly slik at innholdet på siden kommer frem under header/navBar */
+    margin-top: 70px;
+    margin-left: 685px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+  }
+
+  .location{
+    margin-right: 10px;
+    margin-left: 980px;
+    margin-bottom: -180px;
+}
+
+  .underomoss {
+    margin-bottom: -45px;
+    margin-right: 600px;
+    margin-left: 480px;
+    margin-top: -200px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+  }
+
+  .underomoss2 {
+    margin-right: 600px;
+    margin-left: 480px;
+    margin-top: 45px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+  }
+
+  .line {
+    width: 80%;
+    height: 1px;
+    background-color: #000;
+    margin: 0 auto;
+    margin-bottom: -10px;
+    margin-top: 100px;
+  }
+
+  .aapningstid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 600px;
+    margin-left: 480px;
+    margin-top: 100px;
+    /* font-weight: bold; */
+    font-family: Arial, sans-serif;
+  }
+
+  .openingInfo {
+    margin-top: 70px;
+    text-align: center;
+    font-weight: bolder;
+  }
+
+  .openingP {
+    margin-top: 30px;
+    text-align: center;
+    font-weight: bold;
+    list-style: none;
+  }
+
+  .openingLi {
+    text-align: left;
+    list-style: none;
+  }
+/* 
+.logo {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+} */
+
+.logo{
+  height: 200px;
+  width: 295px; /*adjusted width, so the logo is properly represented - Polly*/
+  margin-right: 400px;
+  margin-left: 235px;
+  margin-top: -100px;
+}
+
+.centered-text{
+  text-align: center;
+  margin: 0;
+  margin-top: 345px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+}
+
+.containerr{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 30vh; /* Adjust height as needed */
+font-weight: bold;
+font-family: Arial, sans-serif;
+}
