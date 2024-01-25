@@ -217,10 +217,12 @@ margin-right: 55px;
 
 /* Media queria til telefon */
 
-@media (min-width: 480px) {
+@media screen and (max-width: 480px) {
 
-  .img {
-    width: 350px;
+  .imgSplash {
+    height: 350px;
+    width: 300px;
+    margin-right: -35px;
   }
   
   .footer-btns {
@@ -257,6 +259,14 @@ margin-right: 55px;
     margin-top: 10px;
     margin-bottom: 5px;
   }
+
+  .search-box {
+    margin-right: 60px;
+  }
+
+  .shoppingCartButton {
+    margin-right: 60px;
+  }
   
   }
   
@@ -272,12 +282,29 @@ margin-right: 55px;
       margin-bottom: 5px;
     }
   
-    .img {
-      max-width: 750px;
+    .imgSplash {
+      max-width: 610px;
       max-height: 300px;
       margin-right: -35px;
     }
-}
+
+    .logoHeader {
+      margin-right: 10px;
+    }
+
+    .circle {
+      margin-right: 10px;
+    }
+
+    .search-box {
+      margin-right: 10px;
+    }
+  
+    .shoppingCartButton {
+      margin-right: 160px;
+    }
+  
+} 
 
 /* HAMBURGER MENY */
 @media screen and (max-width: 600px) {
@@ -392,27 +419,27 @@ color: white;
 }
 
 /*MEDIA QUERIES*/
-@media (max-width: 426px) {
+@media (max-width: 480px) {
 
-.anim-1,
-.anim-2,
-.anim-3 {
-font-size: 20px;
-width: 50%;
-top: 18.5em;
-position: absolute;
-color: black;
-text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
-}
-}
+  .anim-1,
+  .anim-2,
+  .anim-3 {
+  font-size: 20px;
+  width: 88%;
+  top: 15.5em;
+  position: absolute;
+  color: black;
+  text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+  }
+  }
 
 @media only screen and (min-width:482px) and (max-width:768px) {
   .anim-1,
 .anim-2,
 .anim-3 {
 font-size: 20px;
-width: 58%;
-top: 15.5em;
+width: 40%;
+top: 11.5em;
 position: absolute;
 color: black;
 text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
