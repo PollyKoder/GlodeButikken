@@ -1,0 +1,118 @@
+/* Media queria til telefon */
+
+@media screen and (max-width: 480px) {
+
+    .imgSplash {
+      height: 400px;
+      width: 350px;
+      margin-right: -35px;
+    }
+    
+    .footer-btns {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .footer-btn {
+      margin-top: 20px;
+    }
+    
+    .imgLogo {
+      margin-right: 20%;
+    }
+    
+    
+    .header-btns {
+       flex-direction: column;
+    }
+    
+    .header-icon {
+      margin-right: -25px;
+    }
+    
+    .circle {
+      display: none;
+    }
+    
+    .leftImg {
+      height: 340px;
+      width: 350px;
+      margin-left: 5%;
+      margin-right: 15px;
+      margin-top: 10px;
+      margin-bottom: 5px;
+    }
+  
+    .search-box {
+      margin-right: 60px;
+    }
+  
+    .shoppingCartButton {
+      margin-right: 60px;
+    }
+  
+    }
+    
+    /* Media queria til Taplet */
+    
+    @media screen and (min-width:482px) and (max-width:768px) {
+      .leftImg {
+        height: 340px;
+        width: 350px;
+        margin-left: 5%;
+        margin-right: 15px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+      }
+    
+      .imgSplash {
+        width: 738px;
+        height: 300px;
+        margin-right: -35px;
+      }
+  
+      .logoHeader {
+        margin-right: 10px;
+      }
+  
+      .circle {
+        margin-right: 10px;
+      }
+  
+      .search-box {
+        margin-right: 10px;
+      }
+    
+      .shoppingCartButton {
+        margin-right: 160px;
+      }
+    
+  } 
+  
+  /* Media queria til Laptop */
+  
+  @media screen and (min-width: 1024px) {
+  
+    .imgSplash {
+      width: 990px;
+      height: 520px; 
+    }
+  
+    .leftImg {
+      height: 340px;
+      width: 350px;
+      margin-left: 660px;
+    }
+    
+  }
+  
+  /* HAMBURGER MENY */
+  @media screen and (max-width: 600px) {
+  .hamburgerMeny {
+    display: block;
+  }
+  
+  .header-btns {
+    display: none;
+  }
+  }
