@@ -1,6 +1,6 @@
 /* Media queria til telefon */
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
 
     .imgSplash {
       height: 400px;
@@ -55,7 +55,7 @@
     
     /* Media queria til Taplet */
     
-    @media screen and (min-width:482px) and (max-width:768px) {
+    @media screen and (max-width:768px) {
       .leftImg {
         height: 340px;
         width: 350px;
@@ -67,6 +67,7 @@
     
       .imgSplash {
         max-width: 735px;
+        height: 300px;
         margin-right: -35px;
       }
   
@@ -92,7 +93,7 @@
 
   /* Media queria til Laptop */
   
-  @media screen and (min-width: 1024px) {
+  @media only screen and (min-width: 992px) {
   
     .imgSplash {
       width: 990px;
@@ -110,7 +111,7 @@
 
   /* Media queria til støre Laptop */
 
-  @media screen and (min-width: 1440px) {
+  @media only screen and (min-width: 1200px) {
   
     .imgSplash {
       width: 1410px;
