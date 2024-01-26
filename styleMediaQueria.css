@@ -66,8 +66,7 @@
       }
     
       .imgSplash {
-        width: 738px;
-        height: 300px;
+        max-width: 735px;
         margin-right: -35px;
       }
   
@@ -89,6 +88,8 @@
     
   } 
   
+/* Skal vi ha til laptop og til større skjermer?
+
   /* Media queria til Laptop */
   
   @media screen and (min-width: 1024px) {
@@ -105,6 +106,24 @@
     }
     
   }
+  
+
+  /* Media queria til støre Laptop */
+
+  @media screen and (min-width: 1440px) {
+  
+    .imgSplash {
+      width: 1410px;
+      height: 520px; 
+    }
+  
+    .leftImg {
+      height: 340px;
+      width: 350px;
+      margin-left: 1070px;
+    }
+    
+  } 
   
   /* HAMBURGER MENY */
   @media screen and (max-width: 600px) {
