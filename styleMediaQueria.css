@@ -93,7 +93,7 @@
 
   /* Media queria til Laptop */
   
- /* @media only screen and (min-width: 992px) {
+  @media only screen and (min-width: 992px) {
   
     .imgSplash {
       width: 990px;
@@ -111,7 +111,7 @@
 
   /* Media queria til støre Laptop */
 
-/*  @media only screen and (min-width: 1200px) {
+ @media only screen and (min-width: 1200px) {
   
     .imgSplash {
       width: 1410px;
