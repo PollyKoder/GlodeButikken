@@ -1,6 +1,6 @@
 /*css kodet av Øystein*/
 /* Endring av teksten, NØD*/
-h1 {
+.h1SS {
     padding-top: 50px;
     padding-bottom: 15px;
     font-style: italic;
@@ -8,32 +8,32 @@ h1 {
     padding-left: 15px;
 }
 
-h3 {
+.h3SS {
   font-style: italic;
   font-weight: bold;
   padding-top: 15px;
   padding-left: 15px;
 }
 
-p {
+.pSS {
   font-style: italic;
   padding-left: 15px;
   padding-right: 15px;
 }
-b {
+.bSS {
   padding-left: 15px;
   padding-bottom: 15px;
 }
 
 /* Endring a bilder */
-.ssimg {
+.imgSS {
     margin-top: 30px;
     /* width: 5 px;
     height: 5 px; */
     padding-left: 15px;
 }
 
-.imgTwo {
+.imgTwoSS {
     max-width: 80%;
     height: 180px;
     padding-left: 15px;

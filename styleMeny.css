@@ -45,15 +45,13 @@ nav .navbar {
   font-weight: 600;
 }
 
+/*  Old IMG code
 .img {
   background-repeat: no-repeat;
   background-position: right;
   width: 1700px;
   height: 500px;
-}
-
-
-
+} */
 
 h1 {
     padding-top: 20px;
@@ -273,10 +271,10 @@ nav .navbar .links li:hover .js-sub-menu {
     }
   }
   @media (max-width:800px){
-    nav{
-      /* position: relative; */
-      /*Sandra: Skal noe mer gjøres her?*/
-    }
+    /*nav {
+      /* position: relative; 
+      /*Sandra: Skal noe mer gjøres her?
+    } */
     .navbar .bx-menu{
       display: block;
     }

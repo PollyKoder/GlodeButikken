@@ -3,9 +3,11 @@
  - alle klasse og mappe navn: camelCase og snake_case (kebab-case i helt spesielle tilfeller hvor koden knekker hvis den ikke bruker denne typen)
  - Husk å legge inn kommentarer: en som en overskrift for hva koden gjør eks= <!-- HEADER STYLING -->, og en for hvem som har kodet <!-- kodet av "Navn" -->
 
+ - Sorter Media Queries i alle css filer i STOR- LITEN rekkefølge!
 
 
-# !NB! - samling fra brnach til Merge:
+
+# !NB! - samling fra branch til Merge:
  - Når man samler til Main fra de forskjellige branchene er det viktig å holde kontroll på om mappe systemene samsvarer eller om det trengs endringer, slik at alle linkene er funksjonable. 
  - Husk å redigere styling av tekst/link-tekst button i landing page html.
  - Fix splash bilde margin og height(slik at det ser mindre strekt ut)!!!!!
@@ -39,6 +41,8 @@
     - Hvordan får vi darkmode til å forbli aktivert når man bytter side?
     - sorter css i PL, gi class names til elementer og style accordingly. 
     - Oppdater Amalie sin css på Animert tekst.  + logo update!
+    - oppdater Tiril og Trym sin kode!
+    - alt attribute tekst på ordnes/oppdateres til å beskrive bildene slik at det er tilrettelagt for blinde!
 
 
 
