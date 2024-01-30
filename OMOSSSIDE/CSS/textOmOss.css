@@ -75,6 +75,15 @@ body {
     text-align: center;
 }
 
+.payImg {
+    list-style: none;
+}
+
+.payOption {
+    margin-top: 10px;
+    list-style: none;
+}
+
 .feature i {
     font-size: 4rem;
     color: #f18410;
