@@ -69,3 +69,31 @@
   gap: 250px;
 } */
 
+@media (max-width: 600px) {
+  .footer-btns {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-btn {
+    margin-top: 20px;
+  }
+
+  .circle {
+    display: none;
+  }
+
+  .imgTwoSS {
+    height: 340px;
+    width: 350px;
+    margin-left: 5%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header-btns {
+    display: none;
+  }
+}
