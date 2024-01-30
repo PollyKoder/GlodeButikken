@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+}
+
+main {
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+.divProductCards {
+    width: 100%;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    padding: 10px;
+    margin: 10px;
+    column-gap: 20px;
+    row-gap: 10px;
+}
+
+.productCard {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    width: 100%;
+    height: 100%;
+} 
+
+.contentPosition {
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 10px; 
+    text-align: center; 
+    background: #f2f2f2;
+    cursor: pointer;
+
+}

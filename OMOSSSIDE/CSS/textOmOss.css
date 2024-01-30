@@ -126,3 +126,11 @@ body {
     background-color: #e6513b;
     
 }
+
+/* La til kode for å få DarkMode til å fungere skikkelig på siden. -Tony */
+.dark-mode section {
+    background-color: #313131;
+}
+.dark-mode .feature {
+    background-color: #313131;
+}
