@@ -76,6 +76,7 @@ body {
     background-color: #f2f2f2;
     padding: 1.5rem;
     text-align: center;
+    margin-right: 25px;
 }
 
 .feature i {
@@ -108,15 +109,17 @@ body {
     background-color: #fb5607;
     border: none;
     color: #fff;
-    padding: 10px;
+    padding-left: 10px;
     cursor: pointer;
-    margin-bottom: 1rem;
-    display: flex;
-    justify-content: space-between;
     font-family: 'Open Sans', sans-serif;
-    margin-left: 10px;
     width: 100px;
     height: 50px;
+    align-items: center;
+    
+}
+
+.buttonCenter {
+    margin-left: 40%;
 }
 
 .button:hover{
