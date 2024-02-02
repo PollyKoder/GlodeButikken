@@ -4,22 +4,27 @@
 
     .imgSplash {
       height: 400px;
-      width: 350px;
+      width: 340px;
       margin-right: -35px;
+    }
+
+    nav {
+      width: 380px;
     }
     
     .footer-btns {
       display: flex;
       flex-direction: column;
     }
+
+    footer {
+      width: 375px;
+    }
     
     .footer-btn {
       margin-top: 20px;
     }
-    
-    .imgLogo {
-      margin-right: 20%;
-    }
+
     
     
     .header-btns {
@@ -27,7 +32,7 @@
     }
     
     .header-icon {
-      margin-right: -25px;
+      margin-right: 5px;
     }
     
     .circle {
@@ -36,19 +41,11 @@
     
     .leftImg {
       height: 340px;
-      width: 350px;
+      width: 140px;
       margin-left: 5%;
       margin-right: 15px;
       margin-top: 10px;
       margin-bottom: 5px;
-    }
-  
-    .search-box {
-      margin-right: 60px;
-    }
-  
-    .shoppingCartButton {
-      margin-right: 60px;
     }
   
     }
