@@ -35,6 +35,14 @@ body {
     gap: 20px;
 }
 
+h2 {
+   margin-left: 15px;
+} 
+
+h4 {
+    margin-right: 67px;
+}
+
 .intro h2 {
     font-size: 1.5rem;
     font-weight: 600;
@@ -112,63 +120,40 @@ body {
     height: 50px;
 }
 
-:root {
-    --bg: black;
-    --color: #f18410;
-    --font: Montserrat, Roboto, Helvetica, Arial, sans-serif;
+.button{
+    background-color: #ff6347;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    margin-right: 15px;
+    
+    font-family: 'Open Sans', sans-serif;
 }
 
-.button{
-    display: inline-block;
-    text-align: center;
-    background: var(--color);
-    color: var(--bg);
-    font-weight: bold;
-    padding: 1.18em 1.32em 1.03em;
-    line-height: 1;
-    border-radius: 1em;
-    position: relative;
-    min-width: 8.23em;
-    text-decoration: none;
-    font-family: var(--font);
-    font-size: 1.25rem;
+.button:hover{
+    animation: pulse 1s infinite;
+  transition: .3s;
+  background-color: #f77f00;
     
 }
 
-.button:before,
-.button:after {
-    width: 4.4em;
-    height: 2.95em;
-    position: absolute;
-    content: "";
-    display: inline-block;
-    background: var(--color);
-    border-radius: 50%;
-    transition: transform 1s ease;
-    transform: scale(0);
-    z-index: -1;
-}
-
-.button:before {
-    top: -25%;
-    left: 20%;
-}
-
-.button:after {
-    bottom: -25%;
-    right: 20%;
-}
-
-.button:hover:before,
-.button:hover:after {
-    transform: none;
-}
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    70% {
+      transform: scale(.9);
+    }
+      100% {
+      transform: scale(1);
+    }
+  }
 
 .buttonCenter {
-    margin-left: 40%;
-    padding: 1.5rem 0;
-    filter: url('#goo');
-    
+    align-items: center;
+    margin-left: 44%;
 }
 
 
