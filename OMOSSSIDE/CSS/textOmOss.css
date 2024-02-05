@@ -41,6 +41,8 @@ h2 {
 
 h4 {
     margin-right: 67px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .intro h2 {
@@ -128,6 +130,8 @@ h4 {
     cursor: pointer;
     margin-bottom: 1rem;
     margin-right: 15px;
+    width: 150px;
+    border-radius: 22% 0 22% 0;
     
     font-family: 'Open Sans', sans-serif;
 }
@@ -153,7 +157,7 @@ h4 {
 
 .buttonCenter {
     align-items: center;
-    margin-left: 44%;
+    margin-left: 38%;
 }
 
 
