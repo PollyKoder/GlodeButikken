@@ -355,8 +355,9 @@ footer {
   }
 
   footer {
-    min-width: 320px;
-    max-width: 425px;
+    /* min-width: 20rem;
+    max-width: 26.625rem; */
+    width: 100vw;
   }
   
   .footer-btns {
@@ -445,7 +446,7 @@ footer {
   }
 
   footer {
-    max-width: 768px;
+    width: 100vw;
   }
 } 
 
