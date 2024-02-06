@@ -345,8 +345,18 @@ footer {
 @media (max-width: 600px) {
 
   .imgSplash {
-    width: 350px;
-    height: 300px;
+    width: 400px;
+    height: 340px;
+    margin-right: -35;
+  }
+
+  nav {
+    width: 380px;
+  }
+
+  footer {
+    min-width: 320px;
+    max-width: 425px;
   }
   
   .footer-btns {
@@ -362,6 +372,10 @@ footer {
      flex-direction: column;
   }
 
+  .header-icon {
+    margin-right: 5px;
+  }
+
   .center-icon {
     margin-right: 30px;
   }
@@ -372,7 +386,7 @@ footer {
 
   .leftImg {
     height: 340px;
-    width: 350px;
+    width: 140px;
     margin-left: 5%;
     margin-top: 10px;
     margin-bottom: 5px;
@@ -396,3 +410,75 @@ footer {
     display: none;
   }
 }
+
+/* MQ - Tablet */
+@media screen and (max-width:768px) {
+  .leftImg {
+    height: 340px;
+    width: 350px;
+    margin-left: 5%;
+    margin-right: 15px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+
+  .imgSplash {
+    max-width: 735px;
+    height: 300px;
+    margin-right: -35px;
+  }
+
+  .logoHeader {
+    margin-right: 10px;
+  }
+
+  .circle {
+    margin-right: 10px;
+  }
+
+  .search-box {
+    margin-right: 10px;
+  }
+
+  .shoppingCartButton {
+    margin-right: 160px;
+  }
+
+  footer {
+    max-width: 768px;
+  }
+} 
+
+/* Skal vi ha til laptop og til større skjermer?*/
+
+/* MQ - Laptop */
+@media only screen and (min-width: 992px) {
+
+.imgSplash {
+  width: 990px;
+  height: 520px; 
+}
+
+.leftImg {
+  height: 340px;
+  width: 350px;
+  margin-left: 660px;
+}
+
+}
+
+/* MQ - Large Laptop */
+@media only screen and (min-width: 1200px) {
+
+.imgSplash {
+  width: 1410px;
+  height: 520px; 
+}
+
+.leftImg {
+  height: 340px;
+  width: 350px;
+  margin-left: 1070px;
+}
+
+} 
