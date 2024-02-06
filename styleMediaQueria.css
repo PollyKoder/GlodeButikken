@@ -1,58 +1,60 @@
 /* Media queria til telefon */
 
-@media screen and (max-width: 600px) {
+/* mobile phones */
+@media only screen
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
 
-    .imgSplash {
-      height: 400px;
-      width: 340px;
-      margin-right: -35px;
-    }
+  .imgSplash {
+    height: 50vh;
+    width: 110vw;
+    margin-right: -35px;
+  }
 
-    nav {
-      width: 380px;
-    }
-    
-    .footer-btns {
-      display: flex;
-      flex-direction: column;
-    }
-
-    footer {
-      width: 375px;
-    }
-    
-    .footer-btn {
-      margin-top: 20px;
-    }
-
-    
-    
-    .header-btns {
-       flex-direction: column;
-    }
-    
-    .header-icon {
-      margin-right: 5px;
-    }
-    
-    .circle {
-      display: none;
-    }
-    
-    .leftImg {
-      height: 340px;
-      width: 140px;
-      margin-left: 5%;
-      margin-right: 15px;
-      margin-top: 10px;
-      margin-bottom: 5px;
-    }
   
-    }
+  .footer-btns {
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer {
+    width: 375px;
+  }
+  
+  .footer-btn {
+    margin-top: 20px;
+  }
+
+  
+  
+  .header-btns {
+     flex-direction: column;
+  }
+  
+  .header-icon {
+    margin-right: 5px;
+  }
+  
+  .circle {
+    display: none;
+  }
+  
+  .leftImg {
+    height: 50vh;
+    width: 108vw;
+    margin-left: 5%;
+    margin-right: 15px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+}
+
     
     /* Media queria til Taplet */
     
-    @media screen and (max-width:768px) {
+    @media only screen
+and (min-device-width : 481px) 
+and (max-device-width : 768px){
       .leftImg {
         height: 340px;
         width: 350px;
@@ -63,8 +65,8 @@
       }
     
       .imgSplash {
-        max-width: 735px;
-        height: 300px;
+        width: 96vw;
+        height: 50vh;
         margin-right: -35px;
       }
   
@@ -90,11 +92,12 @@
 
   /* Media queria til Laptop */
   
-  @media only screen and (min-width: 992px) {
+  @media only screen and (min-device-width : 769px) 
+  and (max-device-width : 1024px){
   
     .imgSplash {
-      width: 990px;
-      height: 520px; 
+      width: 97vw;
+      height: 50vh; 
     }
   
     .leftImg {
@@ -108,11 +111,12 @@
 
   /* Media queria til støre Laptop */
 
- @media only screen and (min-width: 1200px) {
+ @media only screen and (min-device-width : 1025px) 
+ and (max-device-width : 1200px) {
   
     .imgSplash {
-      width: 1410px;
-      height: 520px; 
+      width: 97vw;
+      height: 50vh; 
     }
   
     .leftImg {
@@ -121,7 +125,23 @@
       margin-left: 1070px;
     }
     
-  } 
+  }
+  
+  @media only screen and (min-device-width : 1201px) 
+  and (max-device-width : 1440px) {
+   
+     .imgSplash {
+       width: 97vw;
+       height: 50vh; 
+     }
+   
+     .leftImg {
+       height: 340px;
+       width: 350px;
+       margin-left: 1070px;
+     }
+     
+   } 
   
   /* HAMBURGER MENY */
   @media screen and (max-width: 600px) {
