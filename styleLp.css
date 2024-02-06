@@ -4,7 +4,7 @@ body {
     max-height: 100vh;
     font-family: Arial, sans-serif;
     background-color: honeydew;
-    transition: .4s;
+  
 }
 
 main {
@@ -113,7 +113,7 @@ main {
   align-items: center;
   cursor: pointer;
   margin-left: 10px;
-  transition: .4s;
+
   height: 50px;
 }
 
@@ -121,18 +121,27 @@ main {
   width: 35px;
   height: 35px;
   border-radius: 50%;
-  transition: .4s;
+
   content: url('https://api.iconify.design/material-symbols/dark-mode.svg');
 }
 
 .dark-mode .circle {
-  transition: .4s;
+
   content: url('https://api.iconify.design/material-symbols/light-mode.svg');
+}
+.dark-mode .footer-btn {
+
+  color: #fb5607;
 }
 
 .dark-mode {
   color: #fff;
-  transition: .4s;
+
+}
+
+/* Add transition styles */
+.transition-theme {
+  transition: background-color 0.5s ease;
 }
 
 /* Main */
