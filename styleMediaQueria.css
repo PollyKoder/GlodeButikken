@@ -3,7 +3,7 @@
 /* mobile phones */
 @media only screen
 and (min-device-width : 320px) 
-and (max-device-width : 480px) {
+and (max-device-width : 426px) {
 
   .imgSplash {
     height: 50vh;
@@ -18,7 +18,7 @@ and (max-device-width : 480px) {
   }
 
   footer {
-    width: 375px;
+    width: 116vw;
   }
   
   .footer-btn {
@@ -41,8 +41,8 @@ and (max-device-width : 480px) {
   
   .leftImg {
     height: 50vh;
-    width: 108vw;
-    margin-left: 5%;
+    width: 100vw;
+    margin-left: 7%;
     margin-right: 15px;
     margin-top: 10px;
     margin-bottom: 5px;
