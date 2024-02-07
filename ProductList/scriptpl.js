@@ -1,19 +1,28 @@
+let gridListButtons = document.querySelectorAll('.grid-list-button');
 
-  let gridListButtons = document.querySelectorAll('.grid-list-button');
+gridListButtons.forEach(button => {
+    button.addEventListener('click', gridListToggle);
+});
 
-  gridListButtons.forEach(button => {
-      button.addEventListener('click', gridListToggle);
-  });
-  
-  function gridListToggle() {
-      // Toggle the 'list' class on the container
-      const container = document.querySelector('.container');
-      container.classList.toggle('list-view');
-  
-      // Toggle the animation class on the button
-      this.classList.toggle('animation');
-  }
-  
+function gridListToggle() {
+    let originalButton = this;
+
+    originalButton.classList.add('animation');
+    originalButton.classList.toggle('list');
+
+    // Clone the original button
+    let clonedButton = originalButton.cloneNode(true);
+
+    // Replace the original button with the cloned one
+    originalButton.parentNode.replaceChild(clonedButton, originalButton);
+
+    // Update the gridListButtons NodeList
+    gridListButtons = document.querySelectorAll('.grid-list-button');
+
+    // Add a click event listener to the cloned button
+    clonedButton.addEventListener('click', gridListToggle);
+}
+
   /* Light and Dark mode */
 
 function toggleMode() {
