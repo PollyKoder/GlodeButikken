@@ -19,6 +19,8 @@ body {
 	outline: none;
 	cursor: pointer;
 	transition: .3s ease-in-out;
+    width: 40px;
+    height: 40px;
 }
 .grid-list-button:hover {
 	background-color: #35269b;
