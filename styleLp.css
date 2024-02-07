@@ -308,6 +308,8 @@ max-height: 150px;
 .btn:hover {
  padding-right: 24px;
  padding-left: 8px;
+ animation: pulse 1s infinite;
+  transition: .3s;
 }
 
 .btn:hover:after {
@@ -317,6 +319,18 @@ max-height: 150px;
 
 .btnProduct {
 color: white;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  70% {
+    transform: scale(.9);
+  }
+    100% {
+    transform: scale(1);
+  }
 }
 
 /*MEDIA QUERIES*/

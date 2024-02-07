@@ -137,8 +137,9 @@ h4 {
     padding: 10px;
     cursor: pointer;
     margin-right: 15px;
-    width: 150px;
-    border-radius: 22%;
+    width: 170px;
+    border-radius: 25px;
+    font-size: 23px;
     
     font-family: 'Open Sans', sans-serif;
 }
