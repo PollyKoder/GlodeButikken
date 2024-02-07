@@ -15,6 +15,8 @@
   /* Produkt side */
   --boxBackground: #d4d4d4;
   --buttonShadow: 0 10px 20px -8px #000000;
+  /* Splash text shadow*/
+  --splashTextShadow: 0 0px 5px #FFF, 0 2px 10px #ff0, 0 10px 20px #ff8000, 0 18px 40px #F00;
 }
 
 body {
@@ -43,17 +45,7 @@ main {
   margin-right: 10px;
 }
 
-.center-icon {
-  flex-grow: 1;
-  text-align: center;
-  color: var(--textWhite);
-  text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
-  color: var(--textWhite);
-  font-size: 25px;
-}
-
-.header-icon .imgLogo,
-.center-icon .imgLogo {
+.header-icon .imgLogo {
   width: 90px;
   height: 90px;
   margin-right: 10px;
@@ -187,17 +179,17 @@ main {
 
 .anim-1 {
     animation-name: anim-1-keyframes;
-    text-shadow: 0 0px 5px #FFF, 0 2px 10px #ff0, 0 10px 20px #ff8000, 0 18px 40px #F00;
+    text-shadow: var(--splashTextShadow);
 }
 
 .anim-2 {
     animation-name: anim-2-keyframes;
-    text-shadow: 0 0px 5px #FFF, 0 2px 10px #ff0, 0 10px 20px #ff8000, 0 18px 40px #F00;
+    text-shadow: var(--splashTextShadow);
 }
 
 .anim-3 {
     animation-name: anim-3-keyframes;
-    text-shadow: 0 0px 5px #FFF, 0 2px 10px #ff0, 0 10px 20px #ff8000, 0 18px 40px #F00;
+    text-shadow: var(--splashTextShadow);
 }
 
 @keyframes anim-1-keyframes {
@@ -326,7 +318,7 @@ footer {
   top: 10.5em;
   position: absolute;
   color: var(--mainBlack);
-  text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+  text-shadow: var(--splashTextShadow);
 }
 }
 
@@ -339,7 +331,7 @@ footer {
   top: 11.5em;
   position: absolute;
   color: var(--mainBlack);
-  text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+  text-shadow: var(--splashTextShadow);
   }
 }
 
