@@ -1,4 +1,20 @@
-/* Light and Dark mode */
+
+  let gridListButtons = document.querySelectorAll('.grid-list-button');
+
+  gridListButtons.forEach(button => {
+      button.addEventListener('click', gridListToggle);
+  });
+  
+  function gridListToggle() {
+      // Toggle the 'list' class on the container
+      const container = document.querySelector('.container');
+      container.classList.toggle('list-view');
+  
+      // Toggle the animation class on the button
+      this.classList.toggle('animation');
+  }
+  
+  /* Light and Dark mode */
 
 function toggleMode() {
     const body = document.body;
@@ -10,29 +26,3 @@ function toggleMode() {
   
     body.style.backgroundColor = body.classList.contains('dark-mode') ? '#222' : '#fff';
   }
-
- // Function to toggle between grid and list view
-function toggleView() {
-    const productList = document.querySelector('.divContainProducts');
-    productList.classList.toggle('grid-view');
-}
-
-// Event listener for the grid/list view button
-document.querySelector('.grid-list-button').addEventListener('click', function() {
-    toggleView();
-    gridListToggle(this);
-});
-
-function gridListToggle(button) {
-    button.classList.toggle('list');
-    const dots = button.querySelector('.dots');
-    const lines = button.querySelector('.lines');
-
-    if (dots.classList.contains('list')) {
-        dots.style.display = 'none';
-        lines.style.display = 'block';
-    } else {
-        dots.style.display = 'block';
-        lines.style.display = 'none';
-    }
-}
