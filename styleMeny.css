@@ -1,7 +1,7 @@
 /* Googlefont Poppins CDN Link */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
-/* Fargepallet */
+/* Fargepallet - kodet av Tiril */
 :root {
   /* LIGHT MODE */
   /* Main colors */
@@ -9,11 +9,8 @@
   --mainOrange: #fb5607;
   --dropMenu: #808080;
   --textWhite: #ffffff;
-  --textBlack: #222222;
-  --searchIcon: #ffffff;
+  --mainBlack: #222222;
   --footer: #333333;
-  /* DARK MODE */
-  --mainDarkBackground: #222222;
   /* Produkt oversikt */
   --cardBackground: #f2f2f2;
   /* Produkt side */
@@ -60,7 +57,7 @@ nav .navbar {
 /* Styles for the logo in the navigation bar */
 .navbar .logoHeader a {
   font-size: 30px;
-  color: #fff;
+  color: var(--textWhite);
   text-decoration: none;
   font-weight: 600;
 }
@@ -118,7 +115,7 @@ nav .navbar .links li a {
   height: 100%;
   text-decoration: none;
   white-space: nowrap;
-  color: #fff;
+  color: var(--textWhite);
   font-size: 15px;
   font-weight: 500;
 }
@@ -136,7 +133,7 @@ nav .navbar .links li .arrow {
   line-height: 70px;
   text-align: center;
   display: inline-block;
-  color: #fff;
+  color: var(--textWhite);
   transition: all 0.3s ease;
 }
 
@@ -167,7 +164,7 @@ nav .navbar .links li:hover .js-sub-menu {
 
 /* Styles for sub-menu anchor links */
 .navbar .links li .sub-menu a {
-  color: #fff;
+  color: var(--textWhite);
   font-size: 15px;
   font-weight: 500;
 }
@@ -207,7 +204,7 @@ nav .navbar .links li:hover .js-sub-menu {
   line-height: 40px;
   text-align: center;
   font-size: 22px;
-  color: #fff;
+  color: var(--textWhite);
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -322,13 +319,13 @@ nav .navbar .links li:hover .js-sub-menu {
   
     .sidebar-logo .logo-name{
       font-size: 25px;
-      color: #fff;
+      color: var(--textWhite);
     }
     
       .sidebar-logo  i,
       .navbar .bx-menu{
         font-size: 25px;
-        color: #fff;
+        color: var(--textWhite);
       }
     nav .navbar .links{
       display: block;
