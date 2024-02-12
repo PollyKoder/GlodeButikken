@@ -37,19 +37,14 @@ main {
     margin-bottom: 5px; /* Add margin at the bottom of each gallery section */
 }
 
-/* Styling for the content of each product card, - Sandra */
-.content {
-    border: 1px solid #ddd; /* Border styling */
-    padding: 10px; /* Padding for content */
-    text-align: center; /* Center-align text */
-}
-
-/* Additional styling for product content, - Sandra */
+/* Styling for product content, - Sandra */
 .content {
     flex: 0 0 20%; /* Set flex properties for responsiveness */
     margin: 15px; /* Margin around content */
+    padding: 10px; /* Padding for content */
     box-sizing: border-box; /* Include border and padding in element's total width and height */
     text-align: center; /* Center-align text */
+    border: 1px solid #ddd; /* Border styling */
     border-radius: 20px; /* Add border-radius for rounded corners */
     cursor: pointer;  /*Change cursor on hover */
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); /* Box shadow for a subtle elevation effect */
