@@ -1,0 +1,39 @@
+/*Styling til Produkt Katalog*/
+/*Kodet av */
+body {
+    min-height: 100vh;
+  }
+
+main {
+    display: unset;
+    margin-top: 70px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+.popUpSaleBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height:80px;
+    padding: 2em;
+    border:1px solid grey;
+    border-radius: 20%; 
+    text-align: center;
+    text-shadow: blueviolet;
+}
+
+.faCK {
+    display: unset;
+    margin-top: 500px;
+}
+
+.imgSale {
+    /* background-image: url(Assets/tilbudTemp.jpg);    */
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+

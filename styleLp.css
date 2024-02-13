@@ -39,6 +39,7 @@ main {
   padding: 10px 20px;
   background-color: var(--mainOrange);
   color: var(--textWhite);
+  margin-bottom: 70px; /*La til margin slik at det er lettere å navigere - Polly*/
 }
 
 .header-icon {
