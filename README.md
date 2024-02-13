@@ -5,6 +5,9 @@
 
  - Sorter Media Queries i alle css filer i STOR- LITEN rekkefølge!
 
+ # Vi må få samlet mapper og ordne struktur før siden kan regnes som ferdig. 
+  - Eg har begynt på dette, mens eg syr sammen koden - Polly
+
 
 
 # !NB! - samling fra branch til Merge:
