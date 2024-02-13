@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="/GlodeButikken/styleMeny.css">
     <link rel="stylesheet" href="/GlodeButikken/ProductList/stylePI.css">
     <script src="/GlodeButikken/ProductList/scriptPI.js" defer></script>
-    <title>Document</title>
+    <title>ProductList</title>
 </head>
 <body>
     <header class="navHeader">
@@ -113,10 +113,10 @@
             </div>
           </nav>
       </header>
-
       <main>
+        <button onclick="toggleLayout()" class="gridButton">hei</button>
             <div class="arrow_container">
-                <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+                <button class="prev" onclick="prevSlide(-1)">&#10094;</button>
                 <div class="divArrowcontainer">
 
             <!--STasjonære pc-->
@@ -226,11 +226,12 @@
                     <button class="show_more">Vis</button>
                 </article>
             </section>
-            <button class="next" onclick="moveSlide(1)">&#10095;</button>
+            <button class="next" onclick="nextSlide(1)">&#10095;</button>
           </div>
         </div>
         </div>
 
       </main>
+      
 </body>
 </html>

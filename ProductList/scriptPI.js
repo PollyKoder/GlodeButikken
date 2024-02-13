@@ -77,3 +77,46 @@ document.addEventListener('keydown', (event) => {
         });
     }
 });
+
+/*
+let slideIndex = 0;
+showSlide(slideIndex);
+
+function prevSlide() {
+  showSlide(slideIndex -= 1);
+}
+
+function nextSlide() {
+  showSlide(slideIndex += 1);
+}
+
+function showSlide(index) {
+  const slides = document.getElementsByClassName("gallery");
+  if (index < 0) {
+    slideIndex = slides.length - 1;
+  }
+  if (index >= slides.length) {
+    slideIndex = 0;
+  }
+  for (let i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slides[slideIndex].style.display = "block";
+}
+*/
+
+
+// Grid Button
+let isRowLayout = true;
+
+    function toggleLayout() {
+        const container = document.querySelector('.divContainProducts');
+
+        if (isRowLayout) {
+            container.style.gridTemplateColumns = 'repeat(4, 1fr)'; // Switch to grid columns
+        } else {
+            container.style.gridTemplateColumns = 'repeat(8, 1fr)'; // Switch to grid rows
+        }
+
+        isRowLayout = !isRowLayout;
+    }
