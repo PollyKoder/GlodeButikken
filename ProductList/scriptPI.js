@@ -80,30 +80,38 @@ document.addEventListener('keydown', (event) => {
 
 /*
 let slideIndex = 0;
-showSlide(slideIndex);
+const slides = document.querySelectorAll('.gallery');
 
-function prevSlide() {
-  showSlide(slideIndex -= 1);
+function showSlide(index) {
+  slides.forEach(slide => {
+    slide.style.display = 'none';
+  });
+  slides[index].style.display = 'block';
 }
 
 function nextSlide() {
-  showSlide(slideIndex += 1);
-}
-
-function showSlide(index) {
-  const slides = document.getElementsByClassName("gallery");
-  if (index < 0) {
-    slideIndex = slides.length - 1;
-  }
-  if (index >= slides.length) {
+  if (slideIndex < slides.length - 1) {
+    slideIndex++;
+  } else {
     slideIndex = 0;
   }
-  for (let i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  slides[slideIndex].style.display = "block";
+  showSlide(slideIndex);
 }
+
+function prevSlide() {
+  if (slideIndex > 0) {
+    slideIndex--;
+  } else {
+    slideIndex = slides.length - 1;
+  }
+  showSlide(slideIndex);
+}
+
+showSlide(slideIndex);
 */
+
+
+
 
 
 // Grid Button

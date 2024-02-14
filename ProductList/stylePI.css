@@ -114,8 +114,6 @@ button {
     margin: 10px;
     column-gap: 20px;
     row-gap: 10px;
-    width: 100%;
-    overflow: hidden;
 }
 
 .prodLink {
@@ -130,8 +128,7 @@ button {
 .gallery {
     width: 100%; /* Set width for each gallery section */
     height: 100%; /* attempted code -Polly*/
-    margin-bottom: 5px; /* Add margin at the bottom of each gallery section */
-   
+    margin-bottom: 5px; /* Add margin at the bottom of each gallery section */  
 }
 
 /* Styling for images inside product cards, - Polly added class name, code is by Sandra */
@@ -148,7 +145,6 @@ button {
     transform: scale(1.2);
     transition: 1s ease;
 }
-
 
 
 /*Polly code: added class names*/
@@ -245,6 +241,7 @@ button {
     width: 40px;
     height: 40px;
 }
+
 
 .next:hover {
     background-color: #222222;
