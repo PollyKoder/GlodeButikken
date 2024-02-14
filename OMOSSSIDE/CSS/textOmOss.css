@@ -15,6 +15,11 @@
     margin-right: 25px;
 }
 
+.dark-mode .intro  {
+    background-color: #313131;
+}
+
+/*Videre styling er kodet av Amalie og Trym*/
 body {
     font-family: 'Open Sans', sans-serif;
     line-height: 1.6;
@@ -41,7 +46,8 @@ body {
     padding: 2rem;
     background-color: #f2f2f2;
     gap: 20px;
-    margin-left: 10rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
 }
 
 .h2About {
@@ -75,6 +81,8 @@ body {
     margin-left: 30px;
 }
 
+
+
 .openT {
     margin-left: 30px;
 }
@@ -88,7 +96,10 @@ body {
 
 .olOM {
     margin-left: 40px;
+    list-style: none;
 }
+
+
 
 .features {
     margin: 20px;
@@ -102,7 +113,7 @@ body {
     background-color: #b3af8f;
     padding: 1.5rem;
     text-align: center;
-    margin-right: 25px;
+    /* margin-right: 25px; */
 }
 
 .feature i {
@@ -121,17 +132,25 @@ body {
     line-height: 1.5;
 }
 
+.payImg {
+    list-style: none;
+    padding: 2.5em;
+
+}
+
 .imgVisa{
-    width: 50px;
+    width: 65px;
     height: 50px;
+    box-shadow: 1px 1px 10px #b3af8f;
 }
 
 .imgVipps{
+    margin-bottom: 1em;
     width: 80px;
     height: 50px;
 }
 
-.button{
+.buttonAbout{
     background-color: #ff6347;
     border: none;
     color: #fff;
@@ -140,12 +159,10 @@ body {
     margin-right: 15px;
     width: 170px;
     border-radius: 25px;
-    font-size: 23px;
-    
-    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
 }
 
-.button:hover{
+.buttonAbout:hover{
     animation: pulse 1s infinite;
   transition: .3s;
   background-color: #fb5607;;

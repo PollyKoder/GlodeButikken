@@ -42,11 +42,12 @@
     - Oppdater css for Logo.     .-DONE(?)
     - Fix Dark mode i handleKurv  .-DONE
     - ProductList -> koble til Tiril sin product template!!  .-DONE
-    - Hvordan får vi darkmode til å forbli aktivert når man bytter side?
+    - Hvordan får vi darkmode til å forbli aktivert når man bytter side? - Tony Fix: DONE
     - sorter css i PL, gi class names til elementer og style accordingly. 
     - Oppdater Amalie sin css på Animert tekst.  + logo update!
     - oppdater Tiril og Trym sin kode!
     - alt attribute tekst på ordnes/oppdateres til å beskrive bildene slik at det er tilrettelagt for blinde!
+    - OMOSS: gi button et class name!!
 
 
 
