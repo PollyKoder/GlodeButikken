@@ -1,18 +1,12 @@
 /* Global Styles */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
-
+/* 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
-
-body {
-    font-family: 'Open Sans', sans-serif;
-    line-height: 1.6;
-    color: #333;
-}
+} */
 
 /* Responsive Styles */
 @media screen and (max-width: 1200px) {
@@ -40,11 +34,11 @@ body {
         font-size: 1.5rem;
     }
 
-    .intro h2 {
+    .intro .h2About {
         font-size: 1.2rem;
     }
 
-    .feature h3 {
+    .feature .h3About {
         font-size: 1rem;
     }
 }

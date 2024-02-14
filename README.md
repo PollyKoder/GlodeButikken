@@ -7,6 +7,7 @@
 
  # Vi må få samlet mapper og ordne struktur før siden kan regnes som ferdig. 
   - Eg har begynt på dette, mens eg syr sammen koden - Polly
+  - Alle bilder skal i systematiserte mapper i Assets mappen, ordne linker til bildene i html når man flytter bilden for å unngå rot.
 
 
 
