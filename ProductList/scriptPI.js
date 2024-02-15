@@ -120,11 +120,14 @@ let isRowLayout = true;
     function toggleLayout() {
         const container = document.querySelector('.divContainProducts');
 
+
         if (isRowLayout) {
-            container.style.gridTemplateColumns = 'repeat(4, 1fr)'; // Switch to grid columns
+            container.style.gridTemplateColumns = '1540px'; // Switch to grid rows
         } else {
-            container.style.gridTemplateColumns = 'repeat(8, 1fr)'; // Switch to grid rows
+          container.style.gridTemplateColumns = 'repeat(4, 1fr)'; // Switch to grid columns
         }
 
         isRowLayout = !isRowLayout;
     }
+
+   

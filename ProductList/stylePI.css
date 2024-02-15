@@ -108,12 +108,13 @@ button {
 /*liten kode med divContainer fra Polly*/
 .divContainProducts {
     display: grid;
-    grid-template-columns: repeat(8, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(4, 1fr);
     padding: 10px;
     margin: 10px;
     column-gap: 20px;
     row-gap: 10px;
+    text-align: center;
 }
 
 .prodLink {
@@ -150,7 +151,8 @@ button {
 /*Polly code: added class names*/
 .h3PL {
     color: #222222;
-    font-size: 18px;
+    font-size: 15px;
+    text-align: center;
 }
     /*Hentet coden fra Sandra, Polly = kun class names*/
 .pPL {
