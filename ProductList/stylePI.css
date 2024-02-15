@@ -115,6 +115,7 @@ button {
     column-gap: 20px;
     row-gap: 10px;
     text-align: center;
+    margin-right: 31px;
 }
 
 .prodLink {
@@ -198,10 +199,11 @@ button {
 
 .gridButton {
     all: unset;
+    margin-left: -15px;
 } 
 
 .gridImg {
-    margin-top: 40px;
+    margin-top: 50px;
     width: 50px;
     height: 50px;
     cursor: pointer;
