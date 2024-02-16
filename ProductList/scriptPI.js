@@ -16,6 +16,33 @@ document.addEventListener('DOMContentLoaded', function() {
     // Remove transition class on page load
     body.classList.remove('transition-theme');
   });
+
+  //Kodet av Amalie og Tony
+/* LIGHT AND DARK MODE */
+
+function toggleMode() {
+  const currentTheme = document.documentElement.getAttribute('data-theme');
+  const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+
+  document.documentElement.setAttribute('data-theme', newTheme);
+  localStorage.setItem('theme', newTheme);
+  
+  const body = document.body;
+  const circle = document.querySelector('.circle');
+
+  // Add transition class only when toggling mode
+  body.classList.add('transition-theme');
+
+  body.classList.toggle('dark-mode');
+  circle.classList.toggle('dark-mode');
+
+  body.style.backgroundColor = body.classList.contains('dark-mode') ? '#222' : '#fff';
+
+  // Remove transition class after the transition completes
+  setTimeout(function() {
+    body.classList.remove('transition-theme');
+  }, 1000); // Adjust the time according to your transition duration
+}
   
   // search-box open close js code
   //Kodet av Sandra
