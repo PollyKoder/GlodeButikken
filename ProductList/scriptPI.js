@@ -119,15 +119,16 @@ let isRowLayout = true;
 
     function toggleLayout() {
         const container = document.querySelector('.divContainProducts');
+        const switchGritToList = document.querySelector('.gridImg')
 
 
         if (isRowLayout) {
-            container.style.gridTemplateColumns = '1540px'; // Switch to grid rows
+            container.classList.toggle('list'); // Switch to list
+            switchGritToList.classList.toggle('gridIcon');
         } else {
-          container.style.gridTemplateColumns = 'repeat(4, 1fr)'; // Switch to grid columns
+          container.classList.toggle('grid'); // Switch to grid 
+          switchGritToList.classList.toggle('listIcon');
         }
 
         isRowLayout = !isRowLayout;
     }
-
-   
