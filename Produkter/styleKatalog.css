@@ -51,7 +51,8 @@ main {
     border:1px solid grey;
     border-radius: 20%; 
     text-align: center;
-    text-shadow: blueviolet;
+    text-shadow: var(--footer);
+    /*juster når resten av koden kommer på plass*/
 }
 
 .faCK {
