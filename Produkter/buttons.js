@@ -3,3 +3,5 @@
     // Replace the following URL with the actual URL structure of your product pages
     window.location.href = '/products/' + productId;
 }
+
+//Hva er dette og hvilke fil/filer er det koblet til?
