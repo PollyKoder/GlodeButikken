@@ -1,0 +1,60 @@
+
+.contentDs{
+    flex: 0 0 20%; /* Set flex properties for responsiveness */
+    margin: 15px; /* Margin around content */
+    box-sizing: border-box; /* Include border and padding in element's total width and height */
+    text-align: center; /* Center-align text */
+    border-radius: 20px; /* Add border-radius for rounded corners */
+    cursor: pointer; /* Change cursor on hover */
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); /* Box shadow for a subtle elevation effect */
+    transition: .4s; /* Add transition effect */
+    background: #f2f2f2; /* Background color */
+    border: 1px solid #ddd; /* Border styling */
+    padding: 10px; /* Padding for content */
+    text-align: center; /* Center-align text */
+}
+
+.contentDs:hover{
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); /* Adjust box shadow on hover */
+    transform: translate(0px, -8px); /* Move content slightly upward on hover */
+}
+.galleryDesktop{
+    width: 30%; /* Set width for each gallery section */
+    margin-bottom: 20px; /* Add margin at the bottom of each gallery section */
+    width: 100%; /* Set width for each gallery section */
+    height: 100%; /* attempted code -Polly*/
+    margin-bottom: 5px; /* Add margin at the bottom of each gallery section */
+}
+
+.imgDs{
+    width: 200px; /* Set width for images */
+    height: 200px; /* Set height for images */
+    text-align: center; /* Center-align text */
+    margin: 0 auto; /* Center-align images horizontally */
+}
+
+.h3Ds{
+    color: #222222; 
+}
+
+.pDs{
+    text-align: center; /* Center-align text */
+    color: #b2bec3; /* Set text color */
+    padding-top: 8px; /* Add padding at the top */
+}
+
+.h5Ds{
+    font-size: 26px; /* Set font size */
+    text-align: center; /* Center-align text */
+    color: #222f3e; /* Set text color */
+    margin: 0; /* Remove margin */ 
+} 
+
+.btnDesktop{
+    width: 150px;
+    height: 40px;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: #fb5607;
+    color: white;
+}

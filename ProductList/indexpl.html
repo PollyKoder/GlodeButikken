@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/GlodeButikken/styleLp.css"/>
     <link rel="stylesheet" href="/GlodeButikken/styleMeny.css"/>
-    <link rel="stylesheet" href="gridandlistButton.css">
+    <link rel="stylesheet" href="galleryDs.css">
     <link rel='stylesheet' href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' />
 
     <!-- css kodet av Sandra -->
@@ -121,28 +121,34 @@
         </nav>
     </header>
 
-      <!--grid and list button-->
-      <div class="button-container">
-        <button class="grid-list-button">
-            <span class="icon">
-                <span class="dots">
-                    <i></i>
-                    <i></i>
-                    <i></i>
-                    <i></i>
-                </span>
-                <span class="lines">
-                    <i></i>
-                    <i></i>
-                    <i></i>
-                    <i></i>
-                </span>
-            </span>
-        </button>
-    </div>
-
     <main>
-       
+      <button class="btnDesktop">Se mer av stasjonær</button>
+      <h3>Stasjonær</h3>
+      <div class="divContainProducts">
+        <section class="galleryDesktop">
+        <article class="contentDs">
+          <img class="imgDs" src="imgDesktop/Dell OptiPlex 3040 Mikro PC.webp" alt="">
+          <h3 class="h3Ds">Dell OptiPlex 3040 Mikro PC</h3>
+          <p class="pDs">16gb RAM</p>
+          <h5 class="h5Ds">kr2,100.00</h5>
+          <button class="showMore">Vis</button>
+        </article>
+        </section>
+
+        <section class="galleryDesktop">
+          <article class="contentDs">
+            <img class="imgDs" src="imgDesktop/HP EliteDesk 705 G2.webp" alt="">
+            <h3 class="h3Ds">HP EliteDesk 705 G2</h3>
+            <p class="pDs">16gb RAM</p>
+            <h5 class="h5Ds">kr 800.00</h5>
+            <button class="showMore">Vis</button>
+          </article>
+          </section>
+      </div>
+
+
+       <!--Laptoper-->
+       <h3>Laptoper</h3>
         <!--kodet av Sandra-->
         <!-- Product card for HP ProBook 650 -->
       <div class="divContainProducts">
@@ -151,12 +157,12 @@
               <!-- Additional elements and content specific to the article -->
               <article class="content"> 
 
-                <img class="imgPL" src="imag/Book_650.webp" alt="HP ProBook 650">
+                <img class="imgPL" src="imgLaptop/Book_650.webp" alt="HP ProBook 650">
                 <h3 class="h3PL">HP ProBook 650</h3>
                 <p class="pPL">HP ProBook 650 G2 8 GB Ram SSD</p>
                 <h5 class="h5PL">kr 1,950.00</h5>
                 <!-- <a href="/Produkter/PC/Laptop/ProductTemplate/indexTemplate.html"> -->
-                <button class="show_more">Vis</button>
+                <button class="showMore">Vis</button>
                 <!-- Mulig vi vil at det skal være link rundt hele elementet slik at man blir sendt videre til
                   produktsiden uansett hvor man trykker? -->
               </article>
@@ -167,11 +173,11 @@
           <section class="gallery">
               <!-- Additional elements and content specific to the article -->
               <article class="content">
-                  <img class="imgPL" src="imag/Dell_Latitude.webp" alt="Dell Latitude E7250">
+                  <img class="imgPL" src="imgLaptop/Latitude_E7450.webp" alt="Dell Latitude E7250">
                   <h3 class="h3PL">Dell Latitude E7250</h3>
                   <p class="pPL">Dell Latitude E7250 SSD 16 GB RAM</p>
                   <h5 class="h5PL">kr 1,950.00</h5>
-                  <button class="show_more">Vis</button>
+                  <button class="showMore">Vis</button>
               </article>
           </section>
 
@@ -179,11 +185,11 @@
           <section class="gallery">
               <!-- Additional elements and content specific to the article -->
               <article class="content">
-                  <img class="imgPL" src="imag/E5540.webp" alt="Dell Latitude E5540">
+                  <img class="imgPL" src="imgLaptop/E5540.webp" alt="Dell Latitude E5540">
                   <h3 class="h3PL">Dell Latitude E5540</h3>
                   <p class="pPL">Dell Latitude E5540 8 GB RAM numerisk tastatur</p>
                   <h5 class="h5PL">kr 1,500.00</h5>
-                  <button class="show_more">Vis</button>
+                  <button class="showMore">Vis</button>
               </article>
           </section>
 
@@ -191,35 +197,11 @@
           <section class="gallery">
               <!-- Additional elements and content specific to the article -->
               <article class="content">
-                  <img class="imgPL" src="imag/HP_ProBook.webp" alt="HP ProBook">
+                  <img class="imgPL" src="imgLaptop/HP_ProBook.webp" alt="HP ProBook">
                   <h3 class="h3PL">HP ProBook</h3>
                   <p class="pPL">HP ProBook description</p>
                   <h5 class="h5PL">kr 1,950.00</h5>
-                  <button class="show_more">Vis</button>
-              </article>
-          </section>
-
-          <!-- Product card for Dell Latitude E7450 -->
-          <section class="gallery">
-              <!-- Additional elements and content specific to the article -->
-              <article class="content">
-                  <img class="imgPL" src="imag/Latitude_E7450.webp" alt="Dell Latitude E7450">
-                  <h3 class="h3PL">Dell Latitude E7450</h3>
-                  <p class="pPL">Dell Latitude E7450 description</p>
-                  <h5 class="h5PL">kr 1,900.00</h5>
-                  <button class="show_more">Vis</button>
-              </article>
-          </section>
-
-          <!-- Product card for Dell Latitude E5540 -->
-          <section class="gallery">
-              <!-- Additional elements and content specific to the article -->
-              <article class="content">
-                  <img class="imgPL" src="imag/E5540.webp" alt="Dell Latitude E5540">
-                  <h3 class="h3PL">Dell Latitude E5540</h3>
-                  <p class="pPL">Dell Latitude E5540 8 GB RAM numerisk tastatur</p>
-                  <h5 class="h5PL">kr 1,500.00</h5>
-                  <button class="show_more">Vis</button>
+                  <button class="showMore">Vis</button>
               </article>
           </section>
         </div>
