@@ -124,23 +124,6 @@ button {
     } */
 }
 
-.grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    padding: 10px;
-    margin: 10px;
-    column-gap: 20px;
-    row-gap: 10px;
-    text-align: center;
-    margin-right: 31px;
-}
-
-.list {
-    display: flex;
-    flex-direction: column;
-    margin-right: 1160px;
-}
-
 /* Styling for the product gallery section, - Sandra */
 .gallery {
     width: 100%; /* Set width for each gallery section */
@@ -230,6 +213,30 @@ button {
 
 .listIcon {
     content: url('/GlodeButikken/ProductList/imag/list.png');
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 10px;
+    margin: 10px;
+    column-gap: 20px;
+    row-gap: 10px;
+    text-align: center;
+    margin-right: 31px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    margin-right: 1140px;
+    width: 1560px;
+    
+}
+
+.listImg {
+    width: 250px;
+    height: 210px;
 }
 
 /*ARROW BUTTONS*/

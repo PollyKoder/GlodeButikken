@@ -85,25 +85,7 @@ function toggleMode() {
    navLinks.classList.toggle("show3");
   }
 
-  //ARROW BUTTONS
-  const container = document.querySelector('.divContainProducts');
 
-document.addEventListener('keydown', (event) => {
-    const key = event.key;
-    if (key === 'ArrowLeft') {
-        // Handle moving left
-        container.scrollBy({
-            left: -100, // Adjust the scroll distance as needed
-            behavior: 'smooth' // Optional: Add smooth scrolling behavior
-        });
-    } else if (key === 'ArrowRight') {
-        // Handle moving right
-        container.scrollBy({
-            left: 100, // Adjust the scroll distance as needed
-            behavior: 'smooth' // Optional: Add smooth scrolling behavior
-        });
-    }
-});
 
 /*
 let slideIndex = 0;
@@ -146,12 +128,14 @@ let isRowLayout = true;
 
     function toggleLayout() {
         const container = document.querySelector('.divContainProducts');
-        const switchGritToList = document.querySelector('.gridImg')
+        const switchGritToList = document.querySelector('.gridImg');
+        const listView = document.querySelector('.imgPL');
 
 
         if (isRowLayout) {
             container.classList.toggle('list'); // Switch to list
             switchGritToList.classList.toggle('gridIcon');
+            listView.classList.toggle('listImg');
         } else {
           container.classList.toggle('grid'); // Switch to grid 
           switchGritToList.classList.toggle('listIcon');
