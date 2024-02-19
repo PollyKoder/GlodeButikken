@@ -31,36 +31,38 @@ main {
 }
 
 .onSale  {
-    /* background-image: url(/Assets/tilbudTemp.jpg); */
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    background-position-x: center;
-    background-position-y: center;
-    min-width: 300px;
-    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .popUpSaleBox {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 500px;
-    height:80px;
+    background-image: url(/Assets/tilbudTemp.jpg); /*placeholder IMG*/
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    width: 900px;
+    height:150px;
     padding: 2em;
     border:1px solid grey;
-    border-radius: 20%; 
+    border-radius: 50px; 
     text-align: center;
-    text-shadow: var(--footer);
+    text-shadow: 5px 5px 5px var(--footer);
+    font-size:xx-large;
     /*juster når resten av koden kommer på plass*/
 }
 
-.faCK {
+/* .faCK {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 50%
-}
+} */
 
 .imgSale {
     /* background-image: url(Assets/tilbudTemp.jpg);    */
