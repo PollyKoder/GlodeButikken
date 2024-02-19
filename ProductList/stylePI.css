@@ -227,7 +227,7 @@ button {
 }
 
 .list {
-    display: flex;
+    display: block;
     flex-direction: column;
     margin-right: 1140px;
     width: 1560px;
@@ -237,6 +237,7 @@ button {
 .listImg {
     width: 250px;
     height: 210px;
+    margin-right: 80%;
 }
 
 /*ARROW BUTTONS*/

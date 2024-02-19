@@ -120,26 +120,37 @@ showSlide(slideIndex);
 */
 
 
+// Grid Function 
 
+function grid() {
+  container.classList.add('grid'); // Add the 'grid' class to container
+  container.classList.remove('list'); // Remove the 'list' class from container
+  listView.classList.remove('listImg'); // Remove the 'listImg' from class
+  switchGritToList.classList.add('listIcon'); // Add the 'listIcon' from class
+  switchGritToList.classList.remove('gridIcon'); // Remove the 'gridIcon' from class
+}
 
+function list() {
+  container.classList.add('list'); // Add the 'list' class to container
+  container.classList.remove('grid'); // Remove the 'grid' class from container
+  listView.classList.add('listImg'); // Add the 'listImg' from class
+  switchGritToList.classList.add('gridIcon'); // Add the 'gridIcon' from class
+  switchGritToList.classList.remove('listIcon'); // Remove the 'listIcon' from class
+}
 
 // Grid Button
 let isRowLayout = true;
 
-    function toggleLayout() {
-        const container = document.querySelector('.divContainProducts');
-        const switchGritToList = document.querySelector('.gridImg');
-        const listView = document.querySelector('.imgPL');
+const container = document.querySelector('.divContainProducts');
+const switchGritToList = document.querySelector('.gridImg');
+const listView = document.querySelector('.imgPL');
 
+function toggleLayout() {
+  if (isRowLayout) {
+    grid(); // Call the grid function to switch to grid layout
+  } else {
+    list(); // Call the list function to switch to list layout
+  }
 
-        if (isRowLayout) {
-            container.classList.toggle('list'); // Switch to list
-            switchGritToList.classList.toggle('gridIcon');
-            listView.classList.toggle('listImg');
-        } else {
-          container.classList.toggle('grid'); // Switch to grid 
-          switchGritToList.classList.toggle('listIcon');
-        }
-
-        isRowLayout = !isRowLayout;
-    }
+  isRowLayout = !isRowLayout; // Toggle the layout flag
+}
