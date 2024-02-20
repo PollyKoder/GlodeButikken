@@ -247,28 +247,28 @@ main {
   }
 
 /*TEXT STYLING*/
-.infoText {
+/* .infoText {
     margin-left: 2em;
-}
+} */
 
 .h1LP {
     padding-top: 20px;
     font-style: italic;
     font-weight: lighter;
-    padding-left: 15px;
+    padding-left: 10px;
     text-align: left;
 }
 
 .h3LP {
   font-style: italic;
   font-weight: bold;
-  padding-left: 15px;
+  /* padding-left: 15px; */
   text-align: left;
 }
 
 .pLP {
   font-style: italic;
-  padding-left: 15px;
+  /* padding-left: 15px; */
   text-align: left;
 }
 
@@ -286,7 +286,8 @@ main {
     width: 220px;
     transition: all 0.5s;
     cursor: pointer;
-    margin: 36px;
+    margin-top: 30px;
+    margin-bottom: 30px;;
     box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 7);
 }
 
@@ -364,16 +365,36 @@ footer {
 
 /* MQ - MOBIL */
 @media (max-width: 600px) {
-
-  .imgSplash {
-    width: 400px;
-    height: 340px;
-    /* margin-right: -35; */
+  .logoHeader {
+    margin-left: 5%; 
   }
 
   nav {
     width: 380px;
   }
+
+  .textImgPosition {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    row-gap: 50px;
+  }
+
+  .iTextWbtn {
+    display: flex;
+    flex-direction: column;
+    width: 20em;
+  }
+
+  .imgSplash {
+    width: 400px;
+    height: 340px;
+    margin-right: 3%;
+  }
+
+  
 
   footer {
     /* min-width: 20rem;
@@ -458,7 +479,9 @@ footer {
   }
 
   .logoHeader {
-    margin-right: 10px;
+    /* margin-right: 10px; */
+    display: flex;
+    justify-content: center;
   }
 
   .circle {
@@ -470,7 +493,9 @@ footer {
   }
 
   .shoppingCartButton {
-    margin-right: 160px;
+    /* margin-right: 160px; */
+    display: flex;
+    justify-content: right;
   }
 
   footer {

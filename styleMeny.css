@@ -74,9 +74,9 @@ h1 {
     padding-top: 20px;
     font-style: italic;
     font-weight: lighter;
-    padding-left: 15px;
+    padding-left: 10px;
 }
-
+/*
 h3 {
   font-style: italic;
   font-weight: bold;
@@ -86,7 +86,7 @@ h3 {
 p {
   font-style: italic;
   padding-left: 15px;
-}
+} */
 
 
 /* Styles for the navigation links */
