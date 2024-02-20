@@ -12,6 +12,7 @@
     border: 1px solid #ddd; /* Border styling */
     padding: 10px; /* Padding for content */
     text-align: center; /* Center-align text */
+    
 }
 
 .contentDs:hover{
@@ -20,7 +21,7 @@
 }
 .galleryDesktop{
     width: 30%; /* Set width for each gallery section */
-    margin-bottom: 20px; /* Add margin at the bottom of each gallery section */
+    margin-bottom: 5px; /* Add margin at the bottom of each gallery section */
     width: 100%; /* Set width for each gallery section */
     height: 100%; /* attempted code -Polly*/
     margin-bottom: 5px; /* Add margin at the bottom of each gallery section */
@@ -57,4 +58,11 @@
     border-radius: 10px;
     background-color: #fb5607;
     color: white;
+    right: 150px;
+    position: absolute;
+}
+
+.mainTitle{
+   text-align: center;
+   font-size: 60px;
 }
