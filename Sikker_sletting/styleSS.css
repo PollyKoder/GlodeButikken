@@ -1,5 +1,49 @@
-/*css kodet av Øystein*/
-/* Endring av teksten, NØD*/
+/*css for SikkerSletting siden -  kodet av Øystein*/
+/* Endring av teksten, NØD (?)*/
+
+/* Fargepallet - kodet av Tiril */
+:root {
+  /* LIGHT MODE */
+  /* Main colors */
+  --mainLightBackground: #f0fff0;
+  --mainOrange: #fb5607;
+  --dropMenu: #808080;
+  --textWhite: #ffffff;
+  --mainBlack: #222222;
+  --footer: #333333;
+  /* Produkt oversikt */
+  --cardBackground: #f2f2f2;
+  /* Produkt side */
+  --boxBackground: #d4d4d4;
+  --buttonShadow: 0 10px 20px -8px #000000;
+}
+
+/*Kode for CustomerPosition av Tony*/
+.dark-mode .positionArrow {
+  margin-top: 70px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+
+.customerPosition {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.positionArrow {
+  margin-top: 70px;
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
 .h1SS {
     padding-top: 50px;
     padding-bottom: 15px;
@@ -68,4 +112,3 @@
   flex-direction: row;
   gap: 250px;
 } */
-

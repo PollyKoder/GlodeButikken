@@ -138,6 +138,14 @@ main {
   color: #fff;
 
 }
+/*Kode for CustomerPosition av Tony*/
+
+
+.customerPosition {
+  margin-left: 20px;
+  margin-top: 60px;
+  
+}
 
 /* Add transition styles */
 .transition-theme {
