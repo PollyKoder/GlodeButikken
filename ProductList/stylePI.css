@@ -77,6 +77,13 @@ button {
     border-bottom-left-radius: 20px; /* Add border-radius for rounded corners */
 }
 
+/*button:hover {
+    -webkit-transform: scale(-1.2);
+    -ms-transform: scale(-1.2);
+    transform: scale(-1.2);
+    transition: 1s ease;
+}*/
+
 
 /* Styling for the 'show more' button */
 .show_more {
@@ -252,6 +259,8 @@ button {
 
 .money {
     margin-left: 60rem;
+    position: relative;
+    top: -4rem;
 }
 
 .showMoreBtnList {
@@ -261,4 +270,11 @@ button {
     margin-left: 80rem;
     position: relative;
     top: -7rem;
+}
+
+.show_more:hover {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    transition: 1s ease;
 }
