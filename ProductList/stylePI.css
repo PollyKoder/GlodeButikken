@@ -63,7 +63,6 @@ h5 {
     margin: 0; /* Remove margin */
 }
 
-/* Styling for buttons inside product cards */
 button {
     text-align: center; /* Center-align text */
     font-size: 24px; /* Set font size */
@@ -77,6 +76,7 @@ button {
     border-bottom-right-radius: 20px; /* Add border-radius for rounded corners */
     border-bottom-left-radius: 20px; /* Add border-radius for rounded corners */
 }
+
 
 /* Styling for the 'show more' button */
 .show_more {
@@ -167,11 +167,6 @@ button {
         margin: 0; /* Remove margin */ 
 }
 
-/* Styling for the 'show more' button */
-.show_more {
-    background: #fb5607; /* Set background color */
-}
-
   @media (max-width: 425px) {
     .divContainProducts {
         grid-template-columns: repeat(1, 1fr);
@@ -195,6 +190,20 @@ button {
     }
 }
 
+/* Gridd and List */
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 10px;
+    margin: 10px;
+    column-gap: 20px;
+    row-gap: 10px;
+    text-align: center;
+    margin-right: 31px;
+}
+
 .gridButton {
     all: unset;
     margin-left: 90rem;
@@ -215,22 +224,11 @@ button {
     content: url('/GlodeButikken/ProductList/imag/list.png');
 }
 
-.grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    padding: 10px;
-    margin: 10px;
-    column-gap: 20px;
-    row-gap: 10px;
-    text-align: center;
-    margin-right: 31px;
-}
-
 .list {
     display: block;
     flex-direction: column;
     margin-right: 1140px;
-    width: 1560px;
+    width: 95rem;
     
 }
 
@@ -240,50 +238,27 @@ button {
     margin-right: 80%;
 }
 
-/*ARROW BUTTONS*/
-.arrow_container{
+.textList {
+    justify-content: center;
+    margin-top: -10rem;
+    margin-right: 50%;
+    margin-left: 4rem;
+}
+
+.textList1 {
+    margin-right: 50%;
+    margin-left: 4rem;
+}
+
+.money {
+    margin-left: 60rem;
+}
+
+.showMoreBtnList {
+    margin-bottom: -10rem;
+    width: 80px;
+    height: 150px;
+    margin-left: 80rem;
     position: relative;
-    overflow: hidden;
-}
-
-.prev,.next{
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    padding: 10px;
-    border: none;
-    cursor: pointer;
-    z-index: 1;
-}
-
-.prev{
-    left: 0;
-    top: 225px;
-    width: 40px;
-    height: 40px;
-    
-}
-
-.prev:hover {
-    background-color: #222222;
-}
-
-.next{
-    right: 0;
-    top: 230px;
-    width: 40px;
-    height: 40px;
-}
-
-
-.next:hover {
-    background-color: #222222;
-}
-
-
-.divArrowcontainer{
-    display: flex;
-    transition: transform 0.5 ease;
+    top: -7rem;
 }
