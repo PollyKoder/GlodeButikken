@@ -26,11 +26,11 @@
     - Tiril sin kode til eksempel template er til HP pro book 650.  .-DONE
     - Add footer til Sandra sin kode.  .-DONE, but needs adjusting!!
     - Hvorfor er ikke søke ikonet synlig?? -> manglet script, FIXED   .-DONE
-    - Add Trym alt fra sin kode om OM OSS   .-DONE, needs fixing tho...
-    - Add Øystein alt fra Øystein sin kode fra Sikker sletting.   .-DONE, noe mer 
+    - Add Trym alt fra sin kode om OM OSS   .-DONE!!
+    - Add Øystein alt fra Øystein sin kode fra Sikker sletting.   .-DONE,  media queries?
     - Mulig at Media qeuries i stylePl css filen må sorteres fra litens skjerm til stort
-    - juster enten logo eller størrelse på Header/navBar!
-    - Hvorfor er footeren misplassert i OMOSS siden?
+    - juster enten logo eller størrelse på Header/navBar!  .-DONE
+    - Hvorfor er footeren misplassert i OMOSS siden? 
     - Er det ny footer fra Sandra?   .-NOPE, misforståelse.
     - I AboutPage: Fiks åpningstider til å være satt opp som ul, uten list-style(alstå uten de dottene forran).
     - I product list må produktene som vises enten plasseres med flex/gap eller i en grid, når vi bruker margin er det lett for at diverse nettlesere og skjermstørrelser ikkje reagerer likt.   .- DONE
@@ -45,9 +45,12 @@
     - Hvordan får vi darkmode til å forbli aktivert når man bytter side? - Tony Fix: DONE
     - sorter css i PL, gi class names til elementer og style accordingly. 
     - Oppdater Amalie sin css på Animert tekst.  + logo update!
-    - oppdater Tiril og Trym sin kode!
+    - oppdater Tiril og Trym sin kode! .-DONE
     - alt attribute tekst på ordnes/oppdateres til å beskrive bildene slik at det er tilrettelagt for blinde!
     - OMOSS: gi button et class name!!
+    - Fix dropdown meny: legge tjenester under produkter m/sikkersletting(dette kan gjøres i template mappen)
+    - Fått info for Sikker sletting via email, kun tekst er relevant til siden.
+    - Sett opp system for bilder(spesifikt produkter!) og ordne mappe system genrelt, få alle sider under en mappe som heter Pages.
 
 
 
