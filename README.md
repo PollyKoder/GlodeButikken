@@ -5,6 +5,10 @@
 
  - Sorter Media Queries i alle css filer i STOR- LITEN rekkefølge!
 
+ # Vi må få samlet mapper og ordne struktur før siden kan regnes som ferdig. 
+  - Eg har begynt på dette, mens eg syr sammen koden - Polly
+  - Alle bilder skal i systematiserte mapper i Assets mappen, ordne linker til bildene i html når man flytter bilden for å unngå rot.
+
 
 
 # !NB! - samling fra branch til Merge:
@@ -38,11 +42,12 @@
     - Oppdater css for Logo.     .-DONE(?)
     - Fix Dark mode i handleKurv  .-DONE
     - ProductList -> koble til Tiril sin product template!!  .-DONE
-    - Hvordan får vi darkmode til å forbli aktivert når man bytter side?
+    - Hvordan får vi darkmode til å forbli aktivert når man bytter side? - Tony Fix: DONE
     - sorter css i PL, gi class names til elementer og style accordingly. 
     - Oppdater Amalie sin css på Animert tekst.  + logo update!
     - oppdater Tiril og Trym sin kode!
     - alt attribute tekst på ordnes/oppdateres til å beskrive bildene slik at det er tilrettelagt for blinde!
+    - OMOSS: gi button et class name!!
 
 
 

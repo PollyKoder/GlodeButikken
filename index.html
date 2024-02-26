@@ -30,7 +30,10 @@
 <body>
   <header class="navHeader">
     <!--Følgene kode er for det meste laget av Sandra-->
-      <!--Bruker bindestrek pågrunn av at koden knekker hvis eg ikke gjør det på den måten-->
+      <!--Bruker bindestrek fordi koden knekker hvis eg ikke gjør det på den måten-->
+      <!-- Endre class name og flytt "navHeader-class til nav element(se over at koden i css ikkje
+        kollliderer. Gi så header ny class og style den slik at vi slipper å ha margin-top:70px i alle andre 
+        filer.)"-->
 
       <!--Contains the navigation bar-->
       <nav>
@@ -40,7 +43,7 @@
           <!--Innskudd kodelinje fra Amalie -->
         <div class="header-icon">
           <a href="/index.html">
-            <img class="imgLogo" src="img/logo_wWhite2.png" alt="left icon">
+            <img class="imgLogo" src="/Assets/Icons/logo_wWhite2.png" alt="left icon">
           </a>
         </div>
         <!-- fortsetter med kode fra Sandra-->    
@@ -66,8 +69,8 @@
             <ul class="links">
               <li><a href="/index.html">Hjem </a></li>
               <li>
-                <!--placeholder link, tem solution-->
-                <a href="/ProductList/indexPl.html">Produkter</a>
+                <!--placeholder link, temp solution-->
+                <a href="/Produkter/produktKatalog.html">Produkter</a>
                 <!-- List of main navigation links-->
                 <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
                 <!-- Sub-menu for "Produkter" with additional items.-->
@@ -125,19 +128,20 @@
           <!--Shopping cart button kodet av Amalie -->
           <button class="shoppingCartButton">
             <a href="/Handlekurv/indexKurv.html">
-              <img class="shoppingCart" src="/img/shopping-cart_Main.png" alt="Shopping Cart">
+              <img class="shoppingCart" src="/Assets/Icons/shopping-cart_Main.png" alt="Shopping Cart">
             </a>
           </button>
         </div>
       </nav>
   </header>
 
-  <div>
-    <main>
+  <main>
         <!--Main title-->
         <!--Kodet av Sandra og Amalie-->
       <h1 class="main_title">Hvorfor Velge Gløde Butikken?</h1>
-      <img class="imgSplash" src="img/Splash2.jpg" alt="image icon">
+      <div class="splashPosition">
+        <img class="imgSplash" src="Assets/Splash2.jpg" alt="Bilde av masse laptoper i butikkhyllen">
+      </div>
 
       <div class="slide">
               <!--tenkte vi kan gjøre sån at det slider bytter på paragrafer -->
@@ -147,27 +151,24 @@
 
       </div>
           <!--infomasjon og salg -->
-      <div class="infoText">
+      <div class="textImgPosition">
+        <div class="iTextWbtn">
+          <div class="infoText">
+              <h2 class="h1LP">Brukt IKT</h2>
+              <h3 class="h3LP">salg av laptoper, stasjonære datamaskiner, skjermer.</h3>
+              <p class="pLP">Gratis frakt ved kjøp over NOK 2.500,-
+                  "Forutsetter vekt under 20 kilo"</p>
+              <p class="pLP">Gløde har egen butikk og “klikk og hent” på Mjåtveitflaten 35 </p>
+              <p class="pLP">Åpningstider: Alle hverdager 08.00 - 15:00</p>
+          </div>
 
-          <h1>Brukt IKT</h1>
+          <button class="btn" id="button"><a class="btnProduct" href="/ProductList/indexPl.html">Se produkter</a></button>
+          <!-- above is placeholderlink, Sandra Fix-->
 
-          <h3>salg av laptoper, stasjonære datamaskiner, skjermer.</h3>
-
-          <p>Gratis frakt ved kjøp over NOK 2.500,-
-              "Forutsetter vekt under 20 kilo"
-          </p>
-
-          <p>Gløde har egen butikk og “klikk og hent” på Mjåtveitflaten 35 </p>
-
-          <p>Åpningstider: Alle hverdager 08.00 - 15:00</p>
-
-      </div>
-
-      <button class="btn" id="button"><a class="btnProduct" href="/ProductList/indexPl.html">Se produkter</a></button>
-      <!-- above is placeholderlink, Sandra Fix-->
-
-      <div>
-        <img class="leftImg" src="img/Desk1.jpg" alt="Bilde av skranken i Gløde Data Butikken">
+        </div>
+        <div>
+          <img class="leftImg" src="Assets/Desk1.jpg" alt="Bilde av skranken i Gløde Data Butikken">
+        </div>
       </div>
   </main>
 

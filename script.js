@@ -1,4 +1,23 @@
+// Check for existing theme in Local Storage
+//Kodet av Tony
+document.addEventListener('DOMContentLoaded', function() {
+  const savedTheme = localStorage.getItem('theme');
+  const body = document.body;
+  const modeToggle = document.querySelector('.mode-toggle');
+  const circle = document.querySelector('.circle');
+
+  if (savedTheme) {
+    document.documentElement.setAttribute('data-theme', savedTheme);
+    body.classList.toggle('dark-mode', savedTheme === 'dark');
+    circle.classList.toggle('dark-mode', savedTheme === 'dark');
+    body.style.backgroundColor = savedTheme === 'dark' ? '#222' : '#fff';
+  }
+  // Remove transition class on page load
+  body.classList.remove('transition-theme');
+});
+
 // search-box open close js code
+//Kodet av Sandra
 let navbar = document.querySelector(".navbar");
 let searchBox = document.querySelector(".search-box .bx-search");
 // let searchBoxCancel = document.querySelector(".search-box .bx-x");
@@ -38,16 +57,29 @@ jsArrow.onclick = function() {
  navLinks.classList.toggle("show3");
 }
 
-/* Kodet av Amalie */
-/* Light and Dark mode */
+/* Kodet av Amalie og Tony*/
+/* LIGHT AND DARK MODE */
 
 function toggleMode() {
+  const currentTheme = document.documentElement.getAttribute('data-theme');
+  const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+
+  document.documentElement.setAttribute('data-theme', newTheme);
+  localStorage.setItem('theme', newTheme);
+  
   const body = document.body;
-  const modeToggle = document.querySelector('.mode-toggle');
   const circle = document.querySelector('.circle');
+
+  // Add transition class only when toggling mode
+  body.classList.add('transition-theme');
 
   body.classList.toggle('dark-mode');
   circle.classList.toggle('dark-mode');
 
   body.style.backgroundColor = body.classList.contains('dark-mode') ? '#222' : '#fff';
+
+  // Remove transition class after the transition completes
+  setTimeout(function() {
+    body.classList.remove('transition-theme');
+  }, 1000); // Adjust the time according to your transition duration
 }
