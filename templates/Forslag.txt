@@ -22,8 +22,6 @@ Hovedside - Splash-screen, introduksjon, og produktside-link.
 
 Generell butikkside med populære produkt-templates - Kan være en generisk søkeside som har nye/ofte kjøpte produkter-kriterie.
 
-Makuleringsside?
-
 Toner og Blekk-side - Kan være generisk søkeside som har modell, blekk, og farge-kriterie.
 
 Sikker sletting-side - beskrivelse, bilde, og priser.
