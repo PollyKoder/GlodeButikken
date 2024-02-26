@@ -1,0 +1,37 @@
+Forslag til templates: - av NØD
+
+Header - Logo, tittel, dropdown-meny.
+
+Dark mode?
+
+Søkefelt + link til handlekurv.
+
+Anmeldelse - 5-star rating, tilbakemelding.
+
+Footer - Kontakter.
+
+Templates og søkeord for ulike produkter.
+
+Side for spesifikke produkter, hvor de har en felles template med unike variabler (Bilde, produktspesifikasjoner, pris, etc.).
+
+
+
+Unike sider:
+
+Hovedside - Splash-screen, introduksjon, og produktside-link.
+
+Generell butikkside med populære produkt-templates - Kan være en generisk søkeside som har nye/ofte kjøpte produkter-kriterie.
+
+Makuleringsside?
+
+Toner og Blekk-side - Kan være generisk søkeside som har modell, blekk, og farge-kriterie.
+
+Sikker sletting-side - beskrivelse, bilde, og priser.
+
+Om Oss-side - Informasjon, kart, kontakt oss.
+
+Kontakt Oss-side - Link til Gløde sin tilsette-side.
+
+Handlekurv-side - Viser produkter lagt til i handlekassen, som får handlekurv-kriterie. Viser antall og kombinerer priser.
+
+Takk for handelen-side - Kvittering?, gå videre-knapp.
