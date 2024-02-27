@@ -1,5 +1,5 @@
 /*css for SikkerSletting siden -  kodet av Øystein*/
-/* Endring av teksten, NØD (?)*/
+/* Endring av teksten, - NØD*/
 
 /* Fargepallet - kodet av Tiril */
 :root {
@@ -18,6 +18,7 @@
   --buttonShadow: 0 10px 20px -8px #000000;
 }
 
+/*Videre på Øystein sin kode*/
 .h1SS {
     padding-top: 50px;
     padding-bottom: 15px;
@@ -73,7 +74,7 @@
 
 .ssPrices {
     margin-right: 300px;
-    /*I cheat, this needs to be fixed properly, but as a temporary fix it works*/
+    /*I cheat, this needs to be fixed properly, but as a temporary fix it works - Polly*/
 }
 
 .contact {
@@ -87,3 +88,61 @@
   gap: 250px;
 } */
 
+
+/* Media queries, NØD */
+/* Mobil */
+@media (max-width: 600px) {
+  .header-icon {
+    margin-right: 5px;
+  }
+  
+  .logoHeader {
+    margin-left: 5%;
+  }
+
+  .circle {
+    display: none;
+  }
+
+  nav {
+    width: 400px;
+  }
+
+  footer {
+    width: 100vw;
+  }
+
+  .footer-btns {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-btn {
+    margin-top: 20px;
+  }
+}
+
+/* Tablet */
+@media screen and (max-width: 768px) {
+  .logoHeader {
+    display: flex;
+    justify-content: center;
+  }
+
+  .circle {
+    margin-right: 10px;
+  }
+
+  .search-box {
+    margin-right: 10px;
+  }
+
+  .shoppingCartButton {
+    display: flex;
+    justify-content: right;
+  }
+
+  footer {
+    width: 100vw;
+  }
+}
