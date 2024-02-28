@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="/Pages/templates/styleNav.css"/>
-    <script src="/Pages/templates/scriptNav.js"defer></script>
+    <link rel="stylesheet" href="/templates/styleNav.css"/>
+    <script src="/templates/scriptNav.js"defer></script>
     <title></title>
 </head>
 <body>
@@ -24,13 +24,19 @@
         <div class="navbar">  
           <!--Innskudd kodelinje fra Amalie -->
         <div class="header-icon">
-
+            <a href="/index.html">
+                <img class="imgLogo" src="/Assets/Icons/logo_wWhite2.png" alt="left icon">
+              </a>
         </div>
         <!-- fortsetter med kode fra Sandra-->    
           <!--Represents a menu icon using Boxicons.-->
           <i class='bx bx-menu'></i>    
           <!--Defines the logo-->
-         
+          <div class="logoHeader"><a href="/index.html">Gløde Data</a></div>
+          <!--Amalie og Trond-Morten sin kode linje: -->
+          <div class="mode-toggle" onclick="toggleMode()">
+            <div class="circle"></div>
+          </div>
 
           <!--Videre med Sandra sin kode: -->
           <!-- Contains the navigation links-->
@@ -93,7 +99,14 @@
               <li><a href="/OMOSSSIDE/indexAbout.html">Om Oss</a></li>
               <li><a href="https://glode.no/glode/tilsette/">Kontakt oss</a></li>
             </ul>
+            
           </div>
+          <!--Shopping cart button kodet av Amalie -->
+          <button class="shoppingCartButton">
+            <a href="/Handlekurv/indexKurv.html">
+              <img class="shoppingCart" src="/Assets/Icons/shopping-cart_Main.png" alt="Shopping Cart">
+            </a>
+          </button>
         </div>
       </nav>
   </header>
