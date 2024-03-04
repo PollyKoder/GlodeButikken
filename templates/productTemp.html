@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+
+
+        <!-- PRODUKT INFORMASJON -->
+        <!-- Kodet av Tiril -->
+            <section class="section">
+                <div class="image">
+                    <img class="productImg" src="/Assets/ProductImg/Book_650.webp" alt="Datamaskin"/>
+                </div>
+        
+                <div class="information">
+                    <h1 class="headProduct">HP ProBook 650 G2</h1>
+        
+                    <p class="specs">Skjermstørrelse 15,6″</p>
+                    <p class="specs">Windows 10 Pro</p>
+                    <p class="specs">CPU: i5-6200U 2,30 GHz</p>
+                    <p class="specs">8 GB Ram SSD</p>
+                    <p class="specs">Minne: 8 GB RAM</p>
+                    <p class="specs">Harddisk: 256 GB SSD</p>
+                    <p class="specs">1 stk Displayport</p>
+                    <p class="specs">1 stk VGA</p>
+                    <p class="specs">2 x USB 2</p>
+                    <p class="specs">1 x USB-C</p>
+        
+                    <!--1,000,00 er greya ut pågrun av tilbud-->
+                    <p class="nok">kr 1,950.00,-</p>
+        
+                    <!-- Legg i handlekurv -->
+                    <div class="formAndButton">
+                        <form action="your_cart_processing_script.php" method="post" class="form">
+                            <label for="quantity" class="screen_reader_text"></label>
+                            <input type="number" id="quantity" name="quantity" class="inputText" value="1" min="1">
+                        </form>
+                        <p class="stk">stk</p>
+                        <!-- Knapp -->
+                        <button type="submit" name="add_to_cart" value="4901" class="addToCartBtn"><a class="tempLinkShop" href="/Handlekurv/indexKurv.html">Legg Til I Handlekurv</a></button>
+                        <!--Lagt til en placeholder link, slik at det går an å trykke på knappen og at den fører til handlekurv, 
+                         dor å gi et lite innblikk. Koden blir ikkje værende slik når back-end kommer på plass  -Mvh Polly-->
+                    </div>
+                </div>
+            </section>
+            
+            <!-- MEIR INFORMASJON OM PRODUKTET -->
+            <section class="moreInformation">
+                <h1 class="moreText">Meir informasjon</h1>
+                <p>Her kjem det meir informasjon om produktet</p>
+                <p>Laptopen leveres med strømforsyning, ingen garanti på batteriet. Alle maskiner kan ha bruksmerker</p>
+            </section>
+        
+            <!-- RELATERTE PRODUKTER -->
+            <section class="relatedProducts">
+                <h1 class="headerRelated">Relaterte produkter</h1>
+                
+                <div class="responsive">
+                  <div class="frame">
+                    <div class="gallery">
+                      <a target="_blank" href="#">
+                        <img src="Assets/ProductImg/Dell_Latitude.webp" alt="Datamaskin" >
+                      </a>
+                      <div class="desc">
+                        <p class="textRelated">Dell Latitude E7250 SSD 8 GB RAM</p>
+                        <p class="relatedNok">kr 1,700.00,-</p>
+                      </div>
+                    </div>
+        
+                  
+                    <div class="gallery">
+                      <a target="_blank" href="#">
+                        <img src="Assets/ProductImg/Latitude_E7450.webp" alt="Datamaskin" >
+                      </a>
+                      <div class="desc">
+                        <p class="textRelated">Dell Latitude E7450</p>
+                        <p class="relatedNok">kr 1,900.00,-</p>
+                      </div>
+                    </div>
+        
+                    <div class="gallery">
+                      <a target="_blank" href="#">
+                        <img src="Assets/ProductImg/Latitude_E7450.webp" alt="Datamaskin" >
+                      </a>
+                      <div class="desc">
+                        <p class="textRelated">Dell Latitude E7450</p>
+                        <p class="relatedNok">kr 1,900.00,-</p>
+                      </div>
+                    </div>
+        
+                  </div>
+                </div>
+              
+            </section>
+        
+    </main>
+</body>
+</html>
