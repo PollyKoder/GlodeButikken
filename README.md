@@ -17,6 +17,10 @@
 - Egen kategori til billig kroken i menyen. Trenger separat kategori i databasen også.
 - Skal også ha en egen produktkategori til ledninger under tilbehør kategorien.
 - Skal Om Oss siden bare flettes sammen med LP? JA.
+- note to self: legg opp produkt template siden: sett inn placeholder tekst på hvor Bjørnar skal legge inn relevant info, eks %%Pris%% eller %%LaptopNavn%%
+
+- legg ved handlekorg ikon på produkt kortene!
+nb! searchPage er nå nye produktoversikt/produkt listen.
 
 
 # !NB! - samling fra branch til Merge:
