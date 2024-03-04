@@ -1,6 +1,6 @@
 
 # Navngivings system og kommentarer:
- - alle klasse og mappe navn: camelCase og kebab-case 
+ - Alle klasse og mappe navn: camelCase og kebab-case 
  - Husk å legge inn kommentarer: en som en overskrift for hva koden gjør eks= <!-- HEADER STYLING -->, og en for hvem som har kodet <!-- kodet av "Navn" -->
 
  - Sorter Media Queries i alle css filer i STOR- LITEN rekkefølge!
@@ -9,6 +9,14 @@
   - Eg har begynt på dette, mens eg syr sammen koden - Polly
   - Alle bilder skal i systematiserte mapper i Assets mappen, ordne linker til bildene i html når man flytter bilden for å unngå rot.
 
+
+# notater fra samtale med Rune
+- Rune ønsker litt verktøy til admin innlogging. For å legge opp og endre produkter.
+- Mus og tastatur går under tilbehør, skjerm kommer som en egen kategori, Stasjonær og Laptop er egne kategorier. 
+- Toner og Blekk får en egen side under tilbehør, men trenger å ha en notat på siden som forteller kunden at de kan ta kontakt for å høre om GlødeButikken har det blekket som kunden trenger. Kan ha med noe bilder av de typene blekk som det er mest av i butikken.
+- Egen kategori til billig kroken i menyen. Trenger separat kategori i databasen også.
+- Skal også ha en egen produktkategori til ledninger under tilbehør kategorien.
+- Skal Om Oss siden bare flettes sammen med LP? JA.
 
 
 # !NB! - samling fra branch til Merge:
