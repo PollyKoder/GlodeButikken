@@ -38,7 +38,7 @@
     width: 120px;
     height: 120px;
     margin-right: 20px;
-    order: -1;
+    
 }
 .pmini {
     font-size: 25px;
@@ -49,28 +49,52 @@
 .h3mini {
     font-size: 25px;
     margin-top:-50px;
-    margin-left: 20px;
+    margin-left: -20px;
 }
 
 @media (max-width: 425px) {
-    .divContainProducts {
+    .miniplate {
         grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
         
     }
 }
 
 
 @media (min-width: 426px) and (max-width: 1023px) {
-    .divContainProducts {
+    .miniplate {
         grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
         
     }
 }
 
 
 @media (min-width: 1439px) {
-    .divContainProducts {
+    .miniplate {
         grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(1, 1fr);
         
+    }
+}
+
+/* Media query for adjusting width on smaller screens (max-width: 1000px) */
+@media (max-width: 1000px) {
+    .miniplate {
+        flex: 0 0 45%; /* Adjust flex properties for responsiveness */
+    }
+}
+
+/* Media query for full width on even smaller screens (max-width: 750px) */
+@media (max-width: 750px) {
+    .miniplate {
+        flex: 0 0 100%; /* Adjust flex properties for responsiveness */
+    }
+}
+
+/* Media query for adjusting width on larger screens (min-width: 1200px) */
+@media (min-width: 1200px) {
+    .miniplate {
+        flex: 0 0 30%; /* Adjust flex properties for responsiveness */
     }
 }
