@@ -2,6 +2,7 @@
 let navLinks = document.querySelector(".nav-links");
 let menuOpenBtn = document.querySelector(".navbar .bx-menu");
 let menuCloseBtn = document.querySelector(".nav-links .bx-x");
+//Double check that code works correctly, should onclick be written with a capital C? And does any element in html need an oclick tag?
 menuOpenBtn.onclick = function() {
 navLinks.style.left = "0";
 }
