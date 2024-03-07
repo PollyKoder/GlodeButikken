@@ -39,6 +39,13 @@ main {
     }
 }
 
+/* Styling for the product gallery section, - Sandra */
+.gallery {
+    width: 100%; /* Set width for each gallery section */
+    height: 100%; /* attempted code -Polly*/
+    margin-bottom: 5px; /* Add margin at the bottom of each gallery section */  
+}
+
 /* Additional styling for product content */
 .content {
     flex-basis: 30%;  /* Set flex properties for responsiveness */
@@ -146,13 +153,6 @@ main {
     } */
 }
 
-/* Styling for the product gallery section, - Sandra */
-.gallery {
-    width: 100%; /* Set width for each gallery section */
-    height: 100%; /* attempted code -Polly*/
-    margin-bottom: 5px; /* Add margin at the bottom of each gallery section */  
-}
-
 /* Styling for images inside product cards, - Polly added class name, code is by Sandra */
 .imgPL {
     width: 200px; /* Set width for images */
@@ -223,14 +223,13 @@ main {
     column-gap: 20px;
     row-gap: 10px;
     text-align: center;
-    margin-right: 31px;
+    /* margin-right: 31px; */
 }
 
 .gridButton {
     all: unset;
-    /* margin-left: 90rem; */
     display: flex;
-} 
+    margin-left: 90%;
 
 .gridImg {
     margin-top: 60px;
