@@ -41,7 +41,7 @@ body {
 }
 
 /* Styling for images inside product cards */
-img {
+.imgPL {
     width: 200px; /* Set width for images */
     height: 200px; /* Set height for images */
     text-align: center; /* Center-align text */
@@ -49,21 +49,21 @@ img {
 }
 
 /* Styling for paragraphs inside product cards */
-p {
+.pPL{
     text-align: center; /* Center-align text */
     color: #b2bec3; /* Set text color */
     padding-top: 8px; /* Add padding at the top */
 }
 
 /* Styling for product prices */
-h5 {
+.h5PL {
     font-size: 26px; /* Set font size */
     text-align: center; /* Center-align text */
     color: #222f3e; /* Set text color */
     margin: 0; /* Remove margin */
 }
 
-button {
+.show_more {
     text-align: center; /* Center-align text */
     font-size: 24px; /* Set font size */
     color: #fff; /* Set text color */
