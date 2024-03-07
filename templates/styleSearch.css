@@ -11,7 +11,9 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-main
+main {
+    width: 100vw;
+}
 
 /*liten kode med divContainer fra Polly*/
 .divContainProducts {
@@ -226,7 +228,8 @@ main
 
 .gridButton {
     all: unset;
-    margin-left: 90rem;
+    /* margin-left: 90rem; */
+    display: flex;
 } 
 
 .gridImg {
@@ -234,6 +237,7 @@ main
     width: 50px;
     height: 50px;
     cursor: pointer;
+    margin-left: auto;
 }
 
 .gridIcon {
