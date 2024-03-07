@@ -13,6 +13,7 @@ body {
 
 main {
     width: 100vw;
+    height: 100vh;
 }
 
 /*liten kode med divContainer fra Polly*/
@@ -230,7 +231,7 @@ main {
     all: unset;
     display: flex;
     margin-left: 90%;
-
+}
 .gridImg {
     margin-top: 60px;
     width: 50px;
@@ -248,10 +249,10 @@ main {
 }
 
 .list {
-    display: block;
+    display: flex;
     flex-direction: column;
-    margin-right: 1140px;
-    width: 95rem;
+    padding-right: 1140px;
+    width: 100vw;;
     
 }
 
@@ -274,16 +275,16 @@ main {
 }
 
 .money {
-    margin-left: 60rem;
+    margin-left: 50%;
     position: relative;
-    top: -4rem;
+    top: -1rem;
 }
 
 .showMoreBtnList {
     margin-bottom: -10rem;
     width: 80px;
     height: 150px;
-    margin-left: 80rem;
+    margin-left: 80%;
     position: relative;
     top: -7rem;
 }
