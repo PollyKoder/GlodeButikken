@@ -62,7 +62,7 @@
 .dark-mode {
   color: var(--textWhite);
   transition: .4s;
-}  /*KOble til JS!!! - Polly*/
+}  /*Koble til JS!!! - Polly*/
 
 /* Styles for the logo in the navigation bar */
 .navbar .logoHeader a {

@@ -8,7 +8,7 @@
     <title>Gløde Data</title>
     <!-- Sett opp styling, hent kode fra styleMeny og styleLP -->
 </head>
-<body>
+<body class="LP_body">
     <main>
         <section class="landingMain">
             <!--Main title-->
@@ -28,16 +28,18 @@
                 <!--infomasjon og salg -->
             <div class="textImgPosition">
                 <div class="iTextWbtn">
-                <div class="infoText">
-                    <h2 class="h1LP">Brukt IKT</h2>
-                    <h3 class="h3LP">Salg av laptoper, stasjonære datamaskiner, skjermer og mer.</h3>
-                    <p class="pLP">Gratis frakt ved kjøp over NOK 2.500,-.
-                        - Forutsetter vekt under 20 kilo - </p>
-                    <p class="pLP">Gløde har egen butikk og “klikk og hent” på Mjåtveitflaten 35 </p>
-                    <h3 class="h3LP">Åpningstider: Alle hverdager 08.00 - 15:00</h3>
-                </div>
+                  <div class="infoText">
+                      <h2 class="h2LP">Brukt IKT</h2>
+                      <h3 class="h3LP">Salg av laptoper, stasjonære datamaskiner, skjermer og mer.</h3>
+                      <p class="pLP">Gratis frakt ved kjøp over NOK 2.500,-.
+                          - Forutsetter vekt under 20 kilo - </p>
+                      <p class="pLP">Gløde har egen butikk og “klikk og hent” på Mjåtveitflaten 35 </p>
+                      <h3 class="h3LP">Åpningstider: Alle hverdager 08.00 - 15:00</h3>
+                  </div>
 
-                <button class="btn" id="button"><a class="btnProduct" href="/Pages/ProductList/indexPl.html">Se produkter</a></button>
+                <button class="btn" id="button">
+                  <a class="btnProduct" href="/Pages/ProductList/indexPl.html">Se produkter</a>
+                </button>
                 <!-- above is placeholderlink, Sandra Fix-->
 
                 </div>
@@ -46,31 +48,29 @@
                 </div>
             </div>
         </section>
+
         <section class="aboutInfo">
             <!--Henter relevant tekst fra Om Oss siden -->
-            <h1 class="titleHeader">OM OSS</h1>
-<!-- Fix styling, hent fra indexAbout.css -->
+            <h2 class="titleHeader">OM OSS</h2>
+              <!-- Fix styling, hent fra indexAbout.css -->
+          <section class="intro">
             <div class="genInfo">
-                <h4 class="h4About">- Hvordan foregår dette?</h4>
+                <h3 class="h3About">- Hvordan foregår dette?</h3>
                 <p>Dette er ei bedrift som tilbyr arbeid til personar som treng tilrettelagt arbeid. 
-                  Gløde tilbyr i tillegg arbeidstrening,
-                </p>
-                <p>avklaring og tiltak som skal hjelpa personar ut i ordinært arbeid. 
+                  Gløde tilbyr i tillegg arbeidstrening, avklaring og tiltak som skal hjelpa personar ut 
+                  i ordinært arbeid. 
                   Vårt hovudformål og samfunnsoppdrag er å gje gode tilbod til våre deltakarar 
-                  gjennom ulike tiltak.
-                </p>
+                  gjennom ulike tiltak.</p>
                 <p>Eit resultat av dette er at me produserer ei rekke med ulike 
                     flotte produkt og tenester som vi ynskjer å gjere lettare tilgjengeleg for alle 
-                    potensielle kundar.
-                </p>
+                    potensielle kundar.</p>
                 <p>Difor har me starta nettbutikk med meining. Butikken 
-                      er organisatorisk lagt inn under Gløde Arbeidsinkludering (org. 928 131 157)
-                </p>
+                  er organisatorisk lagt inn under Gløde Arbeidsinkludering (org. 928 131 157)</p>
                 <p>Vekstbedrifter er ein samlebetegnelse for bedrifter som er med i 
                   arbeidsgjevarorganisasjonen ASVL.</p>
-                <div>Nettbutikken vil også vere ein viktig og god treningsarena for deltakarar 
-                  i tiltak.</div>
-                <div>Vårt mål er at butikken skal:</div>
+                <p>Nettbutikken vil også vere ein viktig og god treningsarena for deltakarar 
+                  i tiltak.</p>
+                <h3 class="h3About">Vårt mål er at butikken skal:</h3>
                 <div class="olOM">
                   <ol>
                     <li>Vera brukarvennleg</li>
@@ -82,10 +82,29 @@
                     <li>Auke omsetninga av våre produkt</li>
                   </ol>
                 </div>
-                <div>Me er opptatt av bærekraft og vil så langt som mogleg ta omsyn til dette i 
-                  val av emballasje, transport og i produksjon av våre varer og tenester.</div>
+                <p>Me er opptatt av bærekraft og vil så langt som mogleg ta omsyn til dette i 
+                  val av emballasje, transport og i produksjon av våre varer og tenester.</p>
               </div>
-          </section>
+          </section>      
+
+              <section class="features">
+                <div class="feature">
+                  <i class="fas fa-menu"></i>
+                  <p> 
+                    <h3 class="AboutH3">Betaling</h3>
+                    <ul class="payImg">
+                        <li class="payOption"><img class="imgVipps" src="/Assets/Icons/vipps-logo.jpg" alt="et bilde av Vipps sin logo"/></li>
+                        <li class="payOption"><img class="imgVisa" src="/Assets/Icons/visa-img.jpg" alt="Et bilde av Visa sin Logo"/></li>
+                    </ul>
+                  </p>
+                </div>
+    
+                <div class="feature">
+                    <!-- <i class="fas fa-map"></i> -->
+                    <h3 class="AboutH3">Kart</h3>
+                    <iframe class="location" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d981.9604667387913!2d5.2270168478879295!3d60.51253243305493!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x463d02c512123a31%3A0x9627a807ab0f90b6!2sMj%C3%A5tveitflaten%2035%2C%205918%20Vikane!5e0!3m2!1sno!2sno!4v1704357534967!5m2!1sno!2sno" width="235" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+              </section>
         </section>
     </main>
 </body>
