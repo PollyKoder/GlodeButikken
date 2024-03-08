@@ -90,6 +90,11 @@
     width:85%;
     margin-top: 40px;
   }
+  .textInfoTwo {
+    margin-left:35px;
+    width:85%;
+    margin-top: 40px;
+  }
 
   .postionImgText {
     display: flex;
@@ -97,11 +102,29 @@
     margin-top: 35px;
 }
 
-.ssPrices {
-    margin-right: 300px;
-    /*I cheat, this needs to be fixed properly, but as a temporary fix it works*/
+.ssPricesSection {
+  margin-left:35px;
+  width:85%;
+  margin-top: 40px;
+  color: #222222;
+  font-weight: bolder;
 }
 
+.ssPrices {
+  display: flex;
+  justify-content:space-between;
+  align-items: start;
+  width: 50%;
+}
+
+.pSSSmall {
+  font-size: small;
+  margin: 1rem auto;
+}
+
+.pSSShip {
+  margin: 2rem auto;
+}
 .contact {
     margin-bottom: 40px;
     margin-left: 35px;
