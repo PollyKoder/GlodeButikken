@@ -295,52 +295,46 @@ main {
 }
 
 .AboutH3 {
-    text-align: center;
+    text-align: center; 
 }
 
 .feature {
-    flex-basis: 30%;
-    background-color: #b3af8f;
-    padding: 1.5rem;
-    text-align: center;
+  flex-basis: 30%;
+  background-color: #b3af8f;
+  padding: 1rem;
+  text-align: center;
+  font-size: 4rem;
+  margin-bottom: 3rem;
+  font-size: 1.5rem;
+  margin-bottom: 5rem;
+  line-height: 1.5;
     /* margin-right: 25px; */
-}
-
-.feature .fas {
-    font-size: 4rem;
-    color: #f18410;
-    margin-bottom: 1rem;
-}
-
-.feature .h3About {
-    font-size: 1.2rem;
-    font-weight: 600;
-    margin-bottom: 0.5rem;
-}
-
-.feature {
-    line-height: 1.5;
 }
 
 .payImg {
     list-style: none;
-    padding: 2.5em;
+    padding: 1.5em;
 
 }
 
 .imgVisa{
-    width: 65px;
-    height: 50px;
+    width: 165px;
+    height: 150px;
     box-shadow: 1px 1px 10px #b3af8f;
 }
 
 .imgVipps{
-    margin-bottom: 1em;
-    width: 80px;
-    height: 50px;
+    margin-bottom: 2em;
+    width: 180px;
+    height: 100px;
 }
 
-.buttonAbout{
+.location {
+  width: 70%;
+  height: 70%;
+}
+
+/* .buttonAbout{
     background-color: #ff6347;
     border: none;
     color: #fff;
@@ -350,14 +344,14 @@ main {
     width: 170px;
     border-radius: 25px;
     font-size: 20px;
-}
+} */
 
-.buttonAbout:hover{
+/* .buttonAbout:hover{
     animation: pulse 1s infinite;
   transition: .3s;
   background-color: #fb5607;;
     
-}
+} */
 
 
 @keyframes pulse {
@@ -410,13 +404,6 @@ main {
   
   /* MQ - MOBIL */
   @media (max-width: 600px) {
-    .logoHeader {
-      margin-left: 5%; 
-    }
-  
-    nav {
-      width: 380px;
-    }
   
     .textImgPosition {
       width: 100vw;

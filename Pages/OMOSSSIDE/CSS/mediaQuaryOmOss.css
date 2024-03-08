@@ -47,7 +47,7 @@
 }
 
 @media screen and (max-width: 768px) {
-    .titleHeader h1 {
+    .titleHeader {
         font-size: 1.5rem;
     }
 
