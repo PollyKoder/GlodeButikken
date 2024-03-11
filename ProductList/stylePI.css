@@ -243,7 +243,7 @@ body {
     flex-direction: column;
     margin-right: 1140px;
     width: 95rem;
-    
+    margin: 0;
 }
 
 .listImg {
