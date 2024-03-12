@@ -192,7 +192,7 @@ main {
   }
   
   /* BUTTON */
-  .btn {
+  .btnLP {
       /* display: inline-block; */
       position: relative;
       border-radius: 25px;
@@ -210,19 +210,19 @@ main {
       box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 7);
   }
   
-  .btn:after {
+  .btnLP:after {
       content: ">>";
       position: absolute;
       opacity: 0;
       transition: 0.5s;
   }
   
-  .btn:hover {
+  .btnLP:hover {
      padding-right: 24px;
      padding-left: 8px;
   }
   
-  .btn:hover:after {
+  .btnLP:hover:after {
       opacity: 1;
       right: 10px;
   }
@@ -356,7 +356,7 @@ main {
 } */
 
 
-@keyframes pulse {
+/* @keyframes pulse {
     0% {
       transform: scale(1);
     }
@@ -372,7 +372,7 @@ main {
     align-items: center;
     margin-left: 35%;
 }
-  
+   */
   
   /*MEDIA QUERIES*/
   /*MQ - Text animation*/
@@ -439,7 +439,7 @@ main {
   
   /*MQ - See products button*/
   @media (max-width: 600px) {
-      .btn {
+      .btnLP {
           margin-left: 20%;
       }
     }
