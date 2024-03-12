@@ -22,6 +22,7 @@
 - legg ved handlekorg ikon på produkt kortene!
 nb! searchPage er nå nye produktoversikt/produkt listen.
 - Fix max width på produkt kort divs!
+- Fix konkrete class names på product template!
 
 
 # !NB! - samling fra branch til Merge:
