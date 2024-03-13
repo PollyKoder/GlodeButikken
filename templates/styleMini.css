@@ -1,18 +1,16 @@
-.miniplate{
+/* .miniplate{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     padding: 10px;
     margin: 10px;
     column-gap: 2px;
-   
-
-}
+} */
 
 .sectionmini{
     margin-bottom: 5px; 
     min-width: 25%; /*control's width of the card itself, can be adjusted to fit different products*/
     max-width:35%; 
-    height: 40%; 
+    height: 9em; 
     margin-bottom: 5px; 
 
 }
@@ -27,6 +25,7 @@
     box-shadow:  0 14px 28px rgba(31, 7, 247, 0.842), 0 10px 10px rgba(52, 9, 207, 0.87);
     border: solid #fb5607 5px;
     background-color: lightgray;
+    transition: .4s;
     
 }
 
@@ -56,6 +55,10 @@
     border-radius: 15px;
     background-color: #fb5607;
     cursor: pointer;
+}
+
+.cartIcon {
+    image-rendering: ;
 }
 
 .pmini {
