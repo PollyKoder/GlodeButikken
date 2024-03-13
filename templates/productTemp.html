@@ -3,22 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/Pages/Produkter/PC/Laptop/ProductTemplate/stylePT.css"/>
+    <link rel="stylesheet" href="/templates/stylePT1.css"/>
     <script src="/Pages/Produkter/PC/Laptop/ProductTemplate/scriptPT.js" defer></script>
-    <title></title>
+    <title>Gløde Butikken - %%ProduktNavn%%</title>
 </head>
-<body>
+<body class="bodyPT">
     <main>
 
 
         <!-- PRODUKT INFORMASJON -->
         <!-- Kodet av Tiril -->
-            <section class="section">
-                <div class="image">
-                    <img class="productImg" src="/Assets/ProductImg/Book_650.webp" alt="Datamaskin"/>
+            <section class="sectionPT">
+                <div class="imgPT">
+                    <img class="productImgPT" src="%%ProduktBilde%%" alt="Datamaskin"/>
                 </div>
         
-                <div class="information">
+                <div class="informationPT">
                     <h1 class="headProduct">%%ProduktNavn%%</h1>
         
                     <p class="specs">%%ProduktInfoDetalje</p>
@@ -28,7 +28,7 @@
         
                     <!-- Legg i handlekurv -->
                     <div class="formAndButton">
-                        <form action="your_cart_processing_script.php" method="post" class="form">
+                        <form action="your_cart_processing_script.php" method="post" class="formPT">
                             <label for="quantity" class="screen_reader_text"></label>
                             <input type="number" id="quantity" name="quantity" class="inputText" value="1" min="1">
                         </form>

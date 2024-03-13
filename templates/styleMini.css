@@ -42,7 +42,22 @@
     
 }
 
-.slashInfo
+.slashInfo {
+    margin-left: 15px;
+}
+
+.addToCart {
+    display: flex;
+    margin-left: 11%;
+    margin-bottom: 14%;
+    width: 60px;
+    height: 35px;
+    border: 0px none #fb5607;
+    border-radius: 15px;
+    background-color: #fb5607;
+    cursor: pointer;
+}
+
 .pmini {
     font-size: 25px;
     /* margin-left: -110px; */
