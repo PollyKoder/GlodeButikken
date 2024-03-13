@@ -315,21 +315,21 @@
 }
 
 .payImg {
-    list-style: none;
-    padding: 1em;
+  list-style: none;
+  padding: 1em;
 
 }
 
 .imgVisa{
-    width: 165px;
-    height: 140px;
-    box-shadow: 1px 1px 10px #b3af8f;
+  width: 165px;
+  height: 140px;
+  box-shadow: 1px 1px 10px #b3af8f;
 }
 
 .imgVipps{
-    margin-bottom: 2em;
-    width: 180px;
-    height: 85px;
+  margin-bottom: 2em;
+  width: 180px;
+  height: 85px;
 }
 
 .location {

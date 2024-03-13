@@ -51,12 +51,14 @@
   height: 35px;
   border-radius: 50%;
   transition: .4s;
-  content: url('https://api.iconify.design/material-symbols/dark-mode.svg');
+  content: url('/Assets/Icons/moonWhite.png');
 }
 
 .dark-mode .circle {
   transition: .4s;
-  content: url('https://api.iconify.design/material-symbols/light-mode.svg');
+  content: url('/Assets/Icons/sunWhite.png');
+  width: 40px;
+  height: 40px;
 }
 
 .dark-mode {
