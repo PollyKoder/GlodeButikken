@@ -92,58 +92,11 @@
   /* Media queries, NØD */
   /* Mobil */
   @media (max-width: 600px) {
-    .header-icon {
-      margin-right: 5px;
-    }
-    
-    .logoHeader {
-      margin-left: 5%;
-    }
-  
-    .circle {
-      display: none;
-    }
-  
-    nav {
-      width: 400px;
-    }
-  
-    footer {
-      width: 100vw;
-    }
-  
-    .footer-btns {
-      display: flex;
-      flex-direction: column;
-    }
-  
-    .footer-btn {
-      margin-top: 20px;
-    }
+   
   }
   
   /* Tablet */
   @media screen and (max-width: 768px) {
-    .logoHeader {
-      display: flex;
-      justify-content: center;
-    }
-  
-    .circle {
-      margin-right: 10px;
-    }
-  
-    .search-box {
-      margin-right: 10px;
-    }
-  
-    .shoppingCartButton {
-      display: flex;
-      justify-content: right;
-    }
-  
-    footer {
-      width: 100vw;
-    }
+ 
   }
   
