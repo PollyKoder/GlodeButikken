@@ -26,7 +26,6 @@
     border: solid #fb5607 5px;
     background-color: lightgray;
     transition: .4s;
-    
 }
 
 .articlemini:hover{
@@ -38,7 +37,6 @@
     width: 120px;
     height: 120px;
     margin-right: 20px;
-    
 }
 
 .slashInfo {
@@ -47,6 +45,8 @@
 
 .addToCart {
     display: flex;
+    justify-content: center;
+    align-items: center;
     margin-left: 11%;
     margin-bottom: 14%;
     width: 60px;
@@ -58,7 +58,7 @@
 }
 
 .cartIcon {
-    image-rendering: ;
+    width: 25px
 }
 
 .pmini {
