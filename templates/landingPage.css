@@ -24,6 +24,8 @@
   }
   
   .LP_body {
+    display: flex;
+    flex-direction: column;
     margin: 0px;
     width: 100vw;
     overflow-x: hidden;
