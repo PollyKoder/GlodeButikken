@@ -89,14 +89,58 @@
   } */
   
   
-  /* Media queries, NØD */
-  /* Mobil */
-  @media (max-width: 600px) {
+  /* Media queries, kodet av Amalie */
+ /* Mobil */
+ @media only screen
+ and (min-device-width : 320px) 
+ and (max-device-width : 426px) {
+
+   .postionImgText {
+       flex-direction: column;
+   }
+
+   .imgSS {
+       width: 105vw;
+       padding: 0;
+       margin-left: -10px;
+   }
+
+   .ssPrices {
+       text-align: center;
+       width: 315px;
+   }
    
-  }
-  
-  /* Tablet */
-  @media screen and (max-width: 768px) {
+ }
  
-  }
+ /* Media queria til Tablet */
+   
+ @media only screen
+ and (min-device-width : 481px) 
+ and (max-device-width : 768px) {
+
+   .ssPrices {
+       margin-right: 50px;
+       width: 65rem;
+   }
+
+   .imgSS {
+       width: 550vh;
+   } 
+ }
+
+ /* MQ til laptop */
+
+ @media only screen and (min-device-width : 769px) 
+ and (max-device-width : 1024px){
+   .ssPrices {
+       margin-right: 50px;
+       width: 65rem;
+       /*I cheat, this needs to be fixed properly, but as a temporary fix it works - Polly*/
+   }
+
+   .imgSS {
+       width: 550vh;
+   } 
+}
+ 
   
