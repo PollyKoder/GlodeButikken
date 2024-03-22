@@ -51,7 +51,7 @@
   height: 35px;
   border-radius: 50%;
   transition: .4s;
-  content: url(Assets/Icons/moonWhite.png);
+  content: url('Assets/Icons/moonWhite.png');
 }
 
 .dark-mode .circle {

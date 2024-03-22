@@ -1,0 +1,146 @@
+/*css for SikkerSletting siden -  kodet av Øystein*/
+/* Endring av teksten, - NØD*/
+  
+  /*Videre på Øystein sin kode*/
+  .divPss {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 20px;
+    padding-left: 20px;
+    row-gap: 1em;;
+  }
+  .h1SS {
+      padding-top: 30px;
+      padding-bottom: 15px;
+      font-style: italic;
+      font-weight: lighter;
+      padding-left: 15px;
+  }
+  
+  .h3SS {
+    font-style: italic;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-left: 15px;
+  }
+  
+  .pSS {
+    font-style: italic;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .bSS {
+    padding-left: 15px;
+    padding-bottom: 15px;
+    font-style: oblique;
+  }
+  
+  /* Endring a bilder */
+  .imgSS {
+      margin-top: 30px;
+      padding-left: 2.5em;
+      width: 190px;
+  }
+  
+  .imgTwoSS {
+      max-width: 80%;
+      height: 180px;
+      padding-left: 15px;
+      margin-top: 40px;
+    }
+  
+    /*inskuddskode fra Polly*/
+    .textInfoSS {
+      margin-left:55px;
+      width:85%;
+      margin-top: 40px;
+    }
+
+    .textInfoTwo {
+      margin-left:35px;
+      width:85%;
+      margin-top: 40px;
+    }
+  
+    .postionImgTextSS {
+      display: flex;
+      flex-direction: row;
+      margin-top: 45px;
+  }
+  
+  .ssPricesSS {
+      margin-right: 100px;
+      /*I cheat, this needs to be fixed properly, but as a temporary fix it works - Polly*/
+  }
+  
+  .contactSS {
+    margin-top: 3em;
+    margin-bottom: 50px;
+    margin-left: 45px;
+    padding-bottom: 40px;
+      
+  }
+  
+  /* .split {
+    display: flex;
+    flex-direction: row;
+    gap: 250px;
+  } */
+  
+  
+  /* Media queries, kodet av Amalie */
+ /* Mobil */
+ @media only screen
+ and (min-device-width : 320px) 
+ and (max-device-width : 426px) {
+
+   .postionImgTextSS {
+       flex-direction: column;
+   }
+
+   .imgSS {
+       width: 105vw;
+       padding: 0;
+       margin-left: -10px;
+   }
+
+   .ssPricesSS {
+       text-align: center;
+       width: 315px;
+   }
+   
+ }
+ 
+ /* Media queria til Tablet */
+   
+ @media only screen
+ and (min-device-width : 481px) 
+ and (max-device-width : 768px) {
+
+   .ssPricesSS {
+       margin-right: 50px;
+       width: 65rem;
+   }
+
+   .imgSS {
+       width: 550vh;
+   } 
+ }
+
+ /* MQ til laptop */
+
+ @media only screen and (min-device-width : 769px) 
+ and (max-device-width : 1024px){
+   .ssPricesSS {
+       margin-right: 50px;
+       width: 65rem;
+       /*I cheat, this needs to be fixed properly, but as a temporary fix it works - Polly*/
+   }
+
+   .imgSS {
+       width: 550vh;
+   } 
+}
+ 
+  
